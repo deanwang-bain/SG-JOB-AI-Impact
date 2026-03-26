@@ -390,14 +390,39 @@
 
         // Load data
         fetch('data.json')
-            .then(res => res.json())
+            .then(res => {
+                if (!res.ok) {
+                    throw new Error(`HTTP error! status: ${res.status}`);
+                }
+                return res.json();
+            })
             .then(json => {
                 data = json;
                 initVisualization();
             })
             .catch(err => {
                 console.error('Error loading data:', err);
-                alert('Error loading data. Make sure data.json exists.');
+                const errorMsg = `Error loading data: ${err.message}\n\n` +
+                    `If you're viewing this locally:\n` +
+                    `- Open this page via a web server (e.g., python -m http.server)\n` +
+                    `- Don't open the HTML file directly (file:// won't work)\n\n` +
+                    `If you're viewing on GitHub Pages:\n` +
+                    `- Try hard refresh (Ctrl+Shift+R or Cmd+Shift+R)\n` +
+                    `- Wait 1-2 minutes for deployment to complete\n` +
+                    `- Check: https://deanwang-bain.github.io/SG-JOB-AI-Impact/data.json`;
+                alert(errorMsg);
+                document.body.innerHTML = `<div style="padding: 50px; font-family: monospace;">
+                    <h2>Failed to load visualization data</h2>
+                    <p><strong>Error:</strong> ${err.message}</p>
+                    <h3>Troubleshooting:</h3>
+                    <ul>
+                        <li>If viewing locally, use a web server: <code>python3 -m http.server</code></li>
+                        <li>Don't open HTML files directly (file:// protocol won't work)</li>
+                        <li>If on GitHub Pages, try a hard refresh and wait for deployment</li>
+                        <li>Check data.json URL: <a href="data.json">data.json</a></li>
+                    </ul>
+                    <p>Console may have more details (press F12)</p>
+                </div>`;
             });
 
         function initVisualization() {
