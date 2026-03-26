@@ -48,6 +48,91 @@ I've built an interactive visualization analyzing AI exposure across Singapore's
 - Highest exposure: Data analysts, software developers, administrative roles
 - Lowest exposure: Hands-on trades, personal care, food service workers
 
+### Business Impact Interpretation
+
+**1. Knowledge Workers Face Higher AI Disruption (65.3% of workforce)**
+
+- PME roles—the backbone of Singapore's high-value economy—show AI exposure of 5.80/10, **above the overall average**
+- These roles typically earn higher salaries and require years of education/training
+- **Business implication**: Companies heavily reliant on PMEs (finance, tech, professional services) need proactive AI integration strategies now, not later
+- **Talent strategy**: Traditional PME hiring may need to pivot toward "AI + Human" hybrid models
+
+**2. The "Automation Paradox" - Cognitive Work More Exposed Than Physical Work**
+
+- High-earning administrative, analytical, and professional roles show higher AI exposure
+- Lower-paid hands-on work (hawkers, caregivers, tradespeople) shows lower exposure
+- **Business implication**: Cost-saving automation may impact higher-paid roles first, inverting traditional automation patterns
+- **Workforce planning**: Budget for reskilling programs for displaced high-skill workers, not just low-skill
+
+**3. Mid-Tier Administrative Functions at Greatest Risk**
+
+- Clerical support, data entry, basic customer service showing high exposure scores
+- These roles often form the organizational "middle layer" supporting operations
+- **Business implication**: 
+  - Opportunity for 30-50% productivity gains through AI augmentation in next 2-3 years
+  - Risk of middle-management compression as AI handles coordination tasks
+- **Action item**: Pilot AI tools in these functions now to understand productivity curves and redeployment needs
+
+**4. Service Excellence Becomes Human Competitive Advantage**
+
+- Personal care, food service, hospitality show lower AI exposure despite Singapore's service economy focus
+- Human touch, cultural nuance, and physical presence remain difficult to automate
+- **Business implication**: Premium positioning through superior human service becomes more valuable as AI commoditizes knowledge work
+- **Differentiation strategy**: Invest in training for empathy, cultural intelligence, and complex problem-solving that AI cannot replicate
+
+**5. Singapore's Workforce Structure Creates Unique Challenges**
+
+- 2.31M resident workers analyzed, but ~30% of workforce are non-residents (not in dataset)
+- Non-resident workers often concentrated in construction, domestic work, lower-skill services (lower AI exposure)
+- **Economic implication**: AI disruption may disproportionately affect resident Singaporeans in PME roles while leaving non-resident workforce less affected
+- **Policy consideration**: Skills training and job transition programs need to focus on citizen/PR workforce
+
+**6. Wage-Employment Relationship Inverted**
+
+- Traditional automation targeted low-wage, repetitive work to reduce costs
+- AI targets high-value cognitive tasks where wage premiums are highest
+- **Business implication**: ROI calculations now favor automating $5K-$10K/month roles over low-wage positions
+- **Productivity insight**: Companies can achieve same output with smaller, higher-skilled teams augmented by AI
+
+**7. Immediate Action Areas for Singapore Businesses**
+
+**Short-term (6-12 months):**
+- Audit current workforce for high-exposure roles (data analysts, admin staff, junior professionals)
+- Pilot AI productivity tools in these areas to measure impact
+- Begin reskilling programs focusing on AI-collaboration skills
+
+**Medium-term (1-2 years):**
+- Restructure workflows to optimize human-AI collaboration
+- Redesign job roles from "doer" to "supervisor of AI systems"
+- Invest in roles showing lower AI exposure (complex problem-solving, physical services, creative strategy)
+
+**Long-term (3-5 years):**
+- Transform business models around AI-augmented operations
+- Shift hiring strategy toward AI-literate talent across all levels
+- Build competitive moats in areas where human judgment + AI creates unique value
+
+**8. Sector-Specific Implications**
+
+- **Financial Services**: High concentration of exposed roles (analysts, advisors). Early movers gain 2-3 year advantage
+- **Professional Services**: Legal, consulting, accounting face significant augmentation. Billing models may need rethinking
+- **Healthcare**: Mixed exposure—admin high, direct patient care low. Opportunity to redirect skilled healthcare workers from administration to patient care
+- **Manufacturing**: Already highly automated. AI adds predictive maintenance, supply chain optimization
+- **Retail/F&B**: Lower baseline exposure, but AI enables micro-personalization at scale
+
+**9. The 5.71/10 Average Tells a Critical Story**
+
+- This is **moderate-to-high** exposure, not existential replacement
+- AI augments rather than replaces in most cases, but augmentation still means:
+  - Same output with fewer people, OR
+  - More output per person
+- **Net result**: Workforce needs will shrink or shift, even if jobs aren't "eliminated"
+
+**10. Competitive Advantage Window is Narrowing**
+
+- Tools are becoming commoditized (ChatGPT, Claude, Copilot widely available)
+- Competitive advantage comes from organizational change management, not technology access
+- **Strategic insight**: Winners will be companies that reskill fastest and redesign workflows most effectively, not those with the most AI tools
+
 ### Limitations
 
 1. **Wage Data Coverage**: Only 201 of 432 occupations (46.5%) have wage data from MOM files. Remaining occupations show as null due to:
