@@ -310,7 +310,8 @@
         <div class="disclaimer">
             <strong>⚠️ Data Limitations:</strong> Employment counts are estimates distributed from MOM broad-group totals. 
             Singapore does not publish 5-digit occupation-level employment data. AI exposure scores reflect GPT-4o's 
-            assessment using a calibrated rubric—these are informed estimates, not predictions.
+            assessment using a calibrated rubric—these are informed estimates, not predictions. 
+            <strong>Note:</strong> Tile sizes use square-root scaling to better differentiate between small and large occupations.
         </div>
 
         <div class="controls">
@@ -573,10 +574,16 @@
             const totalValue = items.reduce((sum, item) => sum + (item.value || item.jobs || 1), 0);
             if (totalValue === 0) return [];
 
-            const scaledItems = items.map(item => ({
-                ...item,
-                normalizedValue: ((item.value || item.jobs || 1) / totalValue) * bounds.width * bounds.height
-            })).sort((a, b) => b.normalizedValue - a.normalizedValue);
+            // Use square root scaling to better differentiate small vs large occupations
+            const scaledItems = items.map(item => {
+                const rawValue = item.value || item.jobs || 1;
+                const sqrtValue = Math.sqrt(rawValue);
+                return {
+                    ...item,
+                    scaledValue: sqrtValue,
+                    normalizedValue: (sqrtValue / items.reduce((sum, i) => sum + Math.sqrt(i.value || i.jobs || 1), 0)) * bounds.width * bounds.height
+                };
+            }).sort((a, b) => b.normalizedValue - a.normalizedValue);
 
             const result = [];
             let remaining = [...scaledItems];
@@ -687,15 +694,29 @@
         }
 
         function exposureColor(exposure) {
-            // Red (high exposure) to green (low exposure)
+            // Blue (low exposure) to Yellow to Red (high exposure)
+            // Using a perceptually better color scale
             const normalized = exposure / 10;
-            const r = Math.round(255 * normalized);
-            const g = Math.round(255 * (1 - normalized));
-            return `rgb(${r}, ${g}, 50)`;
+            
+            if (normalized < 0.5) {
+                // Blue to Cyan to Yellow
+                const t = normalized * 2;
+                const r = Math.round(30 + 225 * t);
+                const g = Math.round(144 + 111 * t);
+                const b = Math.round(255 * (1 - t));
+                return `rgb(${r}, ${g}, ${b})`;
+            } else {
+                // Yellow to Orange to Red
+                const t = (normalized - 0.5) * 2;
+                const r = 255;
+                const g = Math.round(255 * (1 - t * 0.7));
+                const b = Math.round(30 * (1 - t));
+                return `rgb(${r}, ${g}, ${b})`;
+            }
         }
 
         function payColor(pay) {
-            // Log scale: red (low) to green (high)
+            // Log scale with better color gradient: Purple (low) to Cyan to Yellow to Red (high)
             const minPay = 20000;
             const maxPay = 250000;
             const logPay = Math.log(Math.max(pay, minPay));
@@ -703,9 +724,28 @@
             const logMax = Math.log(maxPay);
             const normalized = Math.min(1, Math.max(0, (logPay - logMin) / (logMax - logMin)));
             
-            const r = Math.round(255 * (1 - normalized));
-            const g = Math.round(255 * normalized);
-            return `rgb(${r}, ${g}, 50)`;
+            if (normalized < 0.33) {
+                // Purple to Blue
+                const t = normalized / 0.33;
+                const r = Math.round(147 * (1 - t) + 30 * t);
+                const g = Math.round(51 * (1 - t) + 144 * t);
+                const b = Math.round(234 * (1 - t) + 255 * t);
+                return `rgb(${r}, ${g}, ${b})`;
+            } else if (normalized < 0.67) {
+                // Blue to Yellow
+                const t = (normalized - 0.33) / 0.34;
+                const r = Math.round(30 + 225 * t);
+                const g = Math.round(144 + 111 * t);
+                const b = Math.round(255 * (1 - t));
+                return `rgb(${r}, ${g}, ${b})`;
+            } else {
+                // Yellow to Red
+                const t = (normalized - 0.67) / 0.33;
+                const r = 255;
+                const g = Math.round(255 * (1 - t * 0.7));
+                const b = Math.round(30 * (1 - t));
+                return `rgb(${r}, ${g}, ${b})`;
+            }
         }
 
         function educationColor(education) {
@@ -875,14 +915,16 @@
 
             switch (colorMode) {
                 case 'exposure':
-                    html = '<div class="legend-item"><div class="legend-color" style="background: rgb(255, 50, 50);"></div><div class="legend-label">High AI Exposure (10)</div></div>';
-                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(128, 128, 50);"></div><div class="legend-label">Medium (5)</div></div>';
-                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(50, 255, 50);"></div><div class="legend-label">Low (0)</div></div>';
+                    html = '<div class="legend-item"><div class="legend-color" style="background: rgb(255, 77, 30);"></div><div class="legend-label">High AI Exposure (10)</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(255, 255, 30);"></div><div class="legend-label">Medium (5)</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(30, 144, 255);"></div><div class="legend-label">Low (0)</div></div>';
                     break;
                 case 'pay':
-                    html = '<div class="legend-item"><div class="legend-color" style="background: rgb(50, 255, 50);"></div><div class="legend-label">High Pay ($250K+)</div></div>';
-                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(128, 128, 50);"></div><div class="legend-label">Medium ($60K)</div></div>';
-                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(255, 50, 50);"></div><div class="legend-label">Low ($20K)</div></div>';
+                    html = '<div class="legend-item"><div class="legend-color" style="background: rgb(255, 77, 30);"></div><div class="legend-label">High Pay ($165K+)</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(255, 255, 30);"></div><div class="legend-label">Medium ($60K)</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(30, 144, 255);"></div><div class="legend-label">Low-Med ($42K)</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(147, 51, 234);"></div><div class="legend-label">Low ($24K)</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(102, 102, 102);"></div><div class="legend-label">No Data</div></div>';
                     break;
                 case 'education':
                     html = '<div class="legend-item"><div class="legend-color" style="background: #9c27b0;"></div><div class="legend-label">Doctoral</div></div>';
