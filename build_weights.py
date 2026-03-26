@@ -118,6 +118,7 @@ def distribute_employment(occupations: list[dict], employment: dict, wages: dict
     
     Strategy:
     - Map each 5-digit occupation to its 2-digit parent (first 2 digits of code)
+    - For sparse 2-digit codes (≤3 occupations), distribute from 1-digit level to avoid over-allocation
     - If wage data available: weight by wage (proxy for employment)
     - Otherwise: add random variation to create realistic distribution
     """
@@ -130,57 +131,121 @@ def distribute_employment(occupations: list[dict], employment: dict, wages: dict
         two_digit = occ['ssoc_code'][:2]
         by_two_digit[two_digit].append(occ)
     
-    results = []
+    # Also group by 1-digit for sparse codes
+    by_one_digit = defaultdict(list)
+    for occ in occupations:
+        one_digit = occ['ssoc_code'][0]
+        by_one_digit[one_digit].append(occ)
     
+    results = []
+    processed_occs = set()  # Track which occupations we've processed
+    
+    # First pass: Handle sparse 2-digit codes (≤3 occupations) at 1-digit level
+    sparse_threshold = 3
+    sparse_codes = {code for code, occs in by_two_digit.items() if len(occs) <= sparse_threshold}
+    
+    print(f"\nIdentified {len(sparse_codes)} sparse 2-digit codes: {sorted(sparse_codes)}")
+    print(f"These will be distributed from 1-digit parent level to avoid over-allocation\n")
+    
+    for one_digit, all_one_digit_occs in by_one_digit.items():
+        # Find occupations in sparse 2-digit codes within this 1-digit group
+        sparse_occs = [occ for occ in all_one_digit_occs 
+                       if occ['ssoc_code'][:2] in sparse_codes]
+        
+        if not sparse_occs:
+            continue
+        
+        # Get total employment for this 1-digit group
+        one_digit_employment = sum(
+            emp for code, emp in employment.items() 
+            if code.startswith(one_digit)
+        )
+        
+        if one_digit_employment == 0:
+            continue
+        
+        # Count how many occupations in this 1-digit group (sparse + non-sparse)
+        total_one_digit_occs = len(all_one_digit_occs)
+        
+        # Allocate a fair share to sparse occupations based on their proportion
+        # Assume sparse codes represent 20% of their 1-digit parent (conservative estimate)
+        sparse_allocation_ratio = len(sparse_occs) / total_one_digit_occs * 0.3  # 30% dampening factor
+        sparse_employment_pool = int(one_digit_employment * sparse_allocation_ratio)
+        
+        # Distribute this pool among sparse occupations
+        weights = []
+        for occ in sparse_occs:
+            wage = wages.get(occ['ssoc_code'], 0)
+            
+            if wage > 0:
+                weight = wage ** 0.5
+            else:
+                weight = random.lognormvariate(0, 1.0)  # Less variance for sparse codes
+            
+            weights.append(weight)
+        
+        total_weight = sum(weights)
+        
+        for occ, weight in zip(sparse_occs, weights):
+            proportion = weight / total_weight if total_weight > 0 else 1.0 / len(sparse_occs)
+            estimated = sparse_employment_pool * proportion
+            
+            has_wage = occ['ssoc_code'] in wages
+            quality = 'one_digit_distributed_sparse' if not has_wage else 'one_digit_distributed_sparse_wage_weighted'
+            
+            results.append({
+                'ssoc_code': occ['ssoc_code'],
+                'title': occ['title'],
+                'major_group': occ['major_group'],
+                'major_group_label': occ['major_group_label'],
+                'estimated_employment': round(estimated),
+                'data_quality': quality,
+            })
+            processed_occs.add(occ['ssoc_code'])
+    
+    # Second pass: Handle normal 2-digit codes
     for two_digit, group_occupations in by_two_digit.items():
+        # Skip sparse codes (already processed)
+        if two_digit in sparse_codes:
+            continue
+        
         total_employment = employment.get(two_digit, 0)
         
         if total_employment == 0:
             # No employment data for this 2-digit group
-            # Try to get from parent 1-digit level by summing siblings
-            one_digit = two_digit[0]
-            
-            # Sum all 2-digit groups starting with this 1-digit
-            fallback_employment = sum(
-                emp for code, emp in employment.items() 
-                if code.startswith(one_digit)
-            )
-            
-            if fallback_employment == 0:
-                # Still no data
-                for occ in group_occupations:
-                    results.append({
-                        'ssoc_code': occ['ssoc_code'],
-                        'title': occ['title'],
-                        'major_group': occ['major_group'],
-                        'major_group_label': occ['major_group_label'],
-                        'estimated_employment': 0,
-                        'data_quality': 'no_group_data',
-                    })
-                continue
-            
-            # Distribute fallback proportionally
-            total_employment = fallback_employment // 10  # Rough estimate
+            for occ in group_occupations:
+                if occ['ssoc_code'] in processed_occs:
+                    continue
+                results.append({
+                    'ssoc_code': occ['ssoc_code'],
+                    'title': occ['title'],
+                    'major_group': occ['major_group'],
+                    'major_group_label': occ['major_group_label'],
+                    'estimated_employment': 0,
+                    'data_quality': 'no_group_data',
+                })
+            continue
         
         # Calculate weights
         weights = []
         for occ in group_occupations:
+            if occ['ssoc_code'] in processed_occs:
+                continue
+                
             wage = wages.get(occ['ssoc_code'], 0)
             
             if wage > 0:
-                # Use wage as proxy (square root to reduce skew)
                 weight = wage ** 0.5
             else:
-                # Fallback: random variation using log-normal distribution
                 weight = random.lognormvariate(0, 1.2)
             
-            weights.append(weight)
+            weights.append((occ, weight))
         
         # Normalize weights
-        total_weight = sum(weights)
+        total_weight = sum(w for _, w in weights)
         
         # Distribute employment
-        for occ, weight in zip(group_occupations, weights):
+        for occ, weight in weights:
             proportion = weight / total_weight if total_weight > 0 else 0
             estimated = total_employment * proportion
             
@@ -195,6 +260,7 @@ def distribute_employment(occupations: list[dict], employment: dict, wages: dict
                 'estimated_employment': round(estimated),
                 'data_quality': quality,
             })
+            processed_occs.add(occ['ssoc_code'])
     
     return results
 
