@@ -311,7 +311,7 @@
             <strong>⚠️ Data Limitations:</strong> Employment counts are estimates distributed from MOM broad-group totals. 
             Singapore does not publish 5-digit occupation-level employment data. AI exposure scores reflect GPT-4o's 
             assessment using a calibrated rubric—these are informed estimates, not predictions. 
-            <strong>Note:</strong> Treemap uses vertical segmentation and square-root scaling to better differentiate occupations. Bar charts scaled to highlight relative differences.
+            <strong>Note:</strong> Tile sizes use square-root scaling to better differentiate between small and large occupations.
         </div>
 
         <div class="controls">
@@ -354,11 +354,11 @@
 
             <div class="charts">
                 <div class="chart">
-                    <div class="chart-title">Exposure by Major Group <span style="font-size: 0.8em; color: #888;">(bars scaled to highlight differences)</span></div>
+                    <div class="chart-title">Exposure by Major Group</div>
                     <div id="chart-group"></div>
                 </div>
                 <div class="chart">
-                    <div class="chart-title">Exposure by Pay Band (SGD) <span style="font-size: 0.8em; color: #888;">(bars scaled to highlight differences)</span></div>
+                    <div class="chart-title">Exposure by Pay Band (SGD)</div>
                     <div id="chart-pay"></div>
                 </div>
             </div>
@@ -458,10 +458,7 @@
                 value: data.sum / data.weight
             })).sort((a, b) => b.value - a.value);
 
-            // Use dynamic range for better differentiation
-            const groupMax = Math.max(...groupData.map(d => d.value));
-            const groupMin = Math.min(...groupData.map(d => d.value));
-            renderBarchart('chart-group', groupData, groupMin, groupMax);
+            renderBarchart('chart-group', groupData, 10);
 
             // Exposure by pay band
             const byPay = {
@@ -491,30 +488,18 @@
                     value: data.sum / data.weight
                 }));
 
-            // Use dynamic range for better differentiation
-            const payMax = Math.max(...payData.map(d => d.value));
-            const payMin = Math.min(...payData.map(d => d.value));
-            renderBarchart('chart-pay', payData, payMin, payMax);
+            renderBarchart('chart-pay', payData, 10);
         }
 
-        function renderBarchart(containerId, data, minValue, maxValue) {
+        function renderBarchart(containerId, data, maxValue) {
             const container = document.getElementById(containerId);
-            const range = maxValue - minValue;
-            
-            container.innerHTML = data.map(item => {
-                // Scale bars to show differences better
-                // Map data range to 20-100% of bar width for better visibility
-                const normalizedValue = range > 0 ? ((item.value - minValue) / range) : 0.5;
-                const barWidth = 20 + (normalizedValue * 80); // 20% to 100%
-                
-                return `
-                    <div class="bar">
-                        <div class="bar-label">${item.label}</div>
-                        <div class="bar-fill" style="width: ${barWidth}%"></div>
-                        <div class="bar-value">${item.value.toFixed(1)}</div>
-                    </div>
-                `;
-            }).join('');
+            container.innerHTML = data.map(item => `
+                <div class="bar">
+                    <div class="bar-label">${item.label}</div>
+                    <div class="bar-fill" style="width: ${(item.value / maxValue * 100)}%"></div>
+                    <div class="bar-value">${item.value.toFixed(1)}</div>
+                </div>
+            `).join('');
         }
 
         function buildTreemap() {
@@ -621,8 +606,8 @@
             const totalArea = items.reduce((sum, item) => sum + item.normalizedValue, 0);
             if (totalArea === 0) return { row: [], remaining: [], newBounds: bounds };
             
-            // Prefer vertical layout (columns)
-            const horizontal = false;  // Force vertical segmentation
+            // Determine layout direction
+            const horizontal = width >= height;
             const rowLength = horizontal ? height : width;
             
             // Take items for this row
