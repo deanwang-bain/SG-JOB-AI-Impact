@@ -564,11 +564,12 @@
             }
 
             // Create category-level items
+            // Sort smallest to largest so bigger items appear at top of layout
             const categories = Object.keys(byCategory).map(cat => ({
                 cat: cat,
-                items: byCategory[cat].sort((a, b) => (b.jobs || 0) - (a.jobs || 0)),
+                items: byCategory[cat].sort((a, b) => (a.jobs || 0) - (b.jobs || 0)),  // smallest first
                 value: byCategory[cat].reduce((sum, d) => sum + (d.jobs || 1), 0)
-            })).sort((a, b) => b.value - a.value);
+            })).sort((a, b) => a.value - b.value);  // smallest categories first
 
             // Layout categories first
             const categoryRects = squarify(categories.map(c => ({ ...c, jobs: c.value })), 
@@ -610,6 +611,7 @@
             if (totalValue === 0) return [];
 
             // Use square root scaling to better differentiate small vs large occupations
+            // Sort smallest first so larger items appear at bottom/right in visual layout
             const scaledItems = items.map(item => {
                 const rawValue = item.value || item.jobs || 1;
                 const sqrtValue = Math.sqrt(rawValue);
@@ -618,7 +620,7 @@
                     scaledValue: sqrtValue,
                     normalizedValue: (sqrtValue / items.reduce((sum, i) => sum + Math.sqrt(i.value || i.jobs || 1), 0)) * bounds.width * bounds.height
                 };
-            }).sort((a, b) => b.normalizedValue - a.normalizedValue);
+            }).sort((a, b) => a.normalizedValue - b.normalizedValue);  // smallest first
 
             const result = [];
             let remaining = [...scaledItems];
