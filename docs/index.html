@@ -485,7 +485,7 @@
                 value: data.sum / data.weight
             })).sort((a, b) => b.value - a.value);
 
-            renderBarchart('chart-group', groupData);
+            // renderBarchart('chart-group', groupData); // Commented out - HTML element hidden
 
             // Exposure by pay band
             const byPay = {
@@ -515,7 +515,7 @@
                     value: data.sum / data.weight
                 }));
 
-            renderBarchart('chart-pay', payData);
+            // renderBarchart('chart-pay', payData); // Commented out - HTML element hidden
         }
 
         function renderBarchart(containerId, data) {
