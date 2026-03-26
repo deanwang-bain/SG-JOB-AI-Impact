@@ -30,7 +30,7 @@ git push -u origin main
 3. Click "Pages" in the left sidebar
 4. Under "Source", select:
    - Branch: `main`
-   - Folder: `/site`
+   - Folder: `/docs`
 5. Click "Save"
 6. Wait 1-2 minutes for deployment
 7. Your site will be available at: `https://YOUR_USERNAME.github.io/sg-job-ai-impact/`

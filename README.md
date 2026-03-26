@@ -91,7 +91,7 @@ Merges all sources into:
 
 ### 7. View the visualization
 ```bash
-cd site
+cd docs
 python -m http.server 8000
 ```
 Open http://localhost:8000 in your browser.
@@ -127,7 +127,7 @@ Open http://localhost:8000 in your browser.
 ├── wages.csv               # Parsed wage data
 ├── employment_weights.csv  # Estimated employment
 ├── scores.json             # LLM AI exposure scores
-└── site/
+└── docs/
     ├── index.html          # Interactive visualization
     └── data.json           # Final merged dataset
 ```
@@ -145,7 +145,7 @@ To deploy to GitHub Pages:
 3. Enable GitHub Pages:
    - Go to Settings → Pages
    - Source: Deploy from branch `main`
-   - Folder: `/site`
+   - Folder: `/docs`
    - Save and wait 1-2 minutes
 
 Your site will be live at: `https://YOUR_USERNAME.github.io/sg-job-ai-impact/`

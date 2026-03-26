@@ -9,7 +9,7 @@ Combines:
 - Employment estimates
 
 Outputs:
-- site/data.json: complete dataset for treemap visualization
+- docs/data.json: complete dataset for treemap visualization
 """
 
 import json
@@ -22,7 +22,7 @@ SCORES_JSON = Path("scores.json")
 WAGES_CSV = Path("wages.csv")
 EMPLOYMENT_CSV = Path("employment_weights.csv")
 
-SITE_DIR = Path("site")
+SITE_DIR = Path("docs")
 OUTPUT_JSON = SITE_DIR / "data.json"
 
 
