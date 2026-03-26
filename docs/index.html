@@ -505,27 +505,32 @@
             const maxValue = Math.max(...values);
             const range = maxValue - minValue;
             
-            // If all values are the same, show full bars
-            if (range < 0.01) {
+            // Debug: log values to console
+            console.log(`${containerId}: min=${minValue.toFixed(2)}, max=${maxValue.toFixed(2)}, range=${range.toFixed(2)}`);
+            
+            // If all values are nearly identical, use a smaller scaling range
+            if (range < 0.001) {
+                // All truly identical - show all bars at 80%
                 container.innerHTML = data.map(item => `
                     <div class="bar">
                         <div class="bar-label">${item.label}</div>
-                        <div class="bar-fill" style="width: 100%"></div>
+                        <div class="bar-fill" style="width: 80%"></div>
                         <div class="bar-value">${item.value.toFixed(1)}</div>
                     </div>
                 `).join('');
                 return;
             }
             
-            // Scale bars from 25% to 100% to show differences clearly
+            // Scale bars from 20% to 100% to show differences clearly
+            // Use a wider range to make even small differences visible
             container.innerHTML = data.map(item => {
                 const normalized = (item.value - minValue) / range;
-                const barWidth = 25 + (normalized * 75); // 25% to 100%
+                const barWidth = 20 + (normalized * 80); // 20% to 100%
                 
                 return `
                     <div class="bar">
                         <div class="bar-label">${item.label}</div>
-                        <div class="bar-fill" style="width: ${barWidth}%"></div>
+                        <div class="bar-fill" style="width: ${barWidth.toFixed(1)}%"></div>
                         <div class="bar-value">${item.value.toFixed(1)}</div>
                     </div>
                 `;
