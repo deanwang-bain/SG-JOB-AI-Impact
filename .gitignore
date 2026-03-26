@@ -1,0 +1,26 @@
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Raw data cache
+raw/
+
+# Intermediate outputs (comment out if you want to commit them)
+# occupations.json
+# occupations.csv
+# wages.csv
+# employment_weights.csv
+# scores.json
+
+# Site data (comment out if you want to commit it)
+# site/data.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store

@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singapore Job Market: AI Impact Visualizer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            color: #a0a0a0;
+            margin-bottom: 20px;
+        }
+
+        .disclaimer {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+            font-size: 0.9em;
+            color: #c0c0c0;
+        }
+
+        .disclaimer strong {
+            color: #ff9800;
+        }
+
+        .controls {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .color-mode {
+            display: flex;
+            gap: 10px;
+        }
+
+        .color-mode button {
+            padding: 10px 20px;
+            background: #1a1a1a;
+            border: 2px solid #333;
+            color: #e0e0e0;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.95em;
+            transition: all 0.2s;
+        }
+
+        .color-mode button:hover {
+            background: #2a2a2a;
+            border-color: #555;
+        }
+
+        .color-mode button.active {
+            background: #0066cc;
+            border-color: #0066cc;
+            color: white;
+        }
+
+        .stats-panel {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .stat-box {
+            background: #0a0a0a;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #2a2a2a;
+        }
+
+        .stat-label {
+            font-size: 0.85em;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        #canvas-container {
+            position: relative;
+            background: #0a0a0a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        #treemap {
+            display: block;
+            cursor: pointer;
+        }
+
+        #tooltip {
+            position: absolute;
+            background: rgba(20, 20, 20, 0.95);
+            border: 1px solid #555;
+            border-radius: 6px;
+            padding: 12px;
+            pointer-events: none;
+            display: none;
+            max-width: 300px;
+            font-size: 0.9em;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        }
+
+        #tooltip .title {
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+
+        #tooltip .detail {
+            margin: 4px 0;
+            color: #c0c0c0;
+        }
+
+        #tooltip .detail strong {
+            color: #ffffff;
+        }
+
+        .legend {
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .legend-color {
+            width: 30px;
+            height: 20px;
+            border-radius: 3px;
+            border: 1px solid #555;
+        }
+
+        .legend-label {
+            font-size: 0.9em;
+            color: #c0c0c0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.85em;
+        }
+
+        footer a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .charts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .chart {
+            background: #0a0a0a;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #2a2a2a;
+        }
+
+        .chart-title {
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+
+        .bar {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+        }
+
+        .bar-label {
+            width: 120px;
+            font-size: 0.85em;
+            color: #c0c0c0;
+        }
+
+        .bar-fill {
+            flex: 1;
+            height: 20px;
+            background: #0066cc;
+            border-radius: 3px;
+            margin: 0 10px;
+            transition: width 0.3s;
+        }
+
+        .bar-value {
+            width: 50px;
+            text-align: right;
+            font-size: 0.85em;
+            color: #ffffff;
+        }
+
+        /* Slider styles */
+        input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            height: 6px;
+            outline: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            background: #0066cc;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover {
+            background: #0077ee;
+            transform: scale(1.1);
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            background: #0066cc;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        input[type="range"]::-moz-range-thumb:hover {
+            background: #0077ee;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Singapore Job Market: AI Impact</h1>
+            <div class="subtitle">
+                Analyzing AI exposure across ~1,000 occupations using SSOC 2024 data
+            </div>
+        </header>
+
+        <div class="disclaimer">
+            <strong>⚠️ Data Limitations:</strong> Employment counts are estimates distributed from MOM broad-group totals. 
+            Singapore does not publish 5-digit occupation-level employment data. AI exposure scores reflect GPT-4o's 
+            assessment using a calibrated rubric—these are informed estimates, not predictions.
+        </div>
+
+        <div class="controls">
+            <div>
+                <strong style="margin-right: 10px;">Color by:</strong>
+            </div>
+            <div class="color-mode">
+                <button class="active" data-mode="exposure">AI Exposure</button>
+                <button data-mode="pay">Median Pay</button>
+                <button data-mode="education">Education</button>
+                <button data-mode="category">Major Group</button>
+            </div>
+            <div style="margin-left: 40px; display: flex; align-items: center; gap: 10px;">
+                <strong>Show top:</strong>
+                <input type="range" id="jobSlider" min="10" max="432" value="100" step="10" 
+                       style="width: 200px; cursor: pointer;">
+                <span id="jobCount" style="min-width: 80px; font-weight: 600; color: #ffffff;">100 jobs</span>
+            </div>
+        </div>
+
+        <div class="stats-panel">
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-label">Total Occupations</div>
+                    <div class="stat-value" id="stat-occupations">-</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Estimated Workforce</div>
+                    <div class="stat-value" id="stat-workforce">-</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Average AI Exposure</div>
+                    <div class="stat-value" id="stat-exposure">-</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">PME Share</div>
+                    <div class="stat-value" id="stat-pme">-</div>
+                </div>
+            </div>
+
+            <div class="charts">
+                <div class="chart">
+                    <div class="chart-title">Exposure by Major Group</div>
+                    <div id="chart-group"></div>
+                </div>
+                <div class="chart">
+                    <div class="chart-title">Exposure by Pay Band (SGD)</div>
+                    <div id="chart-pay"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="canvas-container">
+            <canvas id="treemap" width="1400" height="800"></canvas>
+            <div id="tooltip"></div>
+        </div>
+
+        <div class="legend" id="legend"></div>
+
+        <footer>
+            <p>
+                Data sources: SSOC 2024 (SingStat), MOM Occupational Wage Survey 2024, data.gov.sg Employment Dataset<br>
+                AI scoring: OpenAI GPT-4o | Inspired by <a href="https://karpathy.ai/jobs/" target="_blank">Andrej Karpathy's US Job Market Visualizer</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Global state
+        let data = null;
+        let colorMode = 'exposure';
+        let treemapData = [];
+        let topJobsCount = 100;  // Default: show top 100 jobs by employment
+
+        // Load data
+        fetch('data.json')
+            .then(res => res.json())
+            .then(json => {
+                data = json;
+                initVisualization();
+            })
+            .catch(err => {
+                console.error('Error loading data:', err);
+                alert('Error loading data. Make sure data.json exists.');
+            });
+
+        function initVisualization() {
+            updateStats();
+            updateCharts();
+            buildTreemap();
+            renderTreemap();
+            updateLegend();
+
+            // Color mode controls
+            document.querySelectorAll('.color-mode button').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.color-mode button').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    colorMode = btn.dataset.mode;
+                    renderTreemap();
+                    updateLegend();
+                });
+            });
+
+            // Slider control for top X jobs
+            const slider = document.getElementById('jobSlider');
+            const jobCountLabel = document.getElementById('jobCount');
+            
+            slider.addEventListener('input', (e) => {
+                topJobsCount = parseInt(e.target.value);
+                jobCountLabel.textContent = `${topJobsCount} jobs`;
+            });
+            
+            slider.addEventListener('change', (e) => {
+                topJobsCount = parseInt(e.target.value);
+                buildTreemap();
+                renderTreemap();
+            });
+        }
+
+        function updateStats() {
+            const stats = data.statistics;
+            document.getElementById('stat-occupations').textContent = stats.total_occupations.toLocaleString();
+            document.getElementById('stat-workforce').textContent = stats.total_workforce.toLocaleString();
+            document.getElementById('stat-exposure').textContent = (stats.weighted_avg_exposure || stats.avg_exposure).toFixed(1) + '/10';
+            document.getElementById('stat-pme').textContent = (stats.pme_share * 100).toFixed(1) + '%';
+        }
+
+        function updateCharts() {
+            // Exposure by major group
+            const byGroup = {};
+            data.occupations.forEach(occ => {
+                if (occ.exposure !== null && occ.jobs) {
+                    if (!byGroup[occ.category_label]) {
+                        byGroup[occ.category_label] = { sum: 0, weight: 0 };
+                    }
+                    byGroup[occ.category_label].sum += occ.exposure * occ.jobs;
+                    byGroup[occ.category_label].weight += occ.jobs;
+                }
+            });
+
+            const groupData = Object.entries(byGroup).map(([label, data]) => ({
+                label: label.substring(0, 25),
+                value: data.sum / data.weight
+            })).sort((a, b) => b.value - a.value);
+
+            renderBarchart('chart-group', groupData, 10);
+
+            // Exposure by pay band
+            const byPay = {
+                '<$40K': { sum: 0, weight: 0 },
+                '$40-60K': { sum: 0, weight: 0 },
+                '$60-100K': { sum: 0, weight: 0 },
+                '$100K+': { sum: 0, weight: 0 }
+            };
+
+            data.occupations.forEach(occ => {
+                if (occ.exposure !== null && occ.pay && occ.jobs) {
+                    let band;
+                    if (occ.pay < 40000) band = '<$40K';
+                    else if (occ.pay < 60000) band = '$40-60K';
+                    else if (occ.pay < 100000) band = '$60-100K';
+                    else band = '$100K+';
+
+                    byPay[band].sum += occ.exposure * occ.jobs;
+                    byPay[band].weight += occ.jobs;
+                }
+            });
+
+            const payData = Object.entries(byPay)
+                .filter(([_, data]) => data.weight > 0)
+                .map(([label, data]) => ({
+                    label,
+                    value: data.sum / data.weight
+                }));
+
+            renderBarchart('chart-pay', payData, 10);
+        }
+
+        function renderBarchart(containerId, data, maxValue) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = data.map(item => `
+                <div class="bar">
+                    <div class="bar-label">${item.label}</div>
+                    <div class="bar-fill" style="width: ${(item.value / maxValue * 100)}%"></div>
+                    <div class="bar-value">${item.value.toFixed(1)}</div>
+                </div>
+            `).join('');
+        }
+
+        function buildTreemap() {
+            // Filter occupations with jobs and get top X by employment
+            const allOccupations = data.occupations
+                .filter(occ => occ.jobs && occ.jobs > 0)
+                .sort((a, b) => b.jobs - a.jobs);
+            
+            // Take only top X jobs based on slider value
+            const occupations = allOccupations.slice(0, Math.min(topJobsCount, allOccupations.length));
+
+            const canvas = document.getElementById('treemap');
+            const width = canvas.width;
+            const height = canvas.height;
+            
+            const MARGIN = 12, GAP = 3;
+            const tx = MARGIN, ty = MARGIN;
+            const tw = width - MARGIN * 2;
+            const th = height - MARGIN * 2;
+
+            // Group by category (major group)
+            const byCategory = {};
+            for (const occ of occupations) {
+                const cat = occ.category_label;
+                if (!byCategory[cat]) byCategory[cat] = [];
+                byCategory[cat].push(occ);
+            }
+
+            // Create category-level items
+            const categories = Object.keys(byCategory).map(cat => ({
+                cat: cat,
+                items: byCategory[cat].sort((a, b) => (b.jobs || 0) - (a.jobs || 0)),
+                value: byCategory[cat].reduce((sum, d) => sum + (d.jobs || 1), 0)
+            })).sort((a, b) => b.value - a.value);
+
+            // Layout categories first
+            const categoryRects = squarify(categories.map(c => ({ ...c, jobs: c.value })), 
+                                          { x: tx, y: ty, width: tw, height: th });
+
+            // Layout occupations within each category
+            treemapData = [];
+            for (const catRect of categoryRects) {
+                const items = catRect.items.map(d => ({ ...d, value: d.jobs || 1 }));
+                const innerRects = squarify(items, {
+                    x: catRect.rect.x + GAP,
+                    y: catRect.rect.y + GAP,
+                    width: catRect.rect.width - GAP * 2,
+                    height: catRect.rect.height - GAP * 2
+                });
+                
+                // Add category info to each tile for coloring
+                for (const ir of innerRects) {
+                    treemapData.push({
+                        ...ir,
+                        categoryRect: catRect.rect,
+                        categoryLabel: catRect.cat
+                    });
+                }
+            }
+        }
+
+        function squarify(items, bounds) {
+            // Simple squarified treemap algorithm
+            if (items.length === 0) return [];
+            if (items.length === 1) {
+                return [{
+                    ...items[0],
+                    rect: { x: bounds.x, y: bounds.y, width: bounds.width, height: bounds.height }
+                }];
+            }
+
+            const totalValue = items.reduce((sum, item) => sum + (item.value || item.jobs || 1), 0);
+            if (totalValue === 0) return [];
+
+            const scaledItems = items.map(item => ({
+                ...item,
+                normalizedValue: ((item.value || item.jobs || 1) / totalValue) * bounds.width * bounds.height
+            })).sort((a, b) => b.normalizedValue - a.normalizedValue);
+
+            const result = [];
+            let remaining = [...scaledItems];
+            let currentBounds = { ...bounds };
+
+            while (remaining.length > 0) {
+                const layoutResult = layoutRow(remaining, currentBounds);
+                result.push(...layoutResult.row);
+                remaining = layoutResult.remaining;
+                currentBounds = layoutResult.newBounds;
+            }
+
+            return result;
+        }
+
+        function layoutRow(items, bounds) {
+            if (items.length === 0) return { row: [], remaining: [], newBounds: bounds };
+
+            const { x, y, width, height } = bounds;
+            const totalArea = items.reduce((sum, item) => sum + item.normalizedValue, 0);
+            if (totalArea === 0) return { row: [], remaining: [], newBounds: bounds };
+            
+            // Determine layout direction
+            const horizontal = width >= height;
+            const rowLength = horizontal ? height : width;
+            
+            // Take items for this row
+            let rowArea = 0;
+            let rowCount = 0;
+            
+            for (let i = 0; i < items.length; i++) {
+                rowArea += items[i].normalizedValue;
+                rowCount = i + 1;
+                
+                // Check aspect ratio
+                if (rowCount > 1) {
+                    const rowThickness = rowArea / rowLength;
+                    const aspectRatio = Math.max(rowThickness / rowLength, rowLength / rowThickness);
+                    if (aspectRatio > 2.5) {
+                        rowCount--;
+                        rowArea -= items[i].normalizedValue;
+                        break;
+                    }
+                }
+                
+                if (rowCount >= 10 || i === items.length - 1) break;
+            }
+
+            if (rowCount === 0) rowCount = 1;
+            rowArea = items.slice(0, rowCount).reduce((sum, item) => sum + item.normalizedValue, 0);
+
+            const rowThickness = rowArea / rowLength;
+            const row = [];
+            let offset = 0;
+
+            for (let i = 0; i < rowCount; i++) {
+                const item = items[i];
+                const itemLength = (item.normalizedValue / rowArea) * rowLength;
+                
+                const rect = horizontal ? {
+                    x: x,
+                    y: y + offset,
+                    width: rowThickness,
+                    height: itemLength
+                } : {
+                    x: x + offset,
+                    y: y,
+                    width: itemLength,
+                    height: rowThickness
+                };
+
+                row.push({ ...item, rect });
+                offset += itemLength;
+            }
+
+            const newBounds = horizontal ? {
+                x: x + rowThickness,
+                y: y,
+                width: width - rowThickness,
+                height: height
+            } : {
+                x: x,
+                y: y + rowThickness,
+                width: width,
+                height: height - rowThickness
+            };
+
+            return {
+                row,
+                remaining: items.slice(rowCount),
+                newBounds
+            };
+        }
+
+        function getColor(item) {
+            switch (colorMode) {
+                case 'exposure':
+                    return item.exposure !== null ? exposureColor(item.exposure) : '#333';
+                case 'pay':
+                    return item.pay ? payColor(item.pay) : '#333';
+                case 'education':
+                    return educationColor(item.education);
+                case 'category':
+                    return categoryColor(item.major_group);
+                default:
+                    return '#666';
+            }
+        }
+
+        function exposureColor(exposure) {
+            // Red (high exposure) to green (low exposure)
+            const normalized = exposure / 10;
+            const r = Math.round(255 * normalized);
+            const g = Math.round(255 * (1 - normalized));
+            return `rgb(${r}, ${g}, 50)`;
+        }
+
+        function payColor(pay) {
+            // Log scale: red (low) to green (high)
+            const minPay = 20000;
+            const maxPay = 250000;
+            const logPay = Math.log(Math.max(pay, minPay));
+            const logMin = Math.log(minPay);
+            const logMax = Math.log(maxPay);
+            const normalized = Math.min(1, Math.max(0, (logPay - logMin) / (logMax - logMin)));
+            
+            const r = Math.round(255 * (1 - normalized));
+            const g = Math.round(255 * normalized);
+            return `rgb(${r}, ${g}, 50)`;
+        }
+
+        function educationColor(education) {
+            const colors = {
+                'Doctoral degree': '#9c27b0',
+                "Master's degree": '#673ab7',
+                "Bachelor's degree": '#3f51b5',
+                'Diploma': '#2196f3',
+                'Certificate': '#00bcd4',
+                'Secondary': '#009688'
+            };
+            return colors[education] || '#666';
+        }
+
+        function categoryColor(majorGroup) {
+            const colors = {
+                '1': '#e91e63',
+                '2': '#9c27b0',
+                '3': '#3f51b5',
+                '4': '#2196f3',
+                '5': '#00bcd4',
+                '6': '#009688',
+                '7': '#4caf50',
+                '8': '#ff9800',
+                '9': '#795548'
+            };
+            return colors[majorGroup] || '#666';
+        }
+
+        function renderTreemap() {
+            const canvas = document.getElementById('treemap');
+            const ctx = canvas.getContext('2d');
+
+            // Clear
+            ctx.fillStyle = '#0a0a0a';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // First, draw category backgrounds/borders
+            const drawnCategories = new Set();
+            treemapData.forEach(item => {
+                if (item.categoryRect && !drawnCategories.has(item.categoryLabel)) {
+                    drawnCategories.add(item.categoryLabel);
+                    const catRect = item.categoryRect;
+                    
+                    // Draw subtle category background
+                    ctx.strokeStyle = 'rgba(255, 255, 255, 0.08)';
+                    ctx.lineWidth = 2;
+                    ctx.strokeRect(catRect.x, catRect.y, catRect.width, catRect.height);
+                }
+            });
+
+            // Draw tiles
+            treemapData.forEach(item => {
+                const rect = item.rect;
+                const color = getColor(item);
+
+                // Fill
+                ctx.fillStyle = color;
+                ctx.fillRect(rect.x, rect.y, rect.width, rect.height);
+
+                // Border
+                ctx.strokeStyle = '#0a0a0a';
+                ctx.lineWidth = 1.5;
+                ctx.strokeRect(rect.x, rect.y, rect.width, rect.height);
+
+                // Text (if space available)
+                if (rect.width > 50 && rect.height > 30) {
+                    ctx.fillStyle = '#ffffff';
+                    ctx.font = '11px sans-serif';
+                    ctx.textAlign = 'left';
+                    ctx.textBaseline = 'top';
+                    
+                    const text = item.title;
+                    const maxWidth = rect.width - 8;
+                    const truncated = truncateText(ctx, text, maxWidth);
+                    
+                    ctx.fillText(truncated, rect.x + 4, rect.y + 4);
+                }
+            });
+
+            // Setup interaction
+            canvas.onmousemove = handleMouseMove;
+            canvas.onclick = handleClick;
+        }
+
+        function truncateText(ctx, text, maxWidth) {
+            if (ctx.measureText(text).width <= maxWidth) return text;
+            
+            let truncated = text;
+            while (ctx.measureText(truncated + '...').width > maxWidth && truncated.length > 0) {
+                truncated = truncated.slice(0, -1);
+            }
+            return truncated + '...';
+        }
+
+        function handleMouseMove(e) {
+            const canvas = document.getElementById('treemap');
+            const rect = canvas.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            const item = treemapData.find(item => {
+                const r = item.rect;
+                return x >= r.x && x <= r.x + r.width && y >= r.y && y <= r.y + r.height;
+            });
+
+            const tooltip = document.getElementById('tooltip');
+
+            if (item) {
+                showTooltip(item, e.clientX, e.clientY);
+                canvas.style.cursor = 'pointer';
+            } else {
+                tooltip.style.display = 'none';
+                canvas.style.cursor = 'default';
+            }
+        }
+
+        function showTooltip(item, x, y) {
+            const tooltip = document.getElementById('tooltip');
+            
+            let html = `<div class="title">${item.title}</div>`;
+            
+            if (item.exposure !== null) {
+                html += `<div class="detail"><strong>AI Exposure:</strong> ${item.exposure}/10</div>`;
+                if (item.exposure_rationale) {
+                    html += `<div class="detail" style="font-size: 0.85em; margin-top: 4px;">${item.exposure_rationale}</div>`;
+                }
+            }
+            
+            if (item.jobs) {
+                html += `<div class="detail"><strong>Est. Employment:</strong> ${item.jobs.toLocaleString()}</div>`;
+            }
+            
+            if (item.pay) {
+                html += `<div class="detail"><strong>Median Pay:</strong> $${item.pay.toLocaleString()}/year</div>`;
+            }
+            
+            html += `<div class="detail"><strong>Education:</strong> ${item.education}</div>`;
+            html += `<div class="detail"><strong>Group:</strong> ${item.category_label}</div>`;
+            html += `<div class="detail" style="margin-top: 4px; font-size: 0.8em; color: #888;">Click to view SSOC details</div>`;
+
+            tooltip.innerHTML = html;
+            tooltip.style.display = 'block';
+            tooltip.style.left = (x + 15) + 'px';
+            tooltip.style.top = (y + 15) + 'px';
+        }
+
+        function handleClick(e) {
+            const canvas = document.getElementById('treemap');
+            const rect = canvas.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            const item = treemapData.find(item => {
+                const r = item.rect;
+                return x >= r.x && x <= r.x + r.width && y >= r.y && y <= r.y + r.height;
+            });
+
+            if (item) {
+                window.open(item.ssoc_url, '_blank');
+            }
+        }
+
+        function updateLegend() {
+            const legend = document.getElementById('legend');
+            let html = '';
+
+            switch (colorMode) {
+                case 'exposure':
+                    html = '<div class="legend-item"><div class="legend-color" style="background: rgb(255, 50, 50);"></div><div class="legend-label">High AI Exposure (10)</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(128, 128, 50);"></div><div class="legend-label">Medium (5)</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(50, 255, 50);"></div><div class="legend-label">Low (0)</div></div>';
+                    break;
+                case 'pay':
+                    html = '<div class="legend-item"><div class="legend-color" style="background: rgb(50, 255, 50);"></div><div class="legend-label">High Pay ($250K+)</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(128, 128, 50);"></div><div class="legend-label">Medium ($60K)</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: rgb(255, 50, 50);"></div><div class="legend-label">Low ($20K)</div></div>';
+                    break;
+                case 'education':
+                    html = '<div class="legend-item"><div class="legend-color" style="background: #9c27b0;"></div><div class="legend-label">Doctoral</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: #673ab7;"></div><div class="legend-label">Master\'s</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: #3f51b5;"></div><div class="legend-label">Bachelor\'s</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: #2196f3;"></div><div class="legend-label">Diploma</div></div>';
+                    html += '<div class="legend-item"><div class="legend-color" style="background: #00bcd4;"></div><div class="legend-label">Certificate</div></div>';
+                    break;
+                case 'category':
+                    const categories = [
+                        { group: '1', label: 'Managers', color: '#e91e63' },
+                        { group: '2', label: 'Professionals', color: '#9c27b0' },
+                        { group: '3', label: 'Technicians', color: '#3f51b5' },
+                        { group: '4', label: 'Clerical', color: '#2196f3' },
+                        { group: '5', label: 'Service/Sales', color: '#00bcd4' },
+                        { group: '6', label: 'Agricultural', color: '#009688' },
+                        { group: '7', label: 'Craft', color: '#4caf50' },
+                        { group: '8', label: 'Operators', color: '#ff9800' },
+                        { group: '9', label: 'Elementary', color: '#795548' }
+                    ];
+                    html = categories.map(c => `
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: ${c.color};"></div>
+                            <div class="legend-label">${c.label}</div>
+                        </div>
+                    `).join('');
+                    break;
+            }
+
+            legend.innerHTML = html;
+        }
+    </script>
+</body>
+</html>

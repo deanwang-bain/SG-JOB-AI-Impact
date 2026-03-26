@@ -1,0 +1,3899 @@
+[
+  {
+    "ssoc_code": "11110",
+    "title": "Legislator",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "11",
+    "description": "1112 Senior Government and Statutory Board Officials",
+    "slug": "legislator"
+  },
+  {
+    "ssoc_code": "11122",
+    "title": "Senior statutory board official",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "11",
+    "description": "1114 Senior Officials of Political Party Organisations",
+    "slug": "senior-statutory-board-official"
+  },
+  {
+    "ssoc_code": "11140",
+    "title": "Senior official of political party organisation",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "11",
+    "description": "1115 Senior Officials of Employers’, Workers’ and Related Economic-Interest Organisations",
+    "slug": "senior-official-of-political-party-organisation"
+  },
+  {
+    "ssoc_code": "11150",
+    "title": "Senior official of employers’/workers’ and related economic-interest organisation",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "11",
+    "description": "1116 Senior Officials of Humanitarian and Other Special-Interest Organisations",
+    "slug": "senior-official-of-employers-workers-and-related-economic-interest-organisation"
+  },
+  {
+    "ssoc_code": "11160",
+    "title": "Senior official of humanitarian and other special-interest organisation",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "11",
+    "description": "112 MANAGING DIRECTORS, CHIEF EXECUTIVES AND GENERAL MANAGERS 1120 Managing Directors, Chief Executives and General Managers",
+    "slug": "senior-official-of-humanitarian-and-other-special-interest-organisation"
+  },
+  {
+    "ssoc_code": "11203",
+    "title": "Chief operating officer/General manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "11",
+    "description": "12 ADMINISTRATIVE AND COMMERCIAL MANAGERS 121 BUSINESS SERVICES AND ADMINISTRATION MANAGERS 1211 Finance and Administration Managers",
+    "slug": "chief-operating-officer-general-manager"
+  },
+  {
+    "ssoc_code": "12113",
+    "title": "Audit manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "12",
+    "description": "1212 Human Resource Managers",
+    "slug": "audit-manager"
+  },
+  {
+    "ssoc_code": "12123",
+    "title": "Training manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "12",
+    "description": "18  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 1: Legislators, Senior Officials and Managers 1213 Policy and Planning Managers",
+    "slug": "training-manager"
+  },
+  {
+    "ssoc_code": "12133",
+    "title": "Risk management manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "12",
+    "description": "1219 Business Services and Administration Managers Not Elsewhere Classified",
+    "slug": "risk-management-manager"
+  },
+  {
+    "ssoc_code": "12199",
+    "title": "Other business services/administration manager n.e.c.",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "12",
+    "description": "122 SALES, MARKETING, DEVELOPMENT AND CUSTOMER SERVICE MANAGERS 1221 Sales and Business Development Managers",
+    "slug": "other-business-services-administration-manager-n-e-c"
+  },
+  {
+    "ssoc_code": "12215",
+    "title": "Online sales channel manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "12",
+    "description": "1222 Marketing, Advertising and Public Relations Managers",
+    "slug": "online-sales-channel-manager"
+  },
+  {
+    "ssoc_code": "12222",
+    "title": "Marketing manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "12",
+    "description": "1223 Research and Development Managers",
+    "slug": "marketing-manager"
+  },
+  {
+    "ssoc_code": "12230",
+    "title": "Research and development manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "12",
+    "description": "1224 Customer Service and Call Centre Managers",
+    "slug": "research-and-development-manager"
+  },
+  {
+    "ssoc_code": "12242",
+    "title": "Call centre manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "12",
+    "description": "13 PRODUCTION AND SPECIALISED SERVICES MANAGERS 131 PRODUCTION MANAGERS IN AGRICULTURE AND FISHERIES 1310 Production Managers in Agriculture and Fisheries",
+    "slug": "call-centre-manager"
+  },
+  {
+    "ssoc_code": "13100",
+    "title": "Production manager in agriculture/fisheries",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  19 Major Group 1: Legislators, Senior Officials and Managers 132 MANUFACTURING, CONSTRUCTION, TRANSPORT, DISTRIBUTION AND RELATED PRODUCTION AND OPERATIONS MANAGERS 1321 Manufacturing Managers",
+    "slug": "production-manager-in-agriculture-fisheries"
+  },
+  {
+    "ssoc_code": "13210",
+    "title": "Manufacturing manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "1323 Construction Managers",
+    "slug": "manufacturing-manager"
+  },
+  {
+    "ssoc_code": "13230",
+    "title": "Construction manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "1324 Transport, Supply, Distribution and Related Managers",
+    "slug": "construction-manager"
+  },
+  {
+    "ssoc_code": "13245",
+    "title": "Port/Shipping operations manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "1329 Production and Operations Managers Not Elsewhere Classified",
+    "slug": "port-shipping-operations-manager"
+  },
+  {
+    "ssoc_code": "13299",
+    "title": "Other production/operations manager n.e.c.",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "133 INFORMATION AND COMMUNICATIONS TECHNOLOGY SERVICE MANAGERS 1330 Information and Communications Technology Service Managers",
+    "slug": "other-production-operations-manager-n-e-c"
+  },
+  {
+    "ssoc_code": "13301",
+    "title": "Chief information officer/Chief technology officer/Chief information security",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "officer",
+    "slug": "chief-information-officer-chief-technology-officer-chief-information-security"
+  },
+  {
+    "ssoc_code": "13302",
+    "title": "Application development manager Alternative Title",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "Improvements to Detailed Definitions 4.13 Detailed definitions for some 50 codes have been enhanced to provide greater clarity in the descriptions of the main tasks/duties of the occupations in order to facilitate easier coding and appropriate use of the classification. Stylistic Edits to Classification Structure and Detailed Definitions 4.14 To improve stylistic coherence across the titles in classification structure and detailed definitions, stylistic edits have been implemented. 4.15 Where multiple occupations are mentioned in the five-digit occupational title, a “/” would be used for consistency and better distinction of the different occupations. Instances of “including” and “e.g.” in the main occupational titles will be removed, with these additional titles shifted to the illustrative examples in the detailed definitions for the occupation and/or added to the alphabetical index. Titles for residual codes from the sub-major group (two-digit) to occupation (five-digit) have also been aligned in the usage of terms “Other”, “Not elsewhere classified” or “n.e.c.”. The detailed definitions for the residual codes at the unit group (four-digit) and occupation (five-digit) have also been standardised. Singapore Department of Statistics Singapore Standard Occupational Classification 2024  15 5 Linking SSOC with SFw2 5.1 To facilitate analysis and comparison between SFw related information and index. New SSOC codes have been created if necessary, and changes to the scope and titles of existing SSOC codes have been made to improve the linkage between SSOC and SFw. The alphabetical index is updated half-yearly to take into account the refresh of the SFw. 5.2 Nonetheless, it should be noted that SSOC and SFw are not directly comparable due to differences in coverage, construct and purpose. SSOC is a statistical classification that is adapted from ISCO to ensure international comparability and covers all occupations whereas SFw provides information on sectors, new and changing job roles, as well as in- demand and emerging skills required for the job roles. 6 How to Determine the Appropriate Occupational Code for an Occupation 6.1 There are two ways to find an appropriate SSOC code in SSOC 2024: (a) Refer to the alphabetical index or use the SingStat SSOC Search to look for the job title by which the occupation is known, and select the most appropriate SSOC code by referring to the detailed definition. Consideration should be given to possible synonyms and abbreviations of the words in the job title; or (b) Refer to the classification structure to classify the job broadly, either at the sub-major, minor group or unit group level before narrowing down to the most appropriate five-digit code at the occupational level. The choice of SSOC code should be confirmed by referring to the detailed definition. 2 The Skills Framework (SFw) is an integral component of the Singapore’s Industry Transformation Maps. It aims to create a common skills language for individuals, employers training providers and tripartite partners which facilitates skills recognition and support the design of training programmes for skills and career development, enhance business competitiveness and support employment and employability. As at end-December 2023, there were 35 sectoral SFws and over 1,790 job roles covering more than two- thirds of the workforce. 16  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Part II: Classification Structure of SSOC Singapore Department of Statistics Singapore Standard Occupational Classification 2024  17 Major Group 1: Legislators, Senior Officials and Managers Major Group 1: Legislators, Senior Officials and Managers 1 LEGISLATORS, SENIOR OFFICIALS AND MANAGERS 11 LEGISLATORS, SENIOR OFFICIALS AND CHIEF EXECUTIVES 111 LEGISLATORS AND SENIOR OFFICIALS 1111 Legislators",
+    "slug": "application-development-manager-alternative-title"
+  },
+  {
+    "ssoc_code": "13306",
+    "title": "ICT product design manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "134 PROFESSIONAL, FINANCIAL, COMMUNITY AND SOCIAL SERVICES MANAGERS 1341 Preschool Education and Early Intervention Centre Managers",
+    "slug": "ict-product-design-manager"
+  },
+  {
+    "ssoc_code": "13410",
+    "title": "Preschool education/Early intervention centre manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "1342 Health Services Managers",
+    "slug": "preschool-education-early-intervention-centre-manager"
+  },
+  {
+    "ssoc_code": "13420",
+    "title": "Health services manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "1343 Aged Care Services Managers",
+    "slug": "health-services-manager"
+  },
+  {
+    "ssoc_code": "13430",
+    "title": "Aged care services manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "20  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 1: Legislators, Senior Officials and Managers 1344 Community and Social Services Managers",
+    "slug": "aged-care-services-manager"
+  },
+  {
+    "ssoc_code": "13442",
+    "title": "Volunteer manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "1345 Education and Training Institution Managers",
+    "slug": "volunteer-manager"
+  },
+  {
+    "ssoc_code": "13459",
+    "title": "Education/Training institution manager n.e.c.",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "1346 Financial and Insurance Services Managers",
+    "slug": "education-training-institution-manager-n-e-c"
+  },
+  {
+    "ssoc_code": "13463",
+    "title": "Financial risk manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "1349 Professional, Financial, Community and Social Services Managers Not Elsewhere Classified",
+    "slug": "financial-risk-manager"
+  },
+  {
+    "ssoc_code": "13499",
+    "title": "Other professional/financial/community/social services manager n.e.c.",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "13",
+    "description": "14 HOSPITALITY, RETAIL AND RELATED SERVICES MANAGERS 141 HOTEL AND FOOD AND BEVERAGES SERVICES MANAGERS 1411 Hotel Operations and Lodging Services Managers",
+    "slug": "other-professional-financial-community-social-services-manager-n-e-c"
+  },
+  {
+    "ssoc_code": "14110",
+    "title": "Hotel operations/Lodging services manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "14",
+    "description": "1412 Food and Beverages Services Managers",
+    "slug": "hotel-operations-lodging-services-manager"
+  },
+  {
+    "ssoc_code": "14123",
+    "title": "Food and beverage operations manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "14",
+    "description": "142 RETAIL AND WHOLESALE TRADE MANAGERS 1420 Retail and Wholesale Trade Managers",
+    "slug": "food-and-beverage-operations-manager"
+  },
+  {
+    "ssoc_code": "14202",
+    "title": "Wholesale trade manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "14",
+    "description": "143 OTHER SERVICES MANAGERS 1431 Sports Centre Managers",
+    "slug": "wholesale-trade-manager"
+  },
+  {
+    "ssoc_code": "14310",
+    "title": "Sports centre manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "14",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  21 Major Group 1: Legislators, Senior Officials and Managers 1432 Recreation Centre Managers",
+    "slug": "sports-centre-manager"
+  },
+  {
+    "ssoc_code": "14329",
+    "title": "Recreation centre manager n.e.c.",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "14",
+    "description": "1433 Arts and Cultural Centre Managers",
+    "slug": "recreation-centre-manager-n-e-c"
+  },
+  {
+    "ssoc_code": "14330",
+    "title": "Arts/Cultural centre manager",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "14",
+    "description": "1439 Services Managers Not Elsewhere Classified",
+    "slug": "arts-cultural-centre-manager"
+  },
+  {
+    "ssoc_code": "14399",
+    "title": "Other services manager n.e.c.",
+    "major_group": "1",
+    "major_group_label": "Managers",
+    "sub_major": "14",
+    "description": "22  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 2: Professionals Major Group 2: Professionals 2 PROFESSIONALS 21 SCIENCE AND ENGINEERING PROFESSIONALS 211 PHYSICAL AND EARTH SCIENCE PROFESSIONALS 2111 Physicists and Astronomers",
+    "slug": "other-services-manager-n-e-c"
+  },
+  {
+    "ssoc_code": "21110",
+    "title": "Physicist/Astronomer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2112 Meteorologists",
+    "slug": "physicist-astronomer"
+  },
+  {
+    "ssoc_code": "21120",
+    "title": "Meteorologist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2113 Chemists",
+    "slug": "meteorologist"
+  },
+  {
+    "ssoc_code": "21130",
+    "title": "Chemist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2114 Geologists, Geophysicists and Related Physical Science Professionals",
+    "slug": "chemist"
+  },
+  {
+    "ssoc_code": "21149",
+    "title": "Geologist/Geophysicist and related physical science professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "212 MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS 2121 Mathematicians, Operations Research Analysts and Actuaries",
+    "slug": "geologist-geophysicist-and-related-physical-science-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "21213",
+    "title": "Actuary",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2122 Statisticians and Data Scientists",
+    "slug": "actuary"
+  },
+  {
+    "ssoc_code": "21222",
+    "title": "Data scientist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2123 Other Statistical, Mathematical and Actuarial Professionals",
+    "slug": "data-scientist"
+  },
+  {
+    "ssoc_code": "21239",
+    "title": "Other statistical/mathematical/actuarial professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "213 LIFE SCIENCE PROFESSIONALS 2131 Biologists, Botanists, Zoologists and Related Professionals",
+    "slug": "other-statistical-mathematical-actuarial-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "21319",
+    "title": "Biologist/Botanist/Zoologist and related professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2132 Farming, Forestry and Fishery Advisers Singapore Department of Statistics Singapore Standard Occupational Classification 2024  23 Major Group 2: Professionals",
+    "slug": "biologist-botanist-zoologist-and-related-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "21329",
+    "title": "Farming/Forestry/Fishery adviser n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2133 Environmental Protection and Related Professionals",
+    "slug": "farming-forestry-fishery-adviser-n-e-c"
+  },
+  {
+    "ssoc_code": "21339",
+    "title": "Environmental protection and related professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2134 Pharmacologists and Related Professionals",
+    "slug": "environmental-protection-and-related-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "21349",
+    "title": "Pharmacologist and related professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "214 ENGINEERING PROFESSIONALS I 2141 Industrial and Production Engineers",
+    "slug": "pharmacologist-and-related-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "21415",
+    "title": "Process engineer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2142 Civil Engineers",
+    "slug": "process-engineer"
+  },
+  {
+    "ssoc_code": "21422",
+    "title": "Building construction engineer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2143 Environmental Engineers",
+    "slug": "building-construction-engineer"
+  },
+  {
+    "ssoc_code": "21430",
+    "title": "Environmental engineer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "24  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 2: Professionals 2144 Mechanical Engineers (Excluding Transport and Vehicle Engineers)",
+    "slug": "environmental-engineer"
+  },
+  {
+    "ssoc_code": "21444",
+    "title": "Port equipment engineer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2145 Chemical Engineers",
+    "slug": "port-equipment-engineer"
+  },
+  {
+    "ssoc_code": "21454",
+    "title": "Food/Drink technologist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2146 Mining Engineers, Metallurgists and Related Professionals",
+    "slug": "food-drink-technologist"
+  },
+  {
+    "ssoc_code": "21460",
+    "title": "Mining engineer/Metallurgist and related professional",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2147 Transport and Vehicle Engineers",
+    "slug": "mining-engineer-metallurgist-and-related-professional"
+  },
+  {
+    "ssoc_code": "21475",
+    "title": "Rolling stock engineer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2149 Engineering Professionals Not Elsewhere Classified",
+    "slug": "rolling-stock-engineer"
+  },
+  {
+    "ssoc_code": "21499",
+    "title": "Other engineering professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "215 ENGINEERING PROFESSIONALS II (Cont’d) 2151 Electrical Engineers Singapore Department of Statistics Singapore Standard Occupational Classification 2024  25 Major Group 2: Professionals",
+    "slug": "other-engineering-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "21513",
+    "title": "Lift engineer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2152 Electronics Engineers",
+    "slug": "lift-engineer"
+  },
+  {
+    "ssoc_code": "21526",
+    "title": "Embedded systems engineer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2153 Telecommunications Engineers",
+    "slug": "embedded-systems-engineer"
+  },
+  {
+    "ssoc_code": "21532",
+    "title": "Telecommunications engineer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "216 ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS 2161 Building Architects",
+    "slug": "telecommunications-engineer"
+  },
+  {
+    "ssoc_code": "21610",
+    "title": "Building architect",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2162 Landscape Architects and Designers",
+    "slug": "building-architect"
+  },
+  {
+    "ssoc_code": "21622",
+    "title": "Landscape designer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2163 Fashion and Product Designers",
+    "slug": "landscape-designer"
+  },
+  {
+    "ssoc_code": "21632",
+    "title": "Product/Industrial designer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2164 Urban and Related Planners",
+    "slug": "product-industrial-designer"
+  },
+  {
+    "ssoc_code": "21649",
+    "title": "Urban and related planner n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2165 Surveyors and Cartographers",
+    "slug": "urban-and-related-planner-n-e-c"
+  },
+  {
+    "ssoc_code": "21659",
+    "title": "Surveyor/Cartographer n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2166 Graphic and Multimedia Designers and Artists 26  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 2: Professionals",
+    "slug": "surveyor-cartographer-n-e-c"
+  },
+  {
+    "ssoc_code": "21669",
+    "title": "Graphic/Multimedia designer/artist n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2167 Service Designers",
+    "slug": "graphic-multimedia-designer-artist-n-e-c"
+  },
+  {
+    "ssoc_code": "21670",
+    "title": "Service designer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "217 SHIP AND AIRCRAFT RELATED PROFESSIONALS 2171 Ship Engineers and Related Professionals",
+    "slug": "service-designer"
+  },
+  {
+    "ssoc_code": "21714",
+    "title": "Marine superintendent",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "2172 Aircraft Pilots and Related Professionals",
+    "slug": "marine-superintendent"
+  },
+  {
+    "ssoc_code": "21729",
+    "title": "Aircraft pilot and related professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "21",
+    "description": "22 HEALTH PROFESSIONALS 221 MEDICAL DOCTORS 2211 Generalist Medical Practitioners",
+    "slug": "aircraft-pilot-and-related-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "22110",
+    "title": "General practitioner/physician",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "2212 Specialist Medical Practitioners (Medical)",
+    "slug": "general-practitioner-physician"
+  },
+  {
+    "ssoc_code": "22128",
+    "title": "Psychiatrist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  27 Major Group 2: Professionals",
+    "slug": "psychiatrist"
+  },
+  {
+    "ssoc_code": "22129",
+    "title": "Specialist medical practitioner (medical) n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "2213 Specialist Medical Practitioners (Surgical)",
+    "slug": "specialist-medical-practitioner-medical-n-e-c"
+  },
+  {
+    "ssoc_code": "22139",
+    "title": "Specialist medical practitioner (surgical) n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "2214 Specialist Medical Practitioners (Other Specialisations)",
+    "slug": "specialist-medical-practitioner-surgical-n-e-c"
+  },
+  {
+    "ssoc_code": "22149",
+    "title": "Specialist medical practitioner (other specialisation) n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "222 NURSING PROFESSIONALS 2220 Nursing Professionals",
+    "slug": "specialist-medical-practitioner-other-specialisation-n-e-c"
+  },
+  {
+    "ssoc_code": "22200",
+    "title": "Registered nurse and related nursing professional (excluding enrolled nurse)",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "223 TRADITIONAL AND COMPLEMENTARY MEDICINE PROFESSIONALS 2230 Traditional and Complementary Medicine Professionals",
+    "slug": "registered-nurse-and-related-nursing-professional-excluding-enrolled-nurse"
+  },
+  {
+    "ssoc_code": "22302",
+    "title": "Traditional Chinese medicine acupuncturist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "225 VETERINARIANS 2250 Veterinarians 28  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 2: Professionals",
+    "slug": "traditional-chinese-medicine-acupuncturist"
+  },
+  {
+    "ssoc_code": "22500",
+    "title": "Veterinarian",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "226 OTHER HEALTH PROFESSIONALS 2261 Dentists",
+    "slug": "veterinarian"
+  },
+  {
+    "ssoc_code": "22612",
+    "title": "Specialised dentist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "2262 Pharmacists",
+    "slug": "specialised-dentist"
+  },
+  {
+    "ssoc_code": "22629",
+    "title": "Pharmacist n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "2263 Environmental and Occupational Health and Hygiene Professionals",
+    "slug": "pharmacist-n-e-c"
+  },
+  {
+    "ssoc_code": "22639",
+    "title": "Environmental and occupational health and hygiene professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "2264 Physiotherapists",
+    "slug": "environmental-and-occupational-health-and-hygiene-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "22640",
+    "title": "Physiotherapist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "2265 Dietitians and Nutritionists",
+    "slug": "physiotherapist"
+  },
+  {
+    "ssoc_code": "22652",
+    "title": "Nutritionist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "2266 Audiologists and Speech Therapists",
+    "slug": "nutritionist"
+  },
+  {
+    "ssoc_code": "22662",
+    "title": "Speech therapist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "2267 Optometrists",
+    "slug": "speech-therapist"
+  },
+  {
+    "ssoc_code": "22670",
+    "title": "Optometrist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "2268 Occupational Therapists",
+    "slug": "optometrist"
+  },
+  {
+    "ssoc_code": "22680",
+    "title": "Occupational therapist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "2269 Health Professionals Not Elsewhere Classified",
+    "slug": "occupational-therapist"
+  },
+  {
+    "ssoc_code": "22699",
+    "title": "Other health professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "22",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  29 Major Group 2: Professionals 23 TEACHING AND TRAINING PROFESSIONALS 231 UNIVERSITY, POLYTECHNIC AND HIGHER EDUCATION TEACHERS 2310 University, Polytechnic and Higher Education Teachers",
+    "slug": "other-health-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "23109",
+    "title": "University/Polytechnic/Higher education teacher n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "23",
+    "description": "232 JUNIOR COLLEGE AND PRE-UNIVERSITY EDUCATION TEACHERS 2320 Junior College and Pre-University Education Teachers",
+    "slug": "university-polytechnic-higher-education-teacher-n-e-c"
+  },
+  {
+    "ssoc_code": "23200",
+    "title": "Junior college/Pre-university teacher",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "23",
+    "description": "233 VOCATIONAL EDUCATION TEACHERS AND TRAINERS 2330 Vocational Education Teachers and Trainers",
+    "slug": "junior-college-pre-university-teacher"
+  },
+  {
+    "ssoc_code": "23300",
+    "title": "Technical/Vocational/Commercial education institute teacher/trainer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "23",
+    "description": "234 SECONDARY EDUCATION TEACHERS 2340 Secondary Education Teachers",
+    "slug": "technical-vocational-commercial-education-institute-teacher-trainer"
+  },
+  {
+    "ssoc_code": "23400",
+    "title": "Secondary school teacher",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "23",
+    "description": "235 PRIMARY EDUCATION TEACHERS 2350 Primary School Teachers",
+    "slug": "secondary-school-teacher"
+  },
+  {
+    "ssoc_code": "23500",
+    "title": "Primary school teacher",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "23",
+    "description": "236 OTHER TEACHING PROFESSIONALS 2361 Education Methods Specialists",
+    "slug": "primary-school-teacher"
+  },
+  {
+    "ssoc_code": "23619",
+    "title": "Education methods specialist n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "23",
+    "description": "2362 Special Education Teachers",
+    "slug": "education-methods-specialist-n-e-c"
+  },
+  {
+    "ssoc_code": "23629",
+    "title": "Special education teacher n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "23",
+    "description": "2369 Teaching Professionals Not Elsewhere Classified",
+    "slug": "special-education-teacher-n-e-c"
+  },
+  {
+    "ssoc_code": "23690",
+    "title": "Teaching professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "23",
+    "description": "30  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 2: Professionals 24 BUSINESS AND ADMINISTRATION PROFESSIONALS 241 FINANCE PROFESSIONALS 2411 Accountants",
+    "slug": "teaching-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "24113",
+    "title": "Tax accountant",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2412 Financial and Investment Advisers",
+    "slug": "tax-accountant"
+  },
+  {
+    "ssoc_code": "24122",
+    "title": "Business valuer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2413 Financial Analysts and Related Professionals",
+    "slug": "business-valuer"
+  },
+  {
+    "ssoc_code": "24139",
+    "title": "Financial analyst and related professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2414 Securities and Finance Dealers",
+    "slug": "financial-analyst-and-related-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "24149",
+    "title": "Securities/Finance dealer n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2415 Securities and Finance Brokers",
+    "slug": "securities-finance-dealer-n-e-c"
+  },
+  {
+    "ssoc_code": "24159",
+    "title": "Securities/Finance broker n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2416 Insurance Underwriters",
+    "slug": "securities-finance-broker-n-e-c"
+  },
+  {
+    "ssoc_code": "24160",
+    "title": "Insurance underwriter",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  31 Major Group 2: Professionals 242 ADMINISTRATION PROFESSIONALS 2421 Management and Business Consultants",
+    "slug": "insurance-underwriter"
+  },
+  {
+    "ssoc_code": "24214",
+    "title": "Sustainability project development/management professional",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2422 Policy Administration Professionals",
+    "slug": "sustainability-project-development-management-professional"
+  },
+  {
+    "ssoc_code": "24222",
+    "title": "Risk analyst (non-financial)",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2423 Human Resource Professionals",
+    "slug": "risk-analyst-non-financial"
+  },
+  {
+    "ssoc_code": "24234",
+    "title": "Industrial relations officer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2424 Training and Staff Development Professionals",
+    "slug": "industrial-relations-officer"
+  },
+  {
+    "ssoc_code": "24240",
+    "title": "Training/Staff development professional",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2425 Intellectual Property Professionals",
+    "slug": "training-staff-development-professional"
+  },
+  {
+    "ssoc_code": "24252",
+    "title": "Intellectual property examiner",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2429 Administration Professionals Not Elsewhere Classified",
+    "slug": "intellectual-property-examiner"
+  },
+  {
+    "ssoc_code": "24299",
+    "title": "Other administration professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "243 MARKETING AND PUBLIC RELATIONS PROFESSIONALS 2431 Advertising and Marketing Professionals",
+    "slug": "other-administration-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "24315",
+    "title": "Revenue specialist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2432 Public Relations Professionals 32  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 2: Professionals",
+    "slug": "revenue-specialist"
+  },
+  {
+    "ssoc_code": "24320",
+    "title": "Public relations/Corporate communications professional",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2433 Specialised Goods Sales Professionals",
+    "slug": "public-relations-corporate-communications-professional"
+  },
+  {
+    "ssoc_code": "24339",
+    "title": "Specialised goods sales professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2435 Commodities and Freight Traders",
+    "slug": "specialised-goods-sales-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "24354",
+    "title": "Environmental commodities trader",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  13 Creation of New Codes for Other New Occupations 4.7 Further to the above, to cater to the increase in occupations in certain fields with main tasks and duties that are distinct from existing occupations in the SSOC as well as new occupations becoming more prevalent in emerging industries, separate five-digit codes have been created for them in the SSOC 2024. This includes new five-digit codes created for agriculturist and aquaculturist, which were previously subsumed in the residual code. A new code has also been created for non-financial risk analyst as such role becomes increasingly distinct from the generic policy planning professionals. A separate code has also been created for executive secretary in acknowledgement of the higher skill level required compared to the usual secretaries to perform the additional specialised organisational and administrative tasks to support top executives. 4.8 To better reflect the different tasks and duties performed by credit and loans officers from that of other financial services back-office associate professional support roles, a new four-digit unit group has been created to distinguish these roles which typically perform back-office transactions and operational support, from credit and loans officers who analyse and evaluate financial information on applications for credit. Creation of New Three-digit Minor Group for Social Services, Counselling and Related Professionals 4.9 A new three-digit Minor Group 266 ‘Social Services, Counselling and Related Professionals’ has been created to separately group social services related professionals, which were previously classified in the same minor group as social science researchers and religious professionals. This is in recognition of the growing importance of Care Economy in Singapore and also enables a larger variety of occupations to be identified in the social services sector. For instance, a new four-digit Unit Group 2664 ‘Employment Support Professionals’ has been created under this minor group to accommodate emerging occupations such as job coach (disability) who provides assistance to persons with disabilities to secure and retain employment. Reclassification of Occupations Across Major Groups and Unit Groups 4.10 Some occupations have been reclassified across unit groups, taking into consideration the main tasks and duties of these occupations in the context of Singapore and developments in recent years. For instance, ‘multimedia games designer’ and ‘interaction designer’ have been reclassified from Unit Group 2166 to Unit Group 2512 given that the nature of work is more related to information and communications technology (ICT). Another example is the reclassification of ‘Educarer’ from Major Group 5 to Major Group 3. This takes into account that other than just providing care and supervision, educarers also plan and conduct educational and play activities that are intended to promote the development of children below primary school-going age, in line with the tasks of preschool educators in Major Group 3. 14  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Removal of Obsolete Codes 4.11 SSOC codes that are obsolete or have low employment counts have been removed. This is to ensure that the SSOC remains relevant and allows for new codes to be created to meet users’ needs. About 20 obsolete five-digit codes, mostly in Major Groups 7 and 8, have been merged into approximately 16 five-digit codes. Improvements to Alphabetical Index 4.12 Some 1,000 new alphabetical index entries have been added to facilitate easier coding. For comprehensiveness and ease of identifying occupational titles without the need to cross check between multiple documents, SSOC occupational titles have been added to the alphabetical index. They are labelled “Principal Title” to distinguish them from the alternative titles in the alphabetical index. An additional of some 270 new job titles have been added in the index by including constituent job titles from main occupational titles to facilitate the use of the index for coding. For example, SSOC 13302 ‘Software and applications manager’ will have “Software development manager” and “Application development manager” included in the alphabetical index as shown in the below table.",
+    "slug": "environmental-commodities-trader"
+  },
+  {
+    "ssoc_code": "24354",
+    "title": "Environmental commodities trader",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "2436 Commodities and Ship Brokers",
+    "slug": "environmental-commodities-trader"
+  },
+  {
+    "ssoc_code": "24362",
+    "title": "Ship broker",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "24",
+    "description": "25 INFORMATION AND COMMUNICATIONS TECHNOLOGY (ICT) PROFESSIONALS 251 SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS 2511 Systems Analysts",
+    "slug": "ship-broker"
+  },
+  {
+    "ssoc_code": "25114",
+    "title": "ICT product manager",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "25",
+    "description": "2512 Software, Web, Multimedia and Games Developers and Designers",
+    "slug": "ict-product-manager"
+  },
+  {
+    "ssoc_code": "25125",
+    "title": "DevOps engineer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "25",
+    "description": "2514 Applications and Systems Programmers",
+    "slug": "devops-engineer"
+  },
+  {
+    "ssoc_code": "25141",
+    "title": "Applications/Systems programmer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "25",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  33 Major Group 2: Professionals",
+    "slug": "applications-systems-programmer"
+  },
+  {
+    "ssoc_code": "25143",
+    "title": "Artificial intelligence/Machine learning engineer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "25",
+    "description": "2515 Information and Communications Technology (ICT) Testing and Quality Assurance Professionals",
+    "slug": "artificial-intelligence-machine-learning-engineer"
+  },
+  {
+    "ssoc_code": "25152",
+    "title": "ICT auditor",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "25",
+    "description": "2519 Software and Applications Developers and Analysts Not Elsewhere Classified",
+    "slug": "ict-auditor"
+  },
+  {
+    "ssoc_code": "25190",
+    "title": "Software and applications developer/analyst n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "25",
+    "description": "252 DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS 2521 Database Designers, Administrators and Data Engineers",
+    "slug": "software-and-applications-developer-analyst-n-e-c"
+  },
+  {
+    "ssoc_code": "25213",
+    "title": "Data engineer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "25",
+    "description": "2522 Network, Servers, Applications and Computer Systems Administrators",
+    "slug": "data-engineer"
+  },
+  {
+    "ssoc_code": "25220",
+    "title": "Network/Server/Applications/Computer systems administrator",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "25",
+    "description": "2523 Computer Network, Infrastructure and Platform Professionals",
+    "slug": "network-server-applications-computer-systems-administrator"
+  },
+  {
+    "ssoc_code": "25239",
+    "title": "Computer network/infrastructure/platform professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "25",
+    "description": "2524 Cybersecurity Professionals",
+    "slug": "computer-network-infrastructure-platform-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "25249",
+    "title": "Cybersecurity professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "25",
+    "description": "2529 Database, Network, Infrastructure and Cybersecurity Professionals Not Elsewhere Classified",
+    "slug": "cybersecurity-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "25291",
+    "title": "Data centre engineer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "25",
+    "description": "34  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 2: Professionals",
+    "slug": "data-centre-engineer"
+  },
+  {
+    "ssoc_code": "25299",
+    "title": "Other database/network/infrastructure/cybersecurity professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "25",
+    "description": "26 LEGAL, SOCIAL, RELIGIOUS AND CULTURAL PROFESSIONALS 261 LEGAL PROFESSIONALS 2611 Lawyers",
+    "slug": "other-database-network-infrastructure-cybersecurity-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "26119",
+    "title": "Lawyer n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2612 Judges",
+    "slug": "lawyer-n-e-c"
+  },
+  {
+    "ssoc_code": "26120",
+    "title": "Judge",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2619 Legal Professionals Not Elsewhere Classified",
+    "slug": "judge"
+  },
+  {
+    "ssoc_code": "26199",
+    "title": "Other legal professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "262 LIBRARIANS, ARCHIVISTS AND CURATORS 2621 Archivists, Curators and Conservators",
+    "slug": "other-legal-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "26213",
+    "title": "Conservator",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2622 Librarians and Related Information Professionals",
+    "slug": "conservator"
+  },
+  {
+    "ssoc_code": "26229",
+    "title": "Librarian and related information professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "263 SOCIAL SCIENCE RESEARCHERS AND PROFESSIONALS; RELIGIOUS PROFESSIONALS 2631 Economists",
+    "slug": "librarian-and-related-information-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "26310",
+    "title": "Economist",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2632 Sociologists, Anthropologists and Related Professionals",
+    "slug": "economist"
+  },
+  {
+    "ssoc_code": "26322",
+    "title": "Social science researcher",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2633 Historians, Political Scientists and Related Social Science Professionals",
+    "slug": "social-science-researcher"
+  },
+  {
+    "ssoc_code": "26339",
+    "title": "Historian/Political scientist and related social science professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2636 Religious Professionals Singapore Department of Statistics Singapore Standard Occupational Classification 2024  35 Major Group 2: Professionals",
+    "slug": "historian-political-scientist-and-related-social-science-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "26369",
+    "title": "Religious professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "264 AUTHORS, JOURNALISTS AND EDITORS 2641 Authors and Related Writers",
+    "slug": "religious-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "26419",
+    "title": "Author and related writer n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2642 Journalists",
+    "slug": "author-and-related-writer-n-e-c"
+  },
+  {
+    "ssoc_code": "26422",
+    "title": "Editor (news/periodicals)",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2643 Translators and Interpreters",
+    "slug": "editor-news-periodicals"
+  },
+  {
+    "ssoc_code": "26432",
+    "title": "Interpreter",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "265 CREATIVE AND PERFORMING ARTISTS 2651 Visual Artists",
+    "slug": "interpreter"
+  },
+  {
+    "ssoc_code": "26519",
+    "title": "Visual artist n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2652 Musicians, Composers and Singers",
+    "slug": "visual-artist-n-e-c"
+  },
+  {
+    "ssoc_code": "26529",
+    "title": "Musician/Composer/Singer n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2653 Dancers and Choreographers",
+    "slug": "musician-composer-singer-n-e-c"
+  },
+  {
+    "ssoc_code": "26530",
+    "title": "Dancer/Choreographer",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2654 Film, Stage and Related Directors and Producers",
+    "slug": "dancer-choreographer"
+  },
+  {
+    "ssoc_code": "26541",
+    "title": "Producer (stage/film/television/commercial/video/radio)",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "36  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 2: Professionals",
+    "slug": "producer-stage-film-television-commercial-video-radio"
+  },
+  {
+    "ssoc_code": "26549",
+    "title": "Film/Stage and related director/producer n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2655 Actors",
+    "slug": "film-stage-and-related-director-producer-n-e-c"
+  },
+  {
+    "ssoc_code": "26550",
+    "title": "Actor",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2656 Radio and Television Presenters and Related Professionals",
+    "slug": "actor"
+  },
+  {
+    "ssoc_code": "26569",
+    "title": "Radio/Television presenter and related professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "266 SOCIAL SERVICES, COUNSELLING AND RELATED PROFESSIONALS 2661 Psychologists",
+    "slug": "radio-television-presenter-and-related-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "26619",
+    "title": "Psychologist n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2662 Social Work Professionals",
+    "slug": "psychologist-n-e-c"
+  },
+  {
+    "ssoc_code": "26629",
+    "title": "Social work professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2663 Counselling Professionals",
+    "slug": "social-work-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "26639",
+    "title": "Counselling professional n.e.c.",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "2664 Employment Support Professionals",
+    "slug": "counselling-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "26640",
+    "title": "Job coach (disability)",
+    "major_group": "2",
+    "major_group_label": "Professionals",
+    "sub_major": "26",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  37 Major Group 3: Associate Professionals and Technicians Major Group 3: Associate Professionals and Technicians 3 ASSOCIATE PROFESSIONALS AND TECHNICIANS 31 PHYSICAL AND ENGINEERING SCIENCE ASSOCIATE PROFESSIONALS 310 ASSISTANT ENGINEERS 3100 Assistant Engineers",
+    "slug": "job-coach-disability"
+  },
+  {
+    "ssoc_code": "31009",
+    "title": "Assistant engineer n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "311 PHYSICAL AND ENGINEERING SCIENCE TECHNICIANS I 3111 Chemical and Physical Science Technicians",
+    "slug": "assistant-engineer-n-e-c"
+  },
+  {
+    "ssoc_code": "31119",
+    "title": "Chemical/Physical science technician n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3112 Civil Engineering Technicians",
+    "slug": "chemical-physical-science-technician-n-e-c"
+  },
+  {
+    "ssoc_code": "31129",
+    "title": "Civil engineering technician n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3113 Electrical Engineering Technicians",
+    "slug": "civil-engineering-technician-n-e-c"
+  },
+  {
+    "ssoc_code": "31132",
+    "title": "Lift technician",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3114 Electronics Engineering Technicians",
+    "slug": "lift-technician"
+  },
+  {
+    "ssoc_code": "31144",
+    "title": "Instrumentation technician",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "38  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 3: Associate Professionals and Technicians 3115 Mechanical Engineering Technicians (Excluding Transport and Vehicle Engineering Technicians)",
+    "slug": "instrumentation-technician"
+  },
+  {
+    "ssoc_code": "31153",
+    "title": "Machining/Tooling technician",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3116 Chemical Engineering Technicians",
+    "slug": "machining-tooling-technician"
+  },
+  {
+    "ssoc_code": "31161",
+    "title": "Chemical engineering technician (excluding petroleum, natural gas and",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "petrochemical)",
+    "slug": "chemical-engineering-technician-excluding-petroleum-natural-gas-and"
+  },
+  {
+    "ssoc_code": "31164",
+    "title": "Food science technician",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3117 Manufacturing Engineering Technicians",
+    "slug": "food-science-technician"
+  },
+  {
+    "ssoc_code": "31175",
+    "title": "Quality assurance technician",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3118 Draughtspersons",
+    "slug": "quality-assurance-technician"
+  },
+  {
+    "ssoc_code": "31189",
+    "title": "Draughtsperson n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "312 PHYSICAL AND ENGINEERING SCIENCE TECHNICIANS II (Cont’d) 3121 Transport and Vehicle Engineering Technicians",
+    "slug": "draughtsperson-n-e-c"
+  },
+  {
+    "ssoc_code": "31214",
+    "title": "Rolling stock engineering technician",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3129 Physical and Engineering Science Technicians Not Elsewhere Classified Singapore Department of Statistics Singapore Standard Occupational Classification 2024  39 Major Group 3: Associate Professionals and Technicians",
+    "slug": "rolling-stock-engineering-technician"
+  },
+  {
+    "ssoc_code": "31299",
+    "title": "Other physical/engineering science technician n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "313 PROCESS CONTROL TECHNICIANS 3131 Power Generating Plant Operators",
+    "slug": "other-physical-engineering-science-technician-n-e-c"
+  },
+  {
+    "ssoc_code": "31310",
+    "title": "Power generating plant operator",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3132 Incinerator and Water Treatment Plant and Related Machine Operators",
+    "slug": "power-generating-plant-operator"
+  },
+  {
+    "ssoc_code": "31329",
+    "title": "Incinerator/Water treatment plant and related machine operator n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3133 Chemical Processing Plant Controllers",
+    "slug": "incinerator-water-treatment-plant-and-related-machine-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "31332",
+    "title": "Pharmaceutical products machine controller",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3134 Petroleum and Natural Gas Refining Plant Operators",
+    "slug": "pharmaceutical-products-machine-controller"
+  },
+  {
+    "ssoc_code": "31342",
+    "title": "Cylinder filler/tester (compressed/liquefied gases)",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3135 Metal Production Process Controllers",
+    "slug": "cylinder-filler-tester-compressed-liquefied-gases"
+  },
+  {
+    "ssoc_code": "31350",
+    "title": "Metal production process controller",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3139 Process Control Technicians Not Elsewhere Classified",
+    "slug": "metal-production-process-controller"
+  },
+  {
+    "ssoc_code": "31399",
+    "title": "Other process control technician n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "314 LIFE SCIENCE TECHNICIANS AND RELATED ASSOCIATE PROFESSIONALS 3141 Life Science Technicians (Excluding Medical) 40  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 3: Associate Professionals and Technicians",
+    "slug": "other-process-control-technician-n-e-c"
+  },
+  {
+    "ssoc_code": "31419",
+    "title": "Life science technician (excluding medical) n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3142 Agronomy, Horticultural and Farming Technicians",
+    "slug": "life-science-technician-excluding-medical-n-e-c"
+  },
+  {
+    "ssoc_code": "31423",
+    "title": "Farming technician (animal production)",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "315 SHIP AND AIRCRAFT CONTROLLERS AND TECHNICIANS 3151 Ship Engineering Officers",
+    "slug": "farming-technician-animal-production"
+  },
+  {
+    "ssoc_code": "31510",
+    "title": "Marine engineering officer",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3152 Ships’ Deck Officers and Pilots",
+    "slug": "marine-engineering-officer"
+  },
+  {
+    "ssoc_code": "31529",
+    "title": "Ship’s deck officer/pilot n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3154 Air Traffic Controllers",
+    "slug": "ship-s-deck-officer-pilot-n-e-c"
+  },
+  {
+    "ssoc_code": "31540",
+    "title": "Air traffic controller",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3156 Sea Traffic Controllers",
+    "slug": "air-traffic-controller"
+  },
+  {
+    "ssoc_code": "31560",
+    "title": "Sea traffic controller",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3157 Transport Operations Supervisors",
+    "slug": "sea-traffic-controller"
+  },
+  {
+    "ssoc_code": "31579",
+    "title": "Transport operations supervisor n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3159 Transport Controllers and Related Workers Not Elsewhere Classified",
+    "slug": "transport-operations-supervisor-n-e-c"
+  },
+  {
+    "ssoc_code": "31595",
+    "title": "Load control officer (aircraft)",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  41 Major Group 3: Associate Professionals and Technicians",
+    "slug": "load-control-officer-aircraft"
+  },
+  {
+    "ssoc_code": "31599",
+    "title": "Other transport controller and related worker n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "316 PREMISES AND PARKS OFFICERS 3160 Premises and Parks Officers",
+    "slug": "other-transport-controller-and-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "31603",
+    "title": "Parks officer",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "317 BUILDING, QUALITY AND SAFETY INSPECTORS 3171 Building and Fire Inspectors",
+    "slug": "parks-officer"
+  },
+  {
+    "ssoc_code": "31719",
+    "title": "Building/Fire inspector n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "3172 Quality and Safety Inspectors",
+    "slug": "building-fire-inspector-n-e-c"
+  },
+  {
+    "ssoc_code": "31720",
+    "title": "Safety inspector (vehicles/processes/products)",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "31",
+    "description": "32 HEALTH ASSOCIATE PROFESSIONALS 321 MEDICAL AND PHARMACEUTICAL TECHNICIANS 3211 Medical Imaging and Therapeutic Equipment Technicians",
+    "slug": "safety-inspector-vehicles-processes-products"
+  },
+  {
+    "ssoc_code": "32119",
+    "title": "Medical imaging/therapeutic equipment technician n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "32",
+    "description": "3212 Medical and Pathology Laboratory Technicians",
+    "slug": "medical-imaging-therapeutic-equipment-technician-n-e-c"
+  },
+  {
+    "ssoc_code": "32120",
+    "title": "Medical/Pathology laboratory technician",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "32",
+    "description": "3213 Pharmacy Technicians",
+    "slug": "medical-pathology-laboratory-technician"
+  },
+  {
+    "ssoc_code": "32130",
+    "title": "Pharmacy technician",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "32",
+    "description": "3214 Medical and Dental Prosthetic Technicians",
+    "slug": "pharmacy-technician"
+  },
+  {
+    "ssoc_code": "32143",
+    "title": "Dental technician",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "32",
+    "description": "322 NURSING ASSOCIATE PROFESSIONALS 3220 Nursing Associate Professionals 42  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 3: Associate Professionals and Technicians",
+    "slug": "dental-technician"
+  },
+  {
+    "ssoc_code": "32200",
+    "title": "Enrolled/Assistant nurse (excluding registered nurse)",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "32",
+    "description": "323 TRADITIONAL AND COMPLEMENTARY MEDICINE ASSOCIATE PROFESSIONALS 3230 Traditional and Complementary Medicine Associate Professionals",
+    "slug": "enrolled-assistant-nurse-excluding-registered-nurse"
+  },
+  {
+    "ssoc_code": "32300",
+    "title": "Traditional and complementary medicine associate professional",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "32",
+    "description": "324 VETERINARY TECHNICIANS AND ASSISTANTS 3240 Veterinary Technicians and Assistants",
+    "slug": "traditional-and-complementary-medicine-associate-professional"
+  },
+  {
+    "ssoc_code": "32400",
+    "title": "Veterinary technician/assistant",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "32",
+    "description": "325 OTHER HEALTH ASSOCIATE PROFESSIONALS 3251 Oral Health Therapists",
+    "slug": "veterinary-technician-assistant"
+  },
+  {
+    "ssoc_code": "32510",
+    "title": "Oral health therapist",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "32",
+    "description": "3253 Community Health Workers",
+    "slug": "oral-health-therapist"
+  },
+  {
+    "ssoc_code": "32530",
+    "title": "Community health worker",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "32",
+    "description": "3254 Opticians",
+    "slug": "community-health-worker"
+  },
+  {
+    "ssoc_code": "32540",
+    "title": "Optician",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "32",
+    "description": "3255 Physiotherapy Technicians and Related Associate Professionals",
+    "slug": "optician"
+  },
+  {
+    "ssoc_code": "32559",
+    "title": "Physiotherapy technician and related associate professional n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "32",
+    "description": "3257 Environmental and Occupational Health Inspectors",
+    "slug": "physiotherapy-technician-and-related-associate-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "32572",
+    "title": "Occupational health and safety inspector",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "32",
+    "description": "3259 Health Associate Professionals Not Elsewhere Classified",
+    "slug": "occupational-health-and-safety-inspector"
+  },
+  {
+    "ssoc_code": "32599",
+    "title": "Other health associate professional n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "32",
+    "description": "33 BUSINESS AND ADMINISTRATION ASSOCIATE PROFESSIONALS 331 FINANCIAL AND MATHEMATICAL ASSOCIATE PROFESSIONALS 3312 Credit and Loans Officers",
+    "slug": "other-health-associate-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "33120",
+    "title": "Credit/Loans officer",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "3313 Accounting Associate Professionals",
+    "slug": "credit-loans-officer"
+  },
+  {
+    "ssoc_code": "33132",
+    "title": "Audit associate professional",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  43 Major Group 3: Associate Professionals and Technicians",
+    "slug": "audit-associate-professional"
+  },
+  {
+    "ssoc_code": "33133",
+    "title": "Tax associate professional",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "3315 Valuers and Loss Assessors",
+    "slug": "tax-associate-professional"
+  },
+  {
+    "ssoc_code": "33153",
+    "title": "Intangible asset valuer",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "3316 Financial Services Back Office Administrators",
+    "slug": "intangible-asset-valuer"
+  },
+  {
+    "ssoc_code": "33160",
+    "title": "Financial services back office administrator",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "332 SALES AND RELATED ASSOCIATE PROFESSIONALS 3321 Insurance Representatives and Related Associate Professionals",
+    "slug": "financial-services-back-office-administrator"
+  },
+  {
+    "ssoc_code": "33219",
+    "title": "Insurance representative and related associate professional n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "3322 Commercial and Marketing Sales Executives",
+    "slug": "insurance-representative-and-related-associate-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "33229",
+    "title": "Commercial/Marketing sales executive n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "3323 Buyers and Purchasing Agents",
+    "slug": "commercial-marketing-sales-executive-n-e-c"
+  },
+  {
+    "ssoc_code": "33232",
+    "title": "Purchasing agent",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "3329 Sales and Related Associate Professionals Not Elsewhere Classified",
+    "slug": "purchasing-agent"
+  },
+  {
+    "ssoc_code": "33299",
+    "title": "Other sales and related associate professional n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "333 BUSINESS SERVICES AGENTS 3331 Shipping, Clearing and Forwarding Agents",
+    "slug": "other-sales-and-related-associate-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "33313",
+    "title": "Freight inspector",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "3332 Conference and Event Planners 44  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 3: Associate Professionals and Technicians",
+    "slug": "freight-inspector"
+  },
+  {
+    "ssoc_code": "33320",
+    "title": "Exhibition/Conference/Event planner",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "3333 Employment Agents and Labour Contractors",
+    "slug": "exhibition-conference-event-planner"
+  },
+  {
+    "ssoc_code": "33330",
+    "title": "Employment agent/Labour contractor",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "3334 Real Estate Agents",
+    "slug": "employment-agent-labour-contractor"
+  },
+  {
+    "ssoc_code": "33340",
+    "title": "Real estate agent",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "3339 Business Services Agents Not Elsewhere Classified",
+    "slug": "real-estate-agent"
+  },
+  {
+    "ssoc_code": "33399",
+    "title": "Other business services agent n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "334 ADMINISTRATIVE ASSOCIATE PROFESSIONALS 3346 Logistics and Maintenance Planners",
+    "slug": "other-business-services-agent-n-e-c"
+  },
+  {
+    "ssoc_code": "33462",
+    "title": "Maintenance planner",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "3349 Administrative and Related Associate Professionals Not Elsewhere Classified",
+    "slug": "maintenance-planner"
+  },
+  {
+    "ssoc_code": "33499",
+    "title": "Other administrative and related associate professional n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "335 GOVERNMENT ASSOCIATE PROFESSIONALS 3351 Customs and Immigration Officers",
+    "slug": "other-administrative-and-related-associate-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "33510",
+    "title": "Customs/Immigration officer",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "3355 Police Inspectors",
+    "slug": "customs-immigration-officer"
+  },
+  {
+    "ssoc_code": "33552",
+    "title": "Auxiliary police officer supervisor",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "3359 Government Associate Professionals Not Elsewhere Classified",
+    "slug": "auxiliary-police-officer-supervisor"
+  },
+  {
+    "ssoc_code": "33592",
+    "title": "Government social benefits official",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  45 Major Group 3: Associate Professionals and Technicians",
+    "slug": "government-social-benefits-official"
+  },
+  {
+    "ssoc_code": "33599",
+    "title": "Other government associate professional n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "336 TRANSPORT OPERATIONS PLANNERS AND EXECUTIVES 3360 Transport Equipment Project Executives",
+    "slug": "other-government-associate-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "33609",
+    "title": "Transport equipment project executive n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "33",
+    "description": "34 LEGAL, SOCIAL, CULTURAL AND RELATED ASSOCIATE PROFESSIONALS 341 LEGAL AND SOCIAL ASSOCIATE PROFESSIONALS 3411 Legal Associate Professionals",
+    "slug": "transport-equipment-project-executive-n-e-c"
+  },
+  {
+    "ssoc_code": "34110",
+    "title": "Legal associate professional",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "34",
+    "description": "3412 Social Work Associate Professionals",
+    "slug": "legal-associate-professional"
+  },
+  {
+    "ssoc_code": "34123",
+    "title": "Volunteer executive",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "34",
+    "description": "342 SPORTS AND FITNESS WORKERS 3421 Athletes and Sportspersons",
+    "slug": "volunteer-executive"
+  },
+  {
+    "ssoc_code": "34210",
+    "title": "Athlete/Sportsperson",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "34",
+    "description": "3422 Sports Coaches, Instructors, Officials and Related Associate Professionals",
+    "slug": "athlete-sportsperson"
+  },
+  {
+    "ssoc_code": "34229",
+    "title": "Sports coach/instructor/official and related associate professional n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "34",
+    "description": "343 ARTISTIC AND CULTURAL ASSOCIATE PROFESSIONALS 3431 Photographers",
+    "slug": "sports-coach-instructor-official-and-related-associate-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "34310",
+    "title": "Photographer",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "34",
+    "description": "3432 Interior Designers and Decorators",
+    "slug": "photographer"
+  },
+  {
+    "ssoc_code": "34321",
+    "title": "Interior designer",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "34",
+    "description": "46  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 3: Associate Professionals and Technicians",
+    "slug": "interior-designer"
+  },
+  {
+    "ssoc_code": "34323",
+    "title": "Visual merchandiser",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "34",
+    "description": "3433 Gallery, Museum and Library Technicians",
+    "slug": "visual-merchandiser"
+  },
+  {
+    "ssoc_code": "34332",
+    "title": "Gallery/Museum and related technician",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "34",
+    "description": "3434 Chefs",
+    "slug": "gallery-museum-and-related-technician"
+  },
+  {
+    "ssoc_code": "34343",
+    "title": "Pastry chef",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "34",
+    "description": "3439 Artistic and Cultural Associate Professionals Not Elsewhere Classified",
+    "slug": "pastry-chef"
+  },
+  {
+    "ssoc_code": "34399",
+    "title": "Other artistic/cultural associate professional n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "34",
+    "description": "344 CREATIVE AND PERFORMING ARTS ASSOCIATE PROFESSIONALS 3440 Creative and Performing Arts Associate Professionals",
+    "slug": "other-artistic-cultural-associate-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "34409",
+    "title": "Creative/Performing arts associate professional n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "34",
+    "description": "35 INFORMATION AND COMMUNICATIONS TECHNICIANS 351 INFORMATION AND COMMUNICATIONS TECHNOLOGY OPERATORS AND TECHNICIANS 3511 Computer Systems Operators",
+    "slug": "creative-performing-arts-associate-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "35110",
+    "title": "Computer systems operator",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "35",
+    "description": "3512 Computer Technicians",
+    "slug": "computer-systems-operator"
+  },
+  {
+    "ssoc_code": "35129",
+    "title": "Computer technician n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "35",
+    "description": "3514 Website Administrators",
+    "slug": "computer-technician-n-e-c"
+  },
+  {
+    "ssoc_code": "35140",
+    "title": "Website administrator/Webmaster",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "35",
+    "description": "352 TELECOMMUNICATIONS AND BROADCASTING TECHNICIANS AND AUDIO- VISUAL OPERATORS 3521 Broadcasting Technicians and Audio-Visual Operators Singapore Department of Statistics Singapore Standard Occupational Classification 2024  47 Major Group 3: Associate Professionals and Technicians",
+    "slug": "website-administrator-webmaster"
+  },
+  {
+    "ssoc_code": "35219",
+    "title": "Broadcasting technician/Audio-visual operator n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "35",
+    "description": "3522 Telecommunications Engineering Technicians",
+    "slug": "broadcasting-technician-audio-visual-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "35220",
+    "title": "Telecommunications engineering technician",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "35",
+    "description": "3523 Telecommunications Equipment Operators",
+    "slug": "telecommunications-engineering-technician"
+  },
+  {
+    "ssoc_code": "35239",
+    "title": "Telecommunications equipment operator n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "35",
+    "description": "3529 Telecommunications and Broadcasting Technicians and Audio-Visual Operators Not Elsewhere Classified",
+    "slug": "telecommunications-equipment-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "35290",
+    "title": "Telecommunications/Broadcasting technician/Audio-visual operator n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "35",
+    "description": "36 TEACHING ASSOCIATE PROFESSIONALS 361 PRESCHOOL EDUCATION TEACHERS 3610 Preschool Education Teachers",
+    "slug": "telecommunications-broadcasting-technician-audio-visual-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "36100",
+    "title": "Preschool education teacher",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "36",
+    "description": "362 EXTRACURRICULUM INSTRUCTORS 3620 Extracurriculum Instructors",
+    "slug": "preschool-education-teacher"
+  },
+  {
+    "ssoc_code": "36209",
+    "title": "Extracurriculum instructor n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "36",
+    "description": "369 TEACHING ASSOCIATE PROFESSIONALS NOT ELSEWHERE CLASSIFIED 3691 Private Tutors",
+    "slug": "extracurriculum-instructor-n-e-c"
+  },
+  {
+    "ssoc_code": "36910",
+    "title": "Private tutor (academic)",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "36",
+    "description": "48  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 3: Associate Professionals and Technicians 3699 Teaching Associate Professionals Not Elsewhere Classified",
+    "slug": "private-tutor-academic"
+  },
+  {
+    "ssoc_code": "36999",
+    "title": "Other teaching associate professional n.e.c.",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "36",
+    "description": "39 OTHER ASSOCIATE PROFESSIONALS NOT ELSEWHERE CLASSIFIED 399 OTHER ASSOCIATE PROFESSIONALS NOT ELSEWHERE CLASSIFIED 3991 Religious Associate Professionals",
+    "slug": "other-teaching-associate-professional-n-e-c"
+  },
+  {
+    "ssoc_code": "39910",
+    "title": "Non-ordained religious associate professional",
+    "major_group": "3",
+    "major_group_label": "Technicians and Associate Professionals",
+    "sub_major": "39",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  49 Major Group 4: Clerical Support Workers Major Group 4: Clerical Support Workers 4 CLERICAL SUPPORT WORKERS 40 CLERICAL SUPERVISORS 400 CLERICAL SUPERVISORS 4000 Clerical Supervisors",
+    "slug": "non-ordained-religious-associate-professional"
+  },
+  {
+    "ssoc_code": "40000",
+    "title": "Office supervisor",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "40",
+    "description": "41 GENERAL AND KEYBOARD CLERKS 411 GENERAL OFFICE CLERKS 4110 General Office Clerks",
+    "slug": "office-supervisor"
+  },
+  {
+    "ssoc_code": "41109",
+    "title": "General office clerk n.e.c.",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "41",
+    "description": "412 SECRETARIES AND VERBATIM REPORTERS 4120 Secretaries and Verbatim Reporters",
+    "slug": "general-office-clerk-n-e-c"
+  },
+  {
+    "ssoc_code": "41202",
+    "title": "Verbatim reporter",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "41",
+    "description": "413 KEYBOARD OPERATORS 4131 Typists and Word Processing Operators",
+    "slug": "verbatim-reporter"
+  },
+  {
+    "ssoc_code": "41310",
+    "title": "Typist/Word processing operator",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "41",
+    "description": "4132 Data Entry Clerks",
+    "slug": "typist-word-processing-operator"
+  },
+  {
+    "ssoc_code": "41320",
+    "title": "Data entry clerk",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "41",
+    "description": "42 CUSTOMER SERVICES OFFICERS AND CLERKS 421 TELLERS, MONEY COLLECTORS AND RELATED CLERKS 4211 Bank Tellers and Related Counter Clerks",
+    "slug": "data-entry-clerk"
+  },
+  {
+    "ssoc_code": "42119",
+    "title": "Bank teller and related counter clerk n.e.c.",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "42",
+    "description": "4213 Pawnbrokers and Moneylenders",
+    "slug": "bank-teller-and-related-counter-clerk-n-e-c"
+  },
+  {
+    "ssoc_code": "42132",
+    "title": "Moneylender",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "42",
+    "description": "50  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 4: Clerical Support Workers 4214 Bill Collectors and Related Workers",
+    "slug": "moneylender"
+  },
+  {
+    "ssoc_code": "42149",
+    "title": "Bill collector and related worker n.e.c.",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "42",
+    "description": "422 CLIENT INFORMATION CLERKS 4221 Travel Agency and Related Clerks",
+    "slug": "bill-collector-and-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "42210",
+    "title": "Travel consultant/reservation executive",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "42",
+    "description": "4223 Telephone Operators",
+    "slug": "travel-consultant-reservation-executive"
+  },
+  {
+    "ssoc_code": "42230",
+    "title": "Telephone operator",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "42",
+    "description": "4224 Receptionists, Customer Service and Information Clerks",
+    "slug": "telephone-operator"
+  },
+  {
+    "ssoc_code": "42249",
+    "title": "Receptionist/Customer service/information clerk n.e.c.",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "42",
+    "description": "4229 Client Information Clerks Not Elsewhere Classified",
+    "slug": "receptionist-customer-service-information-clerk-n-e-c"
+  },
+  {
+    "ssoc_code": "42290",
+    "title": "Client information clerk n.e.c.",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "42",
+    "description": "43 NUMERICAL AND MATERIAL-RECORDING CLERKS 431 NUMERICAL CLERKS 4311 Accounting and Bookkeeping Clerks",
+    "slug": "client-information-clerk-n-e-c"
+  },
+  {
+    "ssoc_code": "43119",
+    "title": "Accounting/Bookkeeping clerk n.e.c.",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "43",
+    "description": "4312 Finance and Insurance Clerks Singapore Department of Statistics Singapore Standard Occupational Classification 2024  51 Major Group 4: Clerical Support Workers",
+    "slug": "accounting-bookkeeping-clerk-n-e-c"
+  },
+  {
+    "ssoc_code": "43129",
+    "title": "Finance/Insurance clerk n.e.c.",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "43",
+    "description": "4314 Statistical Clerks",
+    "slug": "finance-insurance-clerk-n-e-c"
+  },
+  {
+    "ssoc_code": "43142",
+    "title": "Enumerator/Market research interviewer",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "43",
+    "description": "4315 Computer Operations Clerks",
+    "slug": "enumerator-market-research-interviewer"
+  },
+  {
+    "ssoc_code": "43159",
+    "title": "Computer operations clerk n.e.c.",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "43",
+    "description": "432 MATERIAL-RECORDING AND TRANSPORT CLERKS 4321 Stock Clerks",
+    "slug": "computer-operations-clerk-n-e-c"
+  },
+  {
+    "ssoc_code": "43219",
+    "title": "Stock clerk n.e.c.",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "43",
+    "description": "4322 Production Clerks",
+    "slug": "stock-clerk-n-e-c"
+  },
+  {
+    "ssoc_code": "43229",
+    "title": "Production clerk n.e.c.",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "43",
+    "description": "4323 Transport Clerks",
+    "slug": "production-clerk-n-e-c"
+  },
+  {
+    "ssoc_code": "43239",
+    "title": "Transport clerk n.e.c.",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "43",
+    "description": "44 OTHER CLERICAL SUPPORT WORKERS 441 OTHER CLERICAL SUPPORT WORKERS 4411 Library Clerks",
+    "slug": "transport-clerk-n-e-c"
+  },
+  {
+    "ssoc_code": "44110",
+    "title": "Library clerk",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "44",
+    "description": "4412 Mail Carriers and Sorting Workers",
+    "slug": "library-clerk"
+  },
+  {
+    "ssoc_code": "44121",
+    "title": "Postal service supervisor",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "44",
+    "description": "52  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 4: Clerical Support Workers",
+    "slug": "postal-service-supervisor"
+  },
+  {
+    "ssoc_code": "44129",
+    "title": "Mail carrier/sorting worker n.e.c.",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "44",
+    "description": "4417 Legal Clerks",
+    "slug": "mail-carrier-sorting-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "44170",
+    "title": "Legal clerk",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "44",
+    "description": "4419 Clerical Support Workers Not Elsewhere Classified",
+    "slug": "legal-clerk"
+  },
+  {
+    "ssoc_code": "44199",
+    "title": "Other clerical support worker n.e.c.",
+    "major_group": "4",
+    "major_group_label": "Clerical Support Workers",
+    "sub_major": "44",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  53 Major Group 5: Service and Sales Workers Major Group 5: Service and Sales Workers 5 SERVICES AND SALES WORKERS 51 PERSONAL SERVICES WORKERS 511 TRAVEL ATTENDANTS, CONDUCTORS AND GUIDES 5111 Travel Attendants and Stewards",
+    "slug": "other-clerical-support-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "51112",
+    "title": "Cabin attendant/steward",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "5112 Transport Service Inspectors and Related Workers",
+    "slug": "cabin-attendant-steward"
+  },
+  {
+    "ssoc_code": "51129",
+    "title": "Transport service inspector and related worker n.e.c.",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "5113 Tour and Related Guides",
+    "slug": "transport-service-inspector-and-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "51132",
+    "title": "Attractions guide",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "512 COOKS 5120 Cooks",
+    "slug": "attractions-guide"
+  },
+  {
+    "ssoc_code": "51202",
+    "title": "Senior cook",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "513 WAITERS AND BARTENDERS 5131 Waiters",
+    "slug": "senior-cook"
+  },
+  {
+    "ssoc_code": "51313",
+    "title": "Sommelier",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "5132 Bartenders and Baristas",
+    "slug": "sommelier"
+  },
+  {
+    "ssoc_code": "51322",
+    "title": "Barista",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "5133 Bar and Lounge Hostesses",
+    "slug": "barista"
+  },
+  {
+    "ssoc_code": "51330",
+    "title": "Bar/Lounge hostess",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "5139 Waiters and Bartenders Not Elsewhere Classified",
+    "slug": "bar-lounge-hostess"
+  },
+  {
+    "ssoc_code": "51390",
+    "title": "Waiter/Bartender n.e.c.",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "514 HAIRDRESSERS, BEAUTICIANS AND RELATED WORKERS 54  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 5: Service and Sales Workers 5141 Hairdressers, Barbers and Related Workers",
+    "slug": "waiter-bartender-n-e-c"
+  },
+  {
+    "ssoc_code": "51419",
+    "title": "Hairdresser/Barber and related worker n.e.c.",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "5142 Beauticians and Related Workers",
+    "slug": "hairdresser-barber-and-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "51423",
+    "title": "Makeup artist (stage/film/studio)",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "5149 Wellness Related Workers Not Elsewhere Classified",
+    "slug": "makeup-artist-stage-film-studio"
+  },
+  {
+    "ssoc_code": "51499",
+    "title": "Other wellness related worker n.e.c.",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "515 HOUSEKEEPERS AND RELATED WORKERS 5150 Housekeepers and Related Workers",
+    "slug": "other-wellness-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "51509",
+    "title": "Housekeeper and related worker n.e.c.",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "517 BOOKMAKERS, CROUPIERS AND RELATED GAMING WORKERS 5170 Bookmakers, Croupiers and Related Gaming Workers",
+    "slug": "housekeeper-and-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "51702",
+    "title": "Bookmaker/Croupier/Casino dealer and related gaming worker",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "519 PERSONAL SERVICES WORKERS NOT ELSEWHERE CLASSIFIED 5191 Astrologers, Fortune-Tellers and Related Workers",
+    "slug": "bookmaker-croupier-casino-dealer-and-related-gaming-worker"
+  },
+  {
+    "ssoc_code": "51910",
+    "title": "Astrologer/Fortune-teller and related worker",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "5193 Funeral Directors and Embalmers",
+    "slug": "astrologer-fortune-teller-and-related-worker"
+  },
+  {
+    "ssoc_code": "51932",
+    "title": "Embalmer",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  55 Major Group 5: Service and Sales Workers 5194 Pet Groomers, Animal Keepers and Trainers",
+    "slug": "embalmer"
+  },
+  {
+    "ssoc_code": "51949",
+    "title": "Pet groomer/Animal keeper/trainer n.e.c.",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "5195 Driving Instructors",
+    "slug": "pet-groomer-animal-keeper-trainer-n-e-c"
+  },
+  {
+    "ssoc_code": "51950",
+    "title": "Driving instructor/tester",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "5199 Other Personal Services Workers Not Elsewhere Classified",
+    "slug": "driving-instructor-tester"
+  },
+  {
+    "ssoc_code": "51999",
+    "title": "Other personal services worker n.e.c.",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "51",
+    "description": "52 SALES WORKERS 521 STALL SALES WORKERS 5211 Hawkers and Stall Holders (Excluding Prepared Food and Drinks)",
+    "slug": "other-personal-services-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "52110",
+    "title": "Hawker/Stall holder (excluding prepared food and drinks)",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "52",
+    "description": "5212 Hawkers and Stall Holders (Prepared Food or Drinks)",
+    "slug": "hawker-stall-holder-excluding-prepared-food-and-drinks"
+  },
+  {
+    "ssoc_code": "52120",
+    "title": "Hawker/Stall holder (prepared food/drinks)",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "52",
+    "description": "5213 Newsvendors",
+    "slug": "hawker-stall-holder-prepared-food-drinks"
+  },
+  {
+    "ssoc_code": "52130",
+    "title": "Newsvendor",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "52",
+    "description": "5219 Stall Sales Workers Not Elsewhere Classified",
+    "slug": "newsvendor"
+  },
+  {
+    "ssoc_code": "52190",
+    "title": "Stall sales worker n.e.c.",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "52",
+    "description": "522 SHOP SALESPERSONS 5220 Shop and Store Salespersons",
+    "slug": "stall-sales-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "52202",
+    "title": "Shop sales assistant",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "52",
+    "description": "523 CASHIERS AND TICKET CLERKS 5230 Cashiers and Ticket Clerks",
+    "slug": "shop-sales-assistant"
+  },
+  {
+    "ssoc_code": "52303",
+    "title": "Office cashier",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "52",
+    "description": "56  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 5: Service and Sales Workers",
+    "slug": "office-cashier"
+  },
+  {
+    "ssoc_code": "52309",
+    "title": "Cashier/Ticket clerk n.e.c.",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "52",
+    "description": "524 MODELS, SALES DEMONSTRATORS AND RELATED SALES WORKERS 5241 Fashion and Related Models",
+    "slug": "cashier-ticket-clerk-n-e-c"
+  },
+  {
+    "ssoc_code": "52410",
+    "title": "Fashion and related model",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "52",
+    "description": "5242 Sales Demonstrators and Door-to-Door Salespersons",
+    "slug": "fashion-and-related-model"
+  },
+  {
+    "ssoc_code": "52422",
+    "title": "Salesperson (door-to-door)",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "52",
+    "description": "5244 Contact Centre Salespersons",
+    "slug": "salesperson-door-to-door"
+  },
+  {
+    "ssoc_code": "52440",
+    "title": "Telemarketer",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "52",
+    "description": "5249 Sales Workers Not Elsewhere Classified",
+    "slug": "telemarketer"
+  },
+  {
+    "ssoc_code": "52499",
+    "title": "Other sales worker n.e.c.",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "52",
+    "description": "53 PERSONAL CARE WORKERS 531 CHILD CARE WORKERS AND TEACHER AIDES 5311 Child Care and Related Workers",
+    "slug": "other-sales-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "53114",
+    "title": "Child/Youth residential care assistant",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "53",
+    "description": "5312 Teacher Aides",
+    "slug": "child-youth-residential-care-assistant"
+  },
+  {
+    "ssoc_code": "53120",
+    "title": "Teacher aide",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "53",
+    "description": "532 HEALTHCARE ASSISTANTS AND RELATED PERSONAL CARE WORKERS 5320 Healthcare Assistants and Related Personal Care Workers",
+    "slug": "teacher-aide"
+  },
+  {
+    "ssoc_code": "53209",
+    "title": "Healthcare assistant and related personal care worker n.e.c.",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "53",
+    "description": "54 PROTECTIVE SERVICES WORKERS 541 PROTECTIVE SERVICES WORKERS Singapore Department of Statistics Singapore Standard Occupational Classification 2024  57 Major Group 5: Service and Sales Workers 5411 Fire-Fighting and Rescue Officers",
+    "slug": "healthcare-assistant-and-related-personal-care-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "54110",
+    "title": "Fire-fighting/Rescue officer",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "54",
+    "description": "5412 Police Officers",
+    "slug": "fire-fighting-rescue-officer"
+  },
+  {
+    "ssoc_code": "54123",
+    "title": "Auxiliary police officer",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "54",
+    "description": "5413 Prison Officers",
+    "slug": "auxiliary-police-officer"
+  },
+  {
+    "ssoc_code": "54130",
+    "title": "Prison officer",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "54",
+    "description": "5414 Security Guards",
+    "slug": "prison-officer"
+  },
+  {
+    "ssoc_code": "54144",
+    "title": "Private security officer",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "54",
+    "description": "5415 Lifeguards",
+    "slug": "private-security-officer"
+  },
+  {
+    "ssoc_code": "54150",
+    "title": "Lifeguard",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "54",
+    "description": "5419 Protective Services and Related Workers Not Elsewhere Classified",
+    "slug": "lifeguard"
+  },
+  {
+    "ssoc_code": "54199",
+    "title": "Other protective services and related worker n.e.c.",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "54",
+    "description": "59 SERVICES WORKERS NOT ELSEWHERE CLASSIFIED 590 SERVICES WORKERS NOT ELSEWHERE CLASSIFIED 5900 Services Workers Not Elsewhere Classified",
+    "slug": "other-protective-services-and-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "59000",
+    "title": "Services worker n.e.c.",
+    "major_group": "5",
+    "major_group_label": "Service and Sales Workers",
+    "sub_major": "59",
+    "description": "58  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 6: Agricultural and Fishery Workers Major Group 6: Agricultural and Fishery Workers 6 AGRICULTURAL AND FISHERY WORKERS 61 AGRICULTURAL WORKERS 611 MARKET GARDENERS AND CROP GROWERS 6111 Vegetable Farm Workers",
+    "slug": "services-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "61110",
+    "title": "Vegetable farm worker",
+    "major_group": "6",
+    "major_group_label": "Skilled Agricultural, Forestry, and Fishery Workers",
+    "sub_major": "61",
+    "description": "6113 Gardeners, Horticultural and Nursery Growers",
+    "slug": "vegetable-farm-worker"
+  },
+  {
+    "ssoc_code": "61133",
+    "title": "Gardener/Horticultural worker",
+    "major_group": "6",
+    "major_group_label": "Skilled Agricultural, Forestry, and Fishery Workers",
+    "sub_major": "61",
+    "description": "612 ANIMAL PRODUCERS 6121 Livestock and Dairy Farm Workers",
+    "slug": "gardener-horticultural-worker"
+  },
+  {
+    "ssoc_code": "61210",
+    "title": "Livestock/Dairy farm worker",
+    "major_group": "6",
+    "major_group_label": "Skilled Agricultural, Forestry, and Fishery Workers",
+    "sub_major": "61",
+    "description": "6122 Poultry Farm Workers",
+    "slug": "livestock-dairy-farm-worker"
+  },
+  {
+    "ssoc_code": "61220",
+    "title": "Poultry farm worker",
+    "major_group": "6",
+    "major_group_label": "Skilled Agricultural, Forestry, and Fishery Workers",
+    "sub_major": "61",
+    "description": "619 AGRICULTURAL WORKERS NOT ELSEWHERE CLASSIFIED 6190 Agricultural Workers Not Elsewhere Classified",
+    "slug": "poultry-farm-worker"
+  },
+  {
+    "ssoc_code": "61900",
+    "title": "Agricultural worker n.e.c.",
+    "major_group": "6",
+    "major_group_label": "Skilled Agricultural, Forestry, and Fishery Workers",
+    "sub_major": "61",
+    "description": "62 FISHERY WORKERS 622 FISHERY WORKERS 6221 Aquaculture Workers",
+    "slug": "agricultural-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "62219",
+    "title": "Aquaculture worker n.e.c.",
+    "major_group": "6",
+    "major_group_label": "Skilled Agricultural, Forestry, and Fishery Workers",
+    "sub_major": "62",
+    "description": "6222 Coastal Waters and Deep Sea Fishery Workers",
+    "slug": "aquaculture-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "62220",
+    "title": "Coastal waters/Deep sea fishery worker",
+    "major_group": "6",
+    "major_group_label": "Skilled Agricultural, Forestry, and Fishery Workers",
+    "sub_major": "62",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  59 Major Group 7: Craftsmen and Related Trades Workers Major Group 7: Craftsmen and Related Trades Workers 7 CRAFTSMEN AND RELATED TRADES WORKERS 71 BUILDING AND RELATED TRADES WORKERS (EXCLUDING ELECTRICIANS) 710 SUPERVISORS AND GENERAL FOREMEN (BUILDING AND RELATED TRADES) 7100 Supervisors and General Foremen (Building and Related Trades)",
+    "slug": "coastal-waters-deep-sea-fishery-worker"
+  },
+  {
+    "ssoc_code": "71000",
+    "title": "Supervisor/General foreman (building and related trades)",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "711 BUILDING FRAME AND RELATED TRADES WORKERS 7112 Bricklayers and Related Workers",
+    "slug": "supervisor-general-foreman-building-and-related-trades"
+  },
+  {
+    "ssoc_code": "71120",
+    "title": "Bricklayer/Blocklayer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "7113 Stonemasons, Stone Cutters, Splitters and Carvers",
+    "slug": "bricklayer-blocklayer"
+  },
+  {
+    "ssoc_code": "71130",
+    "title": "Stonemason/Stone cutter/splitter/carver",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "7114 Concrete Placers, Concrete Finishers and Related Workers",
+    "slug": "stonemason-stone-cutter-splitter-carver"
+  },
+  {
+    "ssoc_code": "71149",
+    "title": "Concrete placer/finisher and related worker n.e.c.",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "7115 Carpenters and Joiners",
+    "slug": "concrete-placer-finisher-and-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "71152",
+    "title": "Joiner",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "7119 Building Frame and Related Trades Workers Not Elsewhere Classified",
+    "slug": "joiner"
+  },
+  {
+    "ssoc_code": "71199",
+    "title": "Other building frame and related trades worker n.e.c.",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "712 BUILDING FINISHERS AND RELATED TRADES WORKERS 7121 Roofers",
+    "slug": "other-building-frame-and-related-trades-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "71210",
+    "title": "Roofer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "7122 Floor Layers and Tile Setters",
+    "slug": "roofer"
+  },
+  {
+    "ssoc_code": "71220",
+    "title": "Floor/Wall tiler",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "7123 Plasterers",
+    "slug": "floor-wall-tiler"
+  },
+  {
+    "ssoc_code": "71230",
+    "title": "Plasterer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "7124 Insulation Workers",
+    "slug": "plasterer"
+  },
+  {
+    "ssoc_code": "71241",
+    "title": "Refrigeration/Air-conditioning equipment insulator",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "60  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 7: Craftsmen and Related Trades Workers",
+    "slug": "refrigeration-air-conditioning-equipment-insulator"
+  },
+  {
+    "ssoc_code": "71249",
+    "title": "Insulation worker n.e.c.",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "7125 Glaziers",
+    "slug": "insulation-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "71250",
+    "title": "Glazier",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "7126 Plumbers, Pipe Fitters and Related Workers",
+    "slug": "glazier"
+  },
+  {
+    "ssoc_code": "71263",
+    "title": "Pipe/Drain layer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "7127 Air-Conditioning and Refrigeration Mechanics",
+    "slug": "pipe-drain-layer"
+  },
+  {
+    "ssoc_code": "71272",
+    "title": "Air-conditioning/Refrigeration plant installer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "7129 Building Finishers and Related Trades Workers Not Elsewhere Classified",
+    "slug": "air-conditioning-refrigeration-plant-installer"
+  },
+  {
+    "ssoc_code": "71290",
+    "title": "Building finisher and related trades worker n.e.c.",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "713 PAINTERS, BUILDING STRUCTURE CLEANERS AND RELATED WORKERS 7131 Building Painters and Related Workers",
+    "slug": "building-finisher-and-related-trades-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "71312",
+    "title": "Wall/Ceiling paperhanger",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "7132 Spray Painters, Varnishers and Related Painters",
+    "slug": "wall-ceiling-paperhanger"
+  },
+  {
+    "ssoc_code": "71329",
+    "title": "Spray painter/Varnisher and related painter n.e.c.",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "7133 Building Maintenance Workers, Building Structure Cleaners and Related Workers",
+    "slug": "spray-painter-varnisher-and-related-painter-n-e-c"
+  },
+  {
+    "ssoc_code": "71332",
+    "title": "Building structure cleaner and related worker",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "71",
+    "description": "72 METAL, MACHINERY AND RELATED TRADES WORKERS 720 SUPERVISORS AND GENERAL FOREMEN (METAL, MACHINERY AND RELATED TRADES) 7200 Supervisors and General Foremen (Metal, Machinery and Related Trades)",
+    "slug": "building-structure-cleaner-and-related-worker"
+  },
+  {
+    "ssoc_code": "72000",
+    "title": "Supervisor/General foreman (metal/machinery and related trades)",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  61 Major Group 7: Craftsmen and Related Trades Workers 721 SHEET AND STRUCTURAL METAL WORKERS, MOULDERS AND WELDERS AND RELATED TRADES WORKERS 7211 Metal Moulders and Coremakers",
+    "slug": "supervisor-general-foreman-metal-machinery-and-related-trades"
+  },
+  {
+    "ssoc_code": "72110",
+    "title": "Metal moulder/coremaker",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "7212 Welders and Flame Cutters",
+    "slug": "metal-moulder-coremaker"
+  },
+  {
+    "ssoc_code": "72120",
+    "title": "Welder/Flame cutter",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "7213 Sheet Metal Workers",
+    "slug": "welder-flame-cutter"
+  },
+  {
+    "ssoc_code": "72130",
+    "title": "Sheet metal worker",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "7214 Structural Metal Preparers and Erectors",
+    "slug": "sheet-metal-worker"
+  },
+  {
+    "ssoc_code": "72140",
+    "title": "Structural metal preparer/erector",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "7215 Riggers and Cable Splicers",
+    "slug": "structural-metal-preparer-erector"
+  },
+  {
+    "ssoc_code": "72150",
+    "title": "Rigger/Cable splicer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "722 BLACKSMITHS, TOOLMAKERS AND RELATED TRADES WORKERS 7221 Blacksmiths, Hammersmiths and Forging-Press Workers",
+    "slug": "rigger-cable-splicer"
+  },
+  {
+    "ssoc_code": "72210",
+    "title": "Blacksmith/Hammersmith/Forging-press worker",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "7222 Toolmakers and Related Workers",
+    "slug": "blacksmith-hammersmith-forging-press-worker"
+  },
+  {
+    "ssoc_code": "72229",
+    "title": "Toolmaker and related worker n.e.c.",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "7224 Metal Polishers, Wheel Grinders and Tool Sharpeners",
+    "slug": "toolmaker-and-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "72240",
+    "title": "Metal polisher/Wheel grinder/Tool sharpener",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "723 MACHINERY MECHANICS, FITTERS AND REPAIRERS 7231 Automotive Mechanics",
+    "slug": "metal-polisher-wheel-grinder-tool-sharpener"
+  },
+  {
+    "ssoc_code": "72310",
+    "title": "Automotive mechanic",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "7232 Aircraft Engine Mechanics and Repairers",
+    "slug": "automotive-mechanic"
+  },
+  {
+    "ssoc_code": "72320",
+    "title": "Aircraft engine mechanic/repairer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "7233 Rolling Stock Mechanics",
+    "slug": "aircraft-engine-mechanic-repairer"
+  },
+  {
+    "ssoc_code": "72330",
+    "title": "Rolling stock mechanic",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "7234 Bicycle and Related Repairers",
+    "slug": "rolling-stock-mechanic"
+  },
+  {
+    "ssoc_code": "72340",
+    "title": "Bicycle and related repairer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "7235 Marine Engine Mechanics and Repairers 62  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 7: Craftsmen and Related Trades Workers",
+    "slug": "bicycle-and-related-repairer"
+  },
+  {
+    "ssoc_code": "72350",
+    "title": "Marine engine mechanic/repairer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "7239 Machinery Mechanics, Fitters and Repairers Not Elsewhere Classified",
+    "slug": "marine-engine-mechanic-repairer"
+  },
+  {
+    "ssoc_code": "72390",
+    "title": "Machinery mechanic/fitter/repairer n.e.c.",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "72",
+    "description": "73 PRECISION, HANDICRAFT, PRINTING AND RELATED TRADES WORKERS 730 SUPERVISORS AND GENERAL FOREMEN (PRECISION, HANDICRAFT, PRINTING AND RELATED TRADES) 7300 Supervisors and General Foremen (Precision, Handicraft, Printing and Related Trades)",
+    "slug": "machinery-mechanic-fitter-repairer-n-e-c"
+  },
+  {
+    "ssoc_code": "73000",
+    "title": "Supervisor/General foreman (precision/handicraft/printing and related trades)",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "73",
+    "description": "731 HANDICRAFT AND PRECISION WORKERS 7311 Precision Instrument Makers and Repairers",
+    "slug": "supervisor-general-foreman-precision-handicraft-printing-and-related-trades"
+  },
+  {
+    "ssoc_code": "73119",
+    "title": "Precision instrument maker/repairer n.e.c.",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "73",
+    "description": "7312 Musical Instrument Makers, Repairers and Tuners",
+    "slug": "precision-instrument-maker-repairer-n-e-c"
+  },
+  {
+    "ssoc_code": "73120",
+    "title": "Musical instrument maker/repairer/tuner",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "73",
+    "description": "7313 Jewellery and Precious Metal Workers",
+    "slug": "musical-instrument-maker-repairer-tuner"
+  },
+  {
+    "ssoc_code": "73130",
+    "title": "Jewellery/Precious metal worker",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "73",
+    "description": "7314 Potters and Related Workers",
+    "slug": "jewellery-precious-metal-worker"
+  },
+  {
+    "ssoc_code": "73140",
+    "title": "Potter and related worker",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "73",
+    "description": "7315 Glass Makers, Cutters, Grinders and Finishers",
+    "slug": "potter-and-related-worker"
+  },
+  {
+    "ssoc_code": "73150",
+    "title": "Glass maker/cutter/grinder/finisher",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "73",
+    "description": "7316 Sign Writers, Decorative Painters, Engravers and Etchers",
+    "slug": "glass-maker-cutter-grinder-finisher"
+  },
+  {
+    "ssoc_code": "73160",
+    "title": "Sign writer/Decorative painter/Engraver/Etcher",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "73",
+    "description": "732 PRINTING TRADES WORKERS 7321 Pre-Press Trades Workers",
+    "slug": "sign-writer-decorative-painter-engraver-etcher"
+  },
+  {
+    "ssoc_code": "73210",
+    "title": "Pre-press trades worker",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "73",
+    "description": "7322 Printers",
+    "slug": "pre-press-trades-worker"
+  },
+  {
+    "ssoc_code": "73220",
+    "title": "Printer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "73",
+    "description": "74 ELECTRICAL AND ELECTRONIC TRADES WORKERS Singapore Department of Statistics Singapore Standard Occupational Classification 2024  63 Major Group 7: Craftsmen and Related Trades Workers 740 SUPERVISORS AND GENERAL FOREMEN (ELECTRICAL AND ELECTRONIC TRADES) 7400 Supervisors and General Foremen (Electrical and Electronic Trades)",
+    "slug": "printer"
+  },
+  {
+    "ssoc_code": "74002",
+    "title": "Supervisor/General foreman (electrical/electronic trades, excluding lift)",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "74",
+    "description": "741 ELECTRICAL EQUIPMENT RELATED TRADES WORKERS 7411 Electricians",
+    "slug": "supervisor-general-foreman-electrical-electronic-trades-excluding-lift"
+  },
+  {
+    "ssoc_code": "74110",
+    "title": "Electrician",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "74",
+    "description": "7412 Electrical Mechanics and Fitters",
+    "slug": "electrician"
+  },
+  {
+    "ssoc_code": "74123",
+    "title": "Electrical household appliance repairer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "74",
+    "description": "7413 Electrical Line Installers and Repairers",
+    "slug": "electrical-household-appliance-repairer"
+  },
+  {
+    "ssoc_code": "74133",
+    "title": "Underground electrical line installer/repairer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "74",
+    "description": "742 ELECTRONICS AND TELECOMMUNICATIONS RELATED TRADES WORKERS 7421 Electronics Mechanics and Servicers",
+    "slug": "underground-electrical-line-installer-repairer"
+  },
+  {
+    "ssoc_code": "74210",
+    "title": "Electronics fitter (excluding broadcasting and communication equipment)",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "74",
+    "description": "7422 Information and Communications Technology Installers and Servicers",
+    "slug": "electronics-fitter-excluding-broadcasting-and-communication-equipment"
+  },
+  {
+    "ssoc_code": "74221",
+    "title": "Consumer audio/video equipment/radar broadcasting/transmitting equipment",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "74",
+    "description": "fitter/mechanic",
+    "slug": "consumer-audio-video-equipment-radar-broadcasting-transmitting-equipment"
+  },
+  {
+    "ssoc_code": "74224",
+    "title": "Telecommunications installer/servicer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "74",
+    "description": "75 FOOD PROCESSING, WOODWORKING, GARMENT, LEATHER AND OTHER CRAFT AND RELATED TRADES WORKERS 750 SUPERVISORS AND GENERAL FOREMEN (FOOD PROCESSING, WOODWORKING, GARMENT, LEATHER AND RELATED TRADES) 7500 Supervisors and General Foremen (Food Processing, Woodworking, Garment, Leather and Related Trades)",
+    "slug": "telecommunications-installer-servicer"
+  },
+  {
+    "ssoc_code": "75000",
+    "title": "Supervisor/General foreman (food processing/woodworking/garment/leather",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "and related trades) 751 FOOD PROCESSING AND RELATED TRADES WORKERS 64  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 7: Craftsmen and Related Trades Workers 7511 Butchers, Fishmongers and Related Food Preparers",
+    "slug": "supervisor-general-foreman-food-processing-woodworking-garment-leather"
+  },
+  {
+    "ssoc_code": "75110",
+    "title": "Butcher/Fishmonger and related food preparer",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "7512 Bakers, Pastry and Confectionery Makers",
+    "slug": "butcher-fishmonger-and-related-food-preparer"
+  },
+  {
+    "ssoc_code": "75122",
+    "title": "Pastry/Confectionery maker",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "7515 Food and Beverage Tasters and Graders",
+    "slug": "pastry-confectionery-maker"
+  },
+  {
+    "ssoc_code": "75150",
+    "title": "Food and beverage taster/grader",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "7519 Food Processing and Related Trades Workers Not Elsewhere Classified",
+    "slug": "food-and-beverage-taster-grader"
+  },
+  {
+    "ssoc_code": "75190",
+    "title": "Food processing and related trades worker n.e.c.",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "752 WOOD TREATERS, CABINET MAKERS AND RELATED TRADES WORKERS 7521 Wood Treaters",
+    "slug": "food-processing-and-related-trades-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "75210",
+    "title": "Wood treater",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "7522 Cabinet Makers and Wood Related Trades Workers",
+    "slug": "wood-treater"
+  },
+  {
+    "ssoc_code": "75220",
+    "title": "Cabinet maker/Wood related trades worker",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "7529 Furniture Makers and Related Trades Workers Not Elsewhere Classified",
+    "slug": "cabinet-maker-wood-related-trades-worker"
+  },
+  {
+    "ssoc_code": "75290",
+    "title": "Furniture maker and related trades worker n.e.c.",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "753 GARMENT, LEATHER AND RELATED TRADES WORKERS 7531 Tailors and Dressmakers",
+    "slug": "furniture-maker-and-related-trades-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "75310",
+    "title": "Tailor/Dressmaker",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "7532 Garment and Related Pattern-Makers and Cutters",
+    "slug": "tailor-dressmaker"
+  },
+  {
+    "ssoc_code": "75320",
+    "title": "Garment and related pattern-maker/cutter",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "7534 Upholsterers and Related Workers",
+    "slug": "garment-and-related-pattern-maker-cutter"
+  },
+  {
+    "ssoc_code": "75340",
+    "title": "Upholsterer and related worker",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "7536 Shoemakers and Related Workers",
+    "slug": "upholsterer-and-related-worker"
+  },
+  {
+    "ssoc_code": "75369",
+    "title": "Shoemaker and related worker n.e.c.",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "7539 Garment, Leather and Related Trades Workers Not Elsewhere Classified",
+    "slug": "shoemaker-and-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "75390",
+    "title": "Garment/Leather and related trades worker n.e.c.",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "754 OTHER CRAFT AND RELATED WORKERS Singapore Department of Statistics Singapore Standard Occupational Classification 2024  65 Major Group 7: Craftsmen and Related Trades Workers 7541 Underwater Divers",
+    "slug": "garment-leather-and-related-trades-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "75410",
+    "title": "Underwater diver",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "7544 Fumigator and Related Pest and Weed Controllers",
+    "slug": "underwater-diver"
+  },
+  {
+    "ssoc_code": "75440",
+    "title": "Fumigator and related pest/weed controller",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "7549 Craft and Related Workers Not Elsewhere Classified",
+    "slug": "fumigator-and-related-pest-weed-controller"
+  },
+  {
+    "ssoc_code": "75490",
+    "title": "Craft and related worker n.e.c.",
+    "major_group": "7",
+    "major_group_label": "Craft and Related Trades Workers",
+    "sub_major": "75",
+    "description": "66  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 8: Plant and Machine Operators and Assemblers Major Group 8: Plant and Machine Operators and Assemblers 8 PLANT AND MACHINE OPERATORS AND ASSEMBLERS 81 STATIONARY PLANT AND MACHINE OPERATORS 810 STATIONARY PLANT AND MACHINE SUPERVISORS AND GENERAL FOREMEN 8100 Stationary Plant and Machine Supervisors and General Foremen",
+    "slug": "craft-and-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "81000",
+    "title": "Stationary plant/machine supervisor/general foreman",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "811 MINING AND MINERAL PROCESSING PLANT OPERATORS 8113 Well Drillers and Borers and Related Mining Workers",
+    "slug": "stationary-plant-machine-supervisor-general-foreman"
+  },
+  {
+    "ssoc_code": "81130",
+    "title": "Well driller/borer and related mining worker",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "8114 Cement and Related Mineral Products Machine Operators",
+    "slug": "well-driller-borer-and-related-mining-worker"
+  },
+  {
+    "ssoc_code": "81140",
+    "title": "Cement and related mineral products machine operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "812 METAL PROCESSING, FINISHING AND PRODUCTS PLANT OPERATORS 8121 Metal Melters, Casters and Rolling Mill Operators",
+    "slug": "cement-and-related-mineral-products-machine-operator"
+  },
+  {
+    "ssoc_code": "81210",
+    "title": "Metal melter/caster/rolling mill operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "8122 Metal Heat Treating Plant Operators",
+    "slug": "metal-melter-caster-rolling-mill-operator"
+  },
+  {
+    "ssoc_code": "81220",
+    "title": "Metal heat treating plant operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "8123 Metal Drawers and Extruders",
+    "slug": "metal-heat-treating-plant-operator"
+  },
+  {
+    "ssoc_code": "81230",
+    "title": "Metal drawer/extruder",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "8124 Metal Finishing, Plating and Coating Machine Operators",
+    "slug": "metal-drawer-extruder"
+  },
+  {
+    "ssoc_code": "81240",
+    "title": "Metal finishing/plating/coating machine operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "8125 Machine-Tool Setter-Operators",
+    "slug": "metal-finishing-plating-coating-machine-operator"
+  },
+  {
+    "ssoc_code": "81259",
+    "title": "Machine-tool setter-operator n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "813 CHEMICAL PROCESSING, CHEMICAL AND PHOTOGRAPHIC PRODUCTS PLANT AND MACHINE OPERATORS 8131 Chemical Processing and Products Plant and Machine Operators",
+    "slug": "machine-tool-setter-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "81312",
+    "title": "Pharmaceutical products machine operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "8132 Photographic Products Machine Operators",
+    "slug": "pharmaceutical-products-machine-operator"
+  },
+  {
+    "ssoc_code": "81320",
+    "title": "Photographic products machine operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  67 Major Group 8: Plant and Machine Operators and Assemblers 8139 Chemical Processing, Chemical and Photographic Products Plant and Machine Operators Not Elsewhere Classified",
+    "slug": "photographic-products-machine-operator"
+  },
+  {
+    "ssoc_code": "81390",
+    "title": "Chemical processing/chemical/photographic products plant/machine operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "n.e.c. 814 RUBBER, PLASTIC AND PAPER PRODUCTS MACHINE OPERATORS 8141 Rubber Products Machine Operators",
+    "slug": "chemical-processing-chemical-photographic-products-plant-machine-operator"
+  },
+  {
+    "ssoc_code": "81410",
+    "title": "Rubber products machine operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "8142 Plastic Products Machine Operators",
+    "slug": "rubber-products-machine-operator"
+  },
+  {
+    "ssoc_code": "81420",
+    "title": "Plastic products machine operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "8143 Paper and Paperboard Products Machine Operators",
+    "slug": "plastic-products-machine-operator"
+  },
+  {
+    "ssoc_code": "81430",
+    "title": "Paper/Paperboard products machine operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "815 TEXTILE, FUR AND LEATHER PRODUCTS MACHINE OPERATORS 8150 Textile, Fur and Leather Products Machine Operators",
+    "slug": "paper-paperboard-products-machine-operator"
+  },
+  {
+    "ssoc_code": "81509",
+    "title": "Textile/Fur/Leather products machine operator n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "816 FOOD AND RELATED PRODUCTS MACHINE OPERATORS 8160 Food and Related Products Machine Operators",
+    "slug": "textile-fur-leather-products-machine-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "81609",
+    "title": "Food and related products machine operator n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "817 WOOD PROCESSING AND PAPERMAKING PLANT OPERATORS 8170 Wood Processing and Papermaking Plant Operators",
+    "slug": "food-and-related-products-machine-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "81700",
+    "title": "Wood processing/Papermaking plant operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "818 OTHER STATIONARY PLANT AND MACHINE OPERATORS 8181 Glass and Ceramics Plant Operators",
+    "slug": "wood-processing-papermaking-plant-operator"
+  },
+  {
+    "ssoc_code": "81810",
+    "title": "Glass/Ceramics plant operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "8182 Steam Engine and Boiler Operators",
+    "slug": "glass-ceramics-plant-operator"
+  },
+  {
+    "ssoc_code": "81821",
+    "title": "Boiler fireman",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "68  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 8: Plant and Machine Operators and Assemblers",
+    "slug": "boiler-fireman"
+  },
+  {
+    "ssoc_code": "81829",
+    "title": "Steam engine/boiler operator n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "8183 Packing, Bottling and Labelling Machine Operators",
+    "slug": "steam-engine-boiler-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "81830",
+    "title": "Packing/Bottling/Labelling machine operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "8184 Printing, Binding and Related Machine Operators",
+    "slug": "packing-bottling-labelling-machine-operator"
+  },
+  {
+    "ssoc_code": "81849",
+    "title": "Printing/Binding and related machine operator n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "8189 Stationary Plant and Machine Operators Not Elsewhere Classified",
+    "slug": "printing-binding-and-related-machine-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "81890",
+    "title": "Stationary plant/machine operator n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "81",
+    "description": "82 ASSEMBLERS AND QUALITY CHECKERS 820 SUPERVISORS AND GENERAL FOREMEN OF ASSEMBLERS AND QUALITY CHECKERS 8200 Supervisors and General Foremen of Assemblers and Quality Checkers",
+    "slug": "stationary-plant-machine-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "82000",
+    "title": "Supervisor/General foreman of assemblers/quality checkers",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "82",
+    "description": "821 ASSEMBLERS, QUALITY CHECKERS AND TESTERS 8211 Mechanical Machinery Assemblers",
+    "slug": "supervisor-general-foreman-of-assemblers-quality-checkers"
+  },
+  {
+    "ssoc_code": "82110",
+    "title": "Mechanical equipment/component assembler",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "82",
+    "description": "8212 Electrical and Electronic Equipment Assemblers",
+    "slug": "mechanical-equipment-component-assembler"
+  },
+  {
+    "ssoc_code": "82123",
+    "title": "Battery assembler",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "82",
+    "description": "8213 Quality Checkers and Testers",
+    "slug": "battery-assembler"
+  },
+  {
+    "ssoc_code": "82139",
+    "title": "Quality checker/tester n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "82",
+    "description": "8219 Assemblers Not Elsewhere Classified",
+    "slug": "quality-checker-tester-n-e-c"
+  },
+  {
+    "ssoc_code": "82190",
+    "title": "Assembler n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "82",
+    "description": "83 DRIVERS AND MOBILE MACHINERY OPERATORS 830 MOBILE MACHINERY SUPERVISORS AND GENERAL FOREMEN 8300 Mobile Machinery Supervisors and General Foremen Singapore Department of Statistics Singapore Standard Occupational Classification 2024  69 Major Group 8: Plant and Machine Operators and Assemblers",
+    "slug": "assembler-n-e-c"
+  },
+  {
+    "ssoc_code": "83000",
+    "title": "Mobile machinery supervisor/general foreman",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "83",
+    "description": "831 TRAIN OPERATORS AND RELATED WORKERS 8311 Train Operators",
+    "slug": "mobile-machinery-supervisor-general-foreman"
+  },
+  {
+    "ssoc_code": "83110",
+    "title": "Train operator",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "83",
+    "description": "8312 Railway Brakers and Related Workers",
+    "slug": "train-operator"
+  },
+  {
+    "ssoc_code": "83120",
+    "title": "Railway braker and related worker",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "83",
+    "description": "832 CAR AND LIGHT GOODS VEHICLE DRIVERS 8321 Motorcycle Delivery Workers",
+    "slug": "railway-braker-and-related-worker"
+  },
+  {
+    "ssoc_code": "83212",
+    "title": "Delivery worker using motorised personal mobility aids/devices",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "83",
+    "description": "8322 Car, Taxi, Van and Light Goods Vehicle Drivers",
+    "slug": "delivery-worker-using-motorised-personal-mobility-aids-devices"
+  },
+  {
+    "ssoc_code": "83229",
+    "title": "Car/Taxi/Van/Light goods vehicle driver n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "83",
+    "description": "833 HEAVY TRUCK AND BUS DRIVERS 8331 Bus and Tram Drivers",
+    "slug": "car-taxi-van-light-goods-vehicle-driver-n-e-c"
+  },
+  {
+    "ssoc_code": "83312",
+    "title": "Tram driver",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "83",
+    "description": "8332 Heavy Truck and Lorry Drivers",
+    "slug": "tram-driver"
+  },
+  {
+    "ssoc_code": "83329",
+    "title": "Heavy truck/Lorry driver n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "83",
+    "description": "834 MOBILE MACHINERY OPERATORS 8342 Earth Moving and Related Machinery Operators 70  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 8: Plant and Machine Operators and Assemblers",
+    "slug": "heavy-truck-lorry-driver-n-e-c"
+  },
+  {
+    "ssoc_code": "83429",
+    "title": "Earth moving and related machinery operator n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "83",
+    "description": "8343 Crane, Hoist and Related Equipment Operators",
+    "slug": "earth-moving-and-related-machinery-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "83439",
+    "title": "Crane/Hoist and related equipment operator n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "83",
+    "description": "8344 Lifting Truck Operators",
+    "slug": "crane-hoist-and-related-equipment-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "83449",
+    "title": "Lifting truck operator n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "83",
+    "description": "8349 Mobile Machinery Operators Not Elsewhere Classified",
+    "slug": "lifting-truck-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "83499",
+    "title": "Other mobile machinery operator n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "83",
+    "description": "835 SHIPS’ DECK CREW AND RELATED WORKERS 8350 Ships’ Deck Crew and Related Workers",
+    "slug": "other-mobile-machinery-operator-n-e-c"
+  },
+  {
+    "ssoc_code": "83509",
+    "title": "Ship’s deck crew and related worker n.e.c.",
+    "major_group": "8",
+    "major_group_label": "Plant and Machine Operators and Assemblers",
+    "sub_major": "83",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  71 Major Group 9: Cleaners, Labourers and Related Workers Major Group 9: Cleaners, Labourers and Related Workers 9 CLEANERS, LABOURERS AND RELATED WORKERS 91 CLEANERS AND RELATED WORKERS 910 CLEANING SUPERVISORS 9100 Cleaning Supervisors",
+    "slug": "ship-s-deck-crew-and-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "91000",
+    "title": "Cleaning supervisor",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "91",
+    "description": "911 CLEANERS AND HELPERS IN HOTELS, OFFICES AND OTHER ESTABLISHMENTS 9112 Cleaners and Helpers in Hotels and Related Establishments",
+    "slug": "cleaning-supervisor"
+  },
+  {
+    "ssoc_code": "91129",
+    "title": "Cleaner/Helper in hotel and related establishment n.e.c.",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "91",
+    "description": "9113 Cleaners in Offices, Commercial and Industrial Establishments",
+    "slug": "cleaner-helper-in-hotel-and-related-establishment-n-e-c"
+  },
+  {
+    "ssoc_code": "91133",
+    "title": "Office/Commercial/Industrial establishment multi-skilled cleaner cum machine",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "91",
+    "description": "operator 9115 Cleaners in Food and Beverage Establishments",
+    "slug": "office-commercial-industrial-establishment-multi-skilled-cleaner-cum-machine"
+  },
+  {
+    "ssoc_code": "91154",
+    "title": "Food and beverage establishment multi-skilled cleaner cum machine operator",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "91",
+    "description": "9116 Cleaners in Residential and Open Areas",
+    "slug": "food-and-beverage-establishment-multi-skilled-cleaner-cum-machine-operator"
+  },
+  {
+    "ssoc_code": "91162",
+    "title": "Residential/Open areas multi-skilled cleaner cum machine operator",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "91",
+    "description": "912 VEHICLE, WINDOW, LAUNDRY AND OTHER HAND CLEANING WORKERS 9121 Hand Launderers and Pressers",
+    "slug": "residential-open-areas-multi-skilled-cleaner-cum-machine-operator"
+  },
+  {
+    "ssoc_code": "91210",
+    "title": "Hand launderer/presser (non-household)",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "91",
+    "description": "9122 Vehicle Cleaners",
+    "slug": "hand-launderer-presser-non-household"
+  },
+  {
+    "ssoc_code": "91220",
+    "title": "Motor vehicle cleaner/polisher",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "91",
+    "description": "9123 Window Cleaners",
+    "slug": "motor-vehicle-cleaner-polisher"
+  },
+  {
+    "ssoc_code": "91230",
+    "title": "Window cleaner",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "91",
+    "description": "72  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 9: Cleaners, Labourers and Related Workers 9129 Cleaning Workers Not Elsewhere Classified",
+    "slug": "window-cleaner"
+  },
+  {
+    "ssoc_code": "91299",
+    "title": "Other cleaning worker n.e.c.",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "91",
+    "description": "913 DOMESTIC HELPERS AND CLEANERS 9130 Domestic Helpers and Cleaners",
+    "slug": "other-cleaning-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "91300",
+    "title": "Domestic helper/cleaner",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "91",
+    "description": "92 AGRICULTURAL, FISHERY AND RELATED LABOURERS 921 AGRICULTURAL, FISHERY AND RELATED LABOURERS 9214 Park, Garden and Landscape Maintenance Workers",
+    "slug": "domestic-helper-cleaner"
+  },
+  {
+    "ssoc_code": "92149",
+    "title": "Park/Garden/Landscape maintenance worker n.e.c.",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "92",
+    "description": "9219 Agricultural, Fishery and Related Labourers Not Elsewhere Classified",
+    "slug": "park-garden-landscape-maintenance-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "92190",
+    "title": "Agricultural/Fishery and related labourer n.e.c.",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "92",
+    "description": "93 LABOURERS AND RELATED WORKERS 931 CONSTRUCTION LABOURERS AND RELATED WORKERS 9310 Civil Engineering and Building Construction Labourers",
+    "slug": "agricultural-fishery-and-related-labourer-n-e-c"
+  },
+  {
+    "ssoc_code": "93100",
+    "title": "Civil engineering/Building construction labourer",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "93",
+    "description": "932 MANUFACTURING LABOURERS AND RELATED WORKERS 9320 Manufacturing Labourers and Related Workers",
+    "slug": "civil-engineering-building-construction-labourer"
+  },
+  {
+    "ssoc_code": "93209",
+    "title": "Manufacturing labourer and related worker n.e.c.",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "93",
+    "description": "933 TRANSPORT AND STORAGE LABOURERS 9331 Hand and Pedal Vehicle Drivers",
+    "slug": "manufacturing-labourer-and-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "93310",
+    "title": "Hand/Pedal vehicle driver",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "93",
+    "description": "9333 Material and Freight Handling Workers",
+    "slug": "hand-pedal-vehicle-driver"
+  },
+  {
+    "ssoc_code": "93332",
+    "title": "Railway/Road vehicle loader",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "93",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  73 Major Group 9: Cleaners, Labourers and Related Workers",
+    "slug": "railway-road-vehicle-loader"
+  },
+  {
+    "ssoc_code": "93339",
+    "title": "Material/Freight handling worker n.e.c.",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "93",
+    "description": "94 FOOD PREPARATION AND KITCHEN ASSISTANTS 941 FOOD PREPARATION AND KITCHEN ASSISTANTS 9410 Food Preparation and Kitchen Assistants",
+    "slug": "material-freight-handling-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "94104",
+    "title": "Tea server/steward (excluding bartender, barista and food/drink stall assistant)",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "94",
+    "description": "96 WASTE COLLECTION, RECYCLING AND MATERIAL RECOVERY WORKERS AND OTHER ELEMENTARY WORKERS 960 WASTE AND RECYCLABLES COLLECTION SUPERVISORS 9600 Waste Collection, Recycling and Material Recovery Supervisors",
+    "slug": "tea-server-steward-excluding-bartender-barista-and-food-drink-stall-assistant"
+  },
+  {
+    "ssoc_code": "96000",
+    "title": "Waste collection/recycling/material recovery supervisor",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "96",
+    "description": "961 WASTE COLLECTION, RECYCLING AND MATERIAL RECOVERY WORKERS 9610 Waste Collection, Recycling and Material Recovery Workers",
+    "slug": "waste-collection-recycling-material-recovery-supervisor"
+  },
+  {
+    "ssoc_code": "96109",
+    "title": "Waste collection/recycling/material recovery worker n.e.c.",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "96",
+    "description": "962 PORTERS, ATTENDANTS AND RELATED WORKERS 9621 Porters and Related Workers",
+    "slug": "waste-collection-recycling-material-recovery-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "96213",
+    "title": "Porter (excluding hotel)",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "96",
+    "description": "9625 Attendants",
+    "slug": "porter-excluding-hotel"
+  },
+  {
+    "ssoc_code": "96252",
+    "title": "Laboratory attendant",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "96",
+    "description": "74  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Major Group 9: Cleaners, Labourers and Related Workers",
+    "slug": "laboratory-attendant"
+  },
+  {
+    "ssoc_code": "96259",
+    "title": "Attendant n.e.c.",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "96",
+    "description": "9626 Building Caretaker and Related Workers",
+    "slug": "attendant-n-e-c"
+  },
+  {
+    "ssoc_code": "96269",
+    "title": "Building caretaker and related worker n.e.c.",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "96",
+    "description": "9627 Concierge and Related Workers",
+    "slug": "building-caretaker-and-related-worker-n-e-c"
+  },
+  {
+    "ssoc_code": "96272",
+    "title": "Concierge (hotel)",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "96",
+    "description": "9629 Elementary Workers Not Elsewhere Classified",
+    "slug": "concierge-hotel"
+  },
+  {
+    "ssoc_code": "96299",
+    "title": "Other elementary worker n.e.c.",
+    "major_group": "9",
+    "major_group_label": "Elementary Occupations",
+    "sub_major": "96",
+    "description": "Singapore Department of Statistics Singapore Standard Occupational Classification 2024  75 Major Group X: Workers Not Elsewhere Classified Major Group X: Workers Not Elsewhere Classified X WORKERS NOT ELSEWHERE CLASSIFIED X1000 Worker reporting unidentifiable or inadequately described occupation X2000 Worker not reporting any occupation X3000 Singapore armed forces personnel X4000 Foreign armed forces personnel X5000 Foreign diplomatic personnel 76  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 Acknowledgements Singapore Department of Statistics Mr Tang Hsiu Chin (Director, Policy Planning Division) Ms Wong Yuet Mei (Deputy Director, Policy Planning Division) Ms Heng Xin Yu (Assistant Director, Policy Planning Division) Ms Feng Huimin (Assistant Director, Policy Planning Division) Ms Estee Amanda Tan (Manager, Policy Planning Division) Ms Chang Hwee Hwang (Senior Assistant Director, Economic Accounts Division) Mr Roger Seen (Senior Assistant Director, Input-Output Tables Division) Ms Ellie Tay (Statistician, Household, Income and Population Division) Mr Norman See (Statistician, Household Surveys and Expenditure Division) Mr Eric Ng (Assistant Manager, Business Statistics Division) Cyber Security Agency Mr Paul Wong (Assistant Director, Ecosystem Development Division) Economic Development Board Ms Cheng Wai San (Director, Research and Statistics Unit) Ms Stephanie Mak (Assistant Vice President, Research and Statistics Unit) Ms Tan Cui-Yun (Assistant Vice President, Strategy Division, Environmental Sustainability) Infocomm Media Development Authority Mr Kenneth Yeow (Deputy Director, Research and Statistics Unit) Mr Heng Shi Jie (Manager, Research & Statistics Unit) Ms Tan Yan Ting (Deputy Director, Media Capability Development) Mr Jeffrey Lim (Manager, Media Capability Development) Mr Yu Danquan (Assistant Director, Planning Strategy and Data) Mr Muhammad Taha Jailani (Assistant Manager, Planning Strategy and Data) Ministry of Education Ms Glenda Quek (Lead Research Specialist, Management Information / Data Strategy and Analytics) Ministry of Health Mr Foo Jie Jing (Assistant Director, Health Analytics Division) Ministry of Manpower Mr Daniel Sim Tze Wei (Deputy Director, Manpower Research and Statistics Department) Mr Alfred Koh (Senior Methodologist, Manpower Research and Statistics Department) Ms Ho Jie Jia (Statistical Specialist, Manpower Research and Statistics Department) Singapore Department of Statistics Singapore Standard Occupational Classification 2024  77 Monetary Authority of Singapore Mr Xie Kaiwei (Lead Economist, Economic Surveillance & Forecasting Department) Ms Cheong Wei Si (Economist, Economic Surveillance & Forecasting Department) Public Service Division Ms Dawn Lai (Assistant Director (Data Governance), Strategic Planning and Research Division) Ms Lin Zhihui (Assistant Director (Data Strategy), Strategic Planning and Research Division) Skills Future Singapore Ms Tan Han Ping (Principal Manager, Data Strategy and Governance Division) Mr Derrick Low Heng Jie (Principal Manager, Skills Strategy and Planning Team Strategy) Mr Glenn Koh (Principal Manager, Jobs-Skills Insights Division) Mr Colin Chai (Jobs-Skills Analyst, Jobs-Skills Insights Division) Mr Jeremy Liu (Jobs-Skills Analyst, Jobs-Skills Insights Division) Mr Darryl Leong (Jobs-Skills Analyst, Jobs-Skills Insights Division) Workforce Singapore Ms Priscilla Li (Principal Data Analyst, Data Strategy and Analytics Division) Mr Tham Zhi Cong (Data Analyst, Data Strategy and Analytics Division) In consultation with: Building and Construction Authority Ministry of Home Affairs Council for Estate Agencies Ministry of Law Central Provident Fund Board Ministry of Social and Family Development Early Childhood Development Agency Ministry of Trade and Industry Energy Market Authority National Environment Agency Enterprise Singapore National Parks Board Intellectual Property Office of Singapore Prime Minister’s Office Inland Revenue Authority of Singapore Singapore Accountancy Commission Land Transport Authority Singapore Food Agency Maritime and Port Authority of Singapore Singapore Tourism Board Ministry of Communications and Information 78  Singapore Department of Statistics Singapore Standard Occupational Classification 2024 SINGAPORE DEPARTMENT OF STATISTICS COMMUNICATIONS & INFORMATION SERVICES Singapore Department of Statistics (DOS) offers official statistics, data insights, visualisations and statistical resources through user-friendly platforms. SingStat Website Visit this convenient gateway to access latest data and statistical information. Data across the six major themes of Economy , Industry, Trade & Investment, Population, Households and Society, covering & Prices some 200topics such as Gross Domestic Product, Consumer Price Index, Retail Sales and Food & Beverage Services Indices, Producer Price Indices, Business Expectations, Business Receipts Index, Trade in Services, Direct Investment, Population Indicators, Household Income, Household Expenditure, Deaths and Life Expectancy, Births and Fertility, Marriages and Divorces, and more. Publications Information Papers which highlight conceptual and methodological changes and improvements in official statistics. Occasional Papers which present statistical trends and observations on important social and economic issues to stimulate discussion and research. eBook of Statistics which consolidates latest information and resources on key economic and socio-demographic domains. Singapore in Figures which allows exploration of key economic and socio-demographic statistics through interactive dashboards. Statistics Singapore Newsletter which features articles on latest key statistical activities, recent survey findings and methodological improvements. Visualisations such as infographics and interactive dashboards with latest data, and videos to explain data and statistical concepts. Data for Businesses with data tools to empower data-driven business decisions, giving firms insights on their customers, industries and business performance. Advance Release Calendar providing dates of upcoming data releases in the next six months. SingStat Table Builder Access for free over 2,200 data tables across various economic and socio-demographic domains from 70 public sector agencies. Watch the video to find out how you can easily access and customise data tables. SingStat Mobile App (cid:31)(cid:30)(cid:29)(cid:28)(cid:27)(cid:30)(cid:26)(cid:25) Download the app for fast and convenient access to commonly referenced statistics your mobile devices. Over 260 charts are available across via 38 data categories for easy data trends. visualisation of SingStat Express Subscribe to receive alerts on the latest press releases, occasional/information papers and newsletters. Find us on social media! For statistical enquiries, you may reach us at: @SingStat email: info@singstat.gov.sg or submit the Data Request Form phone: 1800-323 8118* (Local users) or (65) 6332 7738 (Overseas users) @singstat_dos @SingStatvideo * Calls from mobile telephone lines to 1800 local toll-free number may be subject to mobile airtime charges as imposed by the relevant mobile service provider. @sg-department-of-statistics",
+    "slug": "other-elementary-worker-n-e-c"
+  }
+]
