@@ -17,7 +17,8 @@ A Singapore version of [Andrej Karpathy's US Job Market Visualizer](https://karp
 
 1. **SSOC 2024** (Singapore Standard Occupational Classification) — occupation definitions and task descriptions from Ministry of Manpower
 2. **MOM Detailed Employment Data 2024** — resident employment by 2-digit occupation codes (41 sub-major groups)
-3. **OpenAI GPT-4o** — AI exposure scoring calibrated for Singapore context
+3. **MOM Occupational Wage Survey 2024** — median monthly wages for 201 occupations (46.5% coverage)
+4. **OpenAI GPT-4o** — AI exposure scoring calibrated for Singapore context
 
 ## Setup
 
@@ -98,9 +99,9 @@ Open http://localhost:8000 in your browser.
 
 ## Known Limitations
 
-⚠️ **Employment counts are estimates**: While based on MOM's 41 sub-major groups (2-digit SSOC), distribution to 432 detailed occupations (5-digit) uses statistical modeling with random variation. Not actual occupation-level counts.
+⚠️ **Employment counts are estimates**: While based on MOM's 41 sub-major groups (2-digit SSOC), distribution to 432 detailed occupations (5-digit) uses statistical modeling with wage-weighted or random variation. Not actual occupation-level counts.
 
-⚠️ **Wage data unavailable**: Could not extract wage data from MOM Excel files due to format inconsistencies. All occupations show pay: null.
+⚠️ **Partial wage coverage**: 201 of 432 occupations (46.5%) have wage data. Remaining occupations show pay: null in visualization.
 
 ⚠️ **No projections**: Unlike the US BLS, Singapore does not publish 10-year occupation growth projections, so we cannot include an "Outlook" layer.
 
@@ -157,8 +158,9 @@ See [deploy-instructions.md](deploy-instructions.md) for detailed steps.
 **Current Statistics (March 2026)**:
 - 432 occupations scored
 - 2.31M total workforce
-- 1.50M PME workers (65.2%)
-- Average AI exposure: 5.55/10 (job-weighted)
+- 1.51M PME workers (65.3%)
+- 201 occupations with wage data (46.5%)
+- Average AI exposure: 5.71/10 (job-weighted)
 - PME AI exposure: 5.80/10
 
 ## License
