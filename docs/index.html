@@ -354,11 +354,11 @@
 
             <div class="charts">
                 <div class="chart">
-                    <div class="chart-title">Exposure by Major Group</div>
+                    <div class="chart-title">Exposure by Major Group <span style="font-size: 0.75em; color: #888; font-weight: normal;">(bars scaled to show differences)</span></div>
                     <div id="chart-group"></div>
                 </div>
                 <div class="chart">
-                    <div class="chart-title">Exposure by Pay Band (SGD)</div>
+                    <div class="chart-title">Exposure by Pay Band (SGD) <span style="font-size: 0.75em; color: #888; font-weight: normal;">(bars scaled to show differences)</span></div>
                     <div id="chart-pay"></div>
                 </div>
             </div>
@@ -458,7 +458,7 @@
                 value: data.sum / data.weight
             })).sort((a, b) => b.value - a.value);
 
-            renderBarchart('chart-group', groupData, 10);
+            renderBarchart('chart-group', groupData);
 
             // Exposure by pay band
             const byPay = {
@@ -488,18 +488,48 @@
                     value: data.sum / data.weight
                 }));
 
-            renderBarchart('chart-pay', payData, 10);
+            renderBarchart('chart-pay', payData);
         }
 
-        function renderBarchart(containerId, data, maxValue) {
+        function renderBarchart(containerId, data) {
             const container = document.getElementById(containerId);
-            container.innerHTML = data.map(item => `
-                <div class="bar">
-                    <div class="bar-label">${item.label}</div>
-                    <div class="bar-fill" style="width: ${(item.value / maxValue * 100)}%"></div>
-                    <div class="bar-value">${item.value.toFixed(1)}</div>
-                </div>
-            `).join('');
+            
+            if (data.length === 0) {
+                container.innerHTML = '<div style="color: #888; padding: 10px;">No data available</div>';
+                return;
+            }
+            
+            // Calculate actual data range
+            const values = data.map(d => d.value);
+            const minValue = Math.min(...values);
+            const maxValue = Math.max(...values);
+            const range = maxValue - minValue;
+            
+            // If all values are the same, show full bars
+            if (range < 0.01) {
+                container.innerHTML = data.map(item => `
+                    <div class="bar">
+                        <div class="bar-label">${item.label}</div>
+                        <div class="bar-fill" style="width: 100%"></div>
+                        <div class="bar-value">${item.value.toFixed(1)}</div>
+                    </div>
+                `).join('');
+                return;
+            }
+            
+            // Scale bars from 25% to 100% to show differences clearly
+            container.innerHTML = data.map(item => {
+                const normalized = (item.value - minValue) / range;
+                const barWidth = 25 + (normalized * 75); // 25% to 100%
+                
+                return `
+                    <div class="bar">
+                        <div class="bar-label">${item.label}</div>
+                        <div class="bar-fill" style="width: ${barWidth}%"></div>
+                        <div class="bar-value">${item.value.toFixed(1)}</div>
+                    </div>
+                `;
+            }).join('');
         }
 
         function buildTreemap() {
