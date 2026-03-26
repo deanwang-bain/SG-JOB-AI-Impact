@@ -351,22 +351,22 @@
                     <div class="stat-value" id="stat-pme">-</div>
                 </div>
             </div>
-
-            <div class="charts">
-                <div class="chart">
-                    <div class="chart-title">Exposure by Major Group <span style="font-size: 0.75em; color: #888; font-weight: normal;">(bars scaled to show differences)</span></div>
-                    <div id="chart-group"></div>
-                </div>
-                <div class="chart">
-                    <div class="chart-title">Exposure by Pay Band (SGD) <span style="font-size: 0.75em; color: #888; font-weight: normal;">(bars scaled to show differences)</span></div>
-                    <div id="chart-pay"></div>
-                </div>
-            </div>
         </div>
 
         <div id="canvas-container">
             <canvas id="treemap" width="1400" height="800"></canvas>
             <div id="tooltip"></div>
+        </div>
+
+        <div class="charts" style="margin-top: 30px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 30px;">
+            <div class="chart">
+                <div class="chart-title" style="font-size: 1.1em; font-weight: 600; margin-bottom: 15px; color: #ffffff;">Exposure by Major Group <span style="font-size: 0.75em; color: #888; font-weight: normal;">(bars scaled to show differences)</span></div>
+                <div id="chart-group"></div>
+            </div>
+            <div class="chart">
+                <div class="chart-title" style="font-size: 1.1em; font-weight: 600; margin-bottom: 15px; color: #ffffff;">Exposure by Pay Band (SGD) <span style="font-size: 0.75em; color: #888; font-weight: normal;">(bars scaled to show differences)</span></div>
+                <div id="chart-pay"></div>
+            </div>
         </div>
 
         <div class="legend" id="legend"></div>
@@ -494,7 +494,7 @@
         function renderBarchart(containerId, data) {
             const container = document.getElementById(containerId);
             
-            if (data.length === 0) {
+            if (!data || data.length === 0) {
                 container.innerHTML = '<div style="color: #888; padding: 10px;">No data available</div>';
                 return;
             }
@@ -506,32 +506,25 @@
             const range = maxValue - minValue;
             
             // Debug: log values to console
-            console.log(`${containerId}: min=${minValue.toFixed(2)}, max=${maxValue.toFixed(2)}, range=${range.toFixed(2)}`);
+            console.log(`${containerId}: values=${values.map(v => v.toFixed(2)).join(', ')}, min=${minValue.toFixed(2)}, max=${maxValue.toFixed(2)}, range=${range.toFixed(2)}`);
             
-            // If all values are nearly identical, use a smaller scaling range
-            if (range < 0.001) {
-                // All truly identical - show all bars at 80%
-                container.innerHTML = data.map(item => `
-                    <div class="bar">
-                        <div class="bar-label">${item.label}</div>
-                        <div class="bar-fill" style="width: 80%"></div>
-                        <div class="bar-value">${item.value.toFixed(1)}</div>
-                    </div>
-                `).join('');
-                return;
-            }
-            
-            // Scale bars from 20% to 100% to show differences clearly
-            // Use a wider range to make even small differences visible
+            // Scale bars to show differences - use 0% to 100% with actual proportions
             container.innerHTML = data.map(item => {
-                const normalized = (item.value - minValue) / range;
-                const barWidth = 20 + (normalized * 80); // 20% to 100%
+                let barWidth;
+                if (range < 0.001) {
+                    // All values nearly identical - show all at 80%
+                    barWidth = 80;
+                } else {
+                    // Scale from 20% (min) to 100% (max)
+                    const normalized = (item.value - minValue) / range;
+                    barWidth = 20 + (normalized * 80);
+                }
                 
                 return `
                     <div class="bar">
                         <div class="bar-label">${item.label}</div>
                         <div class="bar-fill" style="width: ${barWidth.toFixed(1)}%"></div>
-                        <div class="bar-value">${item.value.toFixed(1)}</div>
+                        <div class="bar-value">${item.value.toFixed(2)}</div>
                     </div>
                 `;
             }).join('');
