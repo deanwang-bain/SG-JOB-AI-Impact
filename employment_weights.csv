@@ -1,434 +1,434 @@
 ssoc_code,title,major_group,major_group_label,estimated_employment,data_quality
-11110,Legislator,1,Managers,7086,two_digit_distributed_varied
-11122,Senior statutory board official,1,Managers,2908,two_digit_distributed_varied
-11140,Senior official of political party organisation,1,Managers,23796,two_digit_distributed_varied
-11150,Senior official of employers’/workers’ and related economic-interest organisation,1,Managers,4473,two_digit_distributed_varied
-11160,Senior official of humanitarian and other special-interest organisation,1,Managers,1637,two_digit_distributed_varied
-11203,Chief operating officer/General manager,1,Managers,10400,two_digit_distributed_varied
-12113,Audit manager,1,Managers,1001,two_digit_distributed_varied
-12123,Training manager,1,Managers,32716,two_digit_distributed_varied
-12133,Risk management manager,1,Managers,2753,two_digit_distributed_varied
-12199,Other business services/administration manager n.e.c.,1,Managers,16794,two_digit_distributed_varied
-12215,Online sales channel manager,1,Managers,24716,two_digit_distributed_varied
-12222,Marketing manager,1,Managers,42166,two_digit_distributed_varied
-12230,Research and development manager,1,Managers,65128,two_digit_distributed_varied
-12242,Call centre manager,1,Managers,2326,two_digit_distributed_varied
-13100,Production manager in agriculture/fisheries,1,Managers,27686,two_digit_distributed_varied
-13210,Manufacturing manager,1,Managers,27252,two_digit_distributed_varied
-13230,Construction manager,1,Managers,7277,two_digit_distributed_varied
-13245,Port/Shipping operations manager,1,Managers,2128,two_digit_distributed_varied
-13299,Other production/operations manager n.e.c.,1,Managers,1516,two_digit_distributed_varied
-13301,Chief information officer/Chief technology officer/Chief information security,1,Managers,1500,two_digit_distributed_varied
-13302,Application development manager Alternative Title,1,Managers,7265,two_digit_distributed_varied
-13306,ICT product design manager,1,Managers,3338,two_digit_distributed_varied
-13410,Preschool education/Early intervention centre manager,1,Managers,10206,two_digit_distributed_varied
-13420,Health services manager,1,Managers,384,two_digit_distributed_varied
-13430,Aged care services manager,1,Managers,1532,two_digit_distributed_varied
-13442,Volunteer manager,1,Managers,6787,two_digit_distributed_varied
-13459,Education/Training institution manager n.e.c.,1,Managers,2786,two_digit_distributed_varied
-13463,Financial risk manager,1,Managers,14496,two_digit_distributed_varied
-13499,Other professional/financial/community/social services manager n.e.c.,1,Managers,7947,two_digit_distributed_varied
-14110,Hotel operations/Lodging services manager,1,Managers,13756,two_digit_distributed_varied
-14123,Food and beverage operations manager,1,Managers,1495,two_digit_distributed_varied
-14202,Wholesale trade manager,1,Managers,3373,two_digit_distributed_varied
-14310,Sports centre manager,1,Managers,15622,two_digit_distributed_varied
-14329,Recreation centre manager n.e.c.,1,Managers,2180,two_digit_distributed_varied
-14330,Arts/Cultural centre manager,1,Managers,329,two_digit_distributed_varied
-14399,Other services manager n.e.c.,1,Managers,8045,two_digit_distributed_varied
-21110,Physicist/Astronomer,2,Professionals,900,two_digit_distributed_varied
-21120,Meteorologist,2,Professionals,8630,two_digit_distributed_varied
-21130,Chemist,2,Professionals,1010,two_digit_distributed_varied
-21149,Geologist/Geophysicist and related physical science professional n.e.c.,2,Professionals,935,two_digit_distributed_varied
-21213,Actuary,2,Professionals,489,two_digit_distributed_varied
-21222,Data scientist,2,Professionals,10998,two_digit_distributed_varied
-21239,Other statistical/mathematical/actuarial professional n.e.c.,2,Professionals,3853,two_digit_distributed_varied
-21319,Biologist/Botanist/Zoologist and related professional n.e.c.,2,Professionals,1219,two_digit_distributed_varied
-21329,Farming/Forestry/Fishery adviser n.e.c.,2,Professionals,5014,two_digit_distributed_varied
-21339,Environmental protection and related professional n.e.c.,2,Professionals,12436,two_digit_distributed_varied
-21349,Pharmacologist and related professional n.e.c.,2,Professionals,13048,two_digit_distributed_varied
-21415,Process engineer,2,Professionals,2526,two_digit_distributed_varied
-21422,Building construction engineer,2,Professionals,732,two_digit_distributed_varied
-21430,Environmental engineer,2,Professionals,7208,two_digit_distributed_varied
-21444,Port equipment engineer,2,Professionals,3436,two_digit_distributed_varied
-21454,Food/Drink technologist,2,Professionals,3147,two_digit_distributed_varied
-21460,Mining engineer/Metallurgist and related professional,2,Professionals,5191,two_digit_distributed_varied
-21475,Rolling stock engineer,2,Professionals,1574,two_digit_distributed_varied
-21499,Other engineering professional n.e.c.,2,Professionals,2954,two_digit_distributed_varied
-21513,Lift engineer,2,Professionals,1406,two_digit_distributed_varied
-21526,Embedded systems engineer,2,Professionals,1712,two_digit_distributed_varied
-21532,Telecommunications engineer,2,Professionals,1887,two_digit_distributed_varied
-21610,Building architect,2,Professionals,351,two_digit_distributed_varied
-21622,Landscape designer,2,Professionals,754,two_digit_distributed_varied
-21632,Product/Industrial designer,2,Professionals,1953,two_digit_distributed_varied
-21649,Urban and related planner n.e.c.,2,Professionals,31107,two_digit_distributed_varied
-21659,Surveyor/Cartographer n.e.c.,2,Professionals,2963,two_digit_distributed_varied
-21669,Graphic/Multimedia designer/artist n.e.c.,2,Professionals,8409,two_digit_distributed_varied
-21670,Service designer,2,Professionals,895,two_digit_distributed_varied
-21714,Marine superintendent,2,Professionals,2864,two_digit_distributed_varied
-21729,Aircraft pilot and related professional n.e.c.,2,Professionals,16299,two_digit_distributed_varied
-22110,General practitioner/physician,2,Professionals,2697,two_digit_distributed_varied
-22128,Psychiatrist,2,Professionals,9839,two_digit_distributed_varied
-22129,Specialist medical practitioner (medical) n.e.c.,2,Professionals,1149,two_digit_distributed_varied
-22139,Specialist medical practitioner (surgical) n.e.c.,2,Professionals,2923,two_digit_distributed_varied
-22149,Specialist medical practitioner (other specialisation) n.e.c.,2,Professionals,1570,two_digit_distributed_varied
-22200,Registered nurse and related nursing professional (excluding enrolled nurse),2,Professionals,4074,two_digit_distributed_varied
-22302,Traditional Chinese medicine acupuncturist,2,Professionals,8640,two_digit_distributed_varied
-22500,Veterinarian,2,Professionals,3518,two_digit_distributed_varied
-22612,Specialised dentist,2,Professionals,2942,two_digit_distributed_varied
-22629,Pharmacist n.e.c.,2,Professionals,389,two_digit_distributed_varied
-22639,Environmental and occupational health and hygiene professional n.e.c.,2,Professionals,3111,two_digit_distributed_varied
-22640,Physiotherapist,2,Professionals,5491,two_digit_distributed_varied
-22652,Nutritionist,2,Professionals,1330,two_digit_distributed_varied
-22662,Speech therapist,2,Professionals,5156,two_digit_distributed_varied
-22670,Optometrist,2,Professionals,408,two_digit_distributed_varied
-22680,Occupational therapist,2,Professionals,3801,two_digit_distributed_varied
-22699,Other health professional n.e.c.,2,Professionals,1263,two_digit_distributed_varied
-23109,University/Polytechnic/Higher education teacher n.e.c.,2,Professionals,11172,two_digit_distributed_varied
-23200,Junior college/Pre-university teacher,2,Professionals,3293,two_digit_distributed_varied
-23300,Technical/Vocational/Commercial education institute teacher/trainer,2,Professionals,17760,two_digit_distributed_varied
-23400,Secondary school teacher,2,Professionals,10199,two_digit_distributed_varied
-23500,Primary school teacher,2,Professionals,4103,two_digit_distributed_varied
-23619,Education methods specialist n.e.c.,2,Professionals,12546,two_digit_distributed_varied
-23629,Special education teacher n.e.c.,2,Professionals,716,two_digit_distributed_varied
-23690,Teaching professional n.e.c.,2,Professionals,2511,two_digit_distributed_varied
-24113,Tax accountant,2,Professionals,9686,two_digit_distributed_varied
-24122,Business valuer,2,Professionals,1272,two_digit_distributed_varied
-24139,Financial analyst and related professional n.e.c.,2,Professionals,1152,two_digit_distributed_varied
-24149,Securities/Finance dealer n.e.c.,2,Professionals,1914,two_digit_distributed_varied
-24159,Securities/Finance broker n.e.c.,2,Professionals,4250,two_digit_distributed_varied
-24160,Insurance underwriter,2,Professionals,59340,two_digit_distributed_varied
-24214,Sustainability project development/management professional,2,Professionals,14842,two_digit_distributed_varied
-24222,Risk analyst (non-financial),2,Professionals,956,two_digit_distributed_varied
-24234,Industrial relations officer,2,Professionals,1786,two_digit_distributed_varied
-24240,Training/Staff development professional,2,Professionals,10260,two_digit_distributed_varied
-24252,Intellectual property examiner,2,Professionals,8510,two_digit_distributed_varied
-24299,Other administration professional n.e.c.,2,Professionals,4556,two_digit_distributed_varied
-24315,Revenue specialist,2,Professionals,4703,two_digit_distributed_varied
-24320,Public relations/Corporate communications professional,2,Professionals,8569,two_digit_distributed_varied
-24339,Specialised goods sales professional n.e.c.,2,Professionals,17698,two_digit_distributed_varied
-24354,Environmental commodities trader,2,Professionals,5030,two_digit_distributed_varied
-24354,Environmental commodities trader,2,Professionals,36440,two_digit_distributed_varied
-24362,Ship broker,2,Professionals,30436,two_digit_distributed_varied
-25114,ICT product manager,2,Professionals,1946,two_digit_distributed_varied
-25125,DevOps engineer,2,Professionals,12624,two_digit_distributed_varied
-25141,Applications/Systems programmer,2,Professionals,2512,two_digit_distributed_varied
-25143,Artificial intelligence/Machine learning engineer,2,Professionals,2686,two_digit_distributed_varied
-25152,ICT auditor,2,Professionals,10681,two_digit_distributed_varied
-25190,Software and applications developer/analyst n.e.c.,2,Professionals,8665,two_digit_distributed_varied
-25213,Data engineer,2,Professionals,198,two_digit_distributed_varied
-25220,Network/Server/Applications/Computer systems administrator,2,Professionals,3968,two_digit_distributed_varied
-25239,Computer network/infrastructure/platform professional n.e.c.,2,Professionals,9807,two_digit_distributed_varied
-25249,Cybersecurity professional n.e.c.,2,Professionals,329,two_digit_distributed_varied
-25291,Data centre engineer,2,Professionals,16933,two_digit_distributed_varied
-25299,Other database/network/infrastructure/cybersecurity professional n.e.c.,2,Professionals,7251,two_digit_distributed_varied
-26119,Lawyer n.e.c.,2,Professionals,4628,two_digit_distributed_varied
-26120,Judge,2,Professionals,304,two_digit_distributed_varied
-26199,Other legal professional n.e.c.,2,Professionals,2513,two_digit_distributed_varied
-26213,Conservator,2,Professionals,1980,two_digit_distributed_varied
-26229,Librarian and related information professional n.e.c.,2,Professionals,724,two_digit_distributed_varied
-26310,Economist,2,Professionals,224,two_digit_distributed_varied
-26322,Social science researcher,2,Professionals,1679,two_digit_distributed_varied
-26339,Historian/Political scientist and related social science professional n.e.c.,2,Professionals,5743,two_digit_distributed_varied
-26369,Religious professional n.e.c.,2,Professionals,937,two_digit_distributed_varied
-26419,Author and related writer n.e.c.,2,Professionals,2097,two_digit_distributed_varied
-26422,Editor (news/periodicals),2,Professionals,102,two_digit_distributed_varied
-26432,Interpreter,2,Professionals,2417,two_digit_distributed_varied
-26519,Visual artist n.e.c.,2,Professionals,652,two_digit_distributed_varied
-26529,Musician/Composer/Singer n.e.c.,2,Professionals,952,two_digit_distributed_varied
-26530,Dancer/Choreographer,2,Professionals,337,two_digit_distributed_varied
-26541,Producer (stage/film/television/commercial/video/radio),2,Professionals,10941,two_digit_distributed_varied
-26549,Film/Stage and related director/producer n.e.c.,2,Professionals,511,two_digit_distributed_varied
-26550,Actor,2,Professionals,898,two_digit_distributed_varied
-26569,Radio/Television presenter and related professional n.e.c.,2,Professionals,2296,two_digit_distributed_varied
-26619,Psychologist n.e.c.,2,Professionals,1088,two_digit_distributed_varied
-26629,Social work professional n.e.c.,2,Professionals,724,two_digit_distributed_varied
-26639,Counselling professional n.e.c.,2,Professionals,2637,two_digit_distributed_varied
-26640,Job coach (disability),2,Professionals,217,two_digit_distributed_varied
-31009,Assistant engineer n.e.c.,3,Technicians and Associate Professionals,1437,two_digit_distributed_varied
-31119,Chemical/Physical science technician n.e.c.,3,Technicians and Associate Professionals,13266,two_digit_distributed_varied
-31129,Civil engineering technician n.e.c.,3,Technicians and Associate Professionals,1507,two_digit_distributed_varied
-31132,Lift technician,3,Technicians and Associate Professionals,350,two_digit_distributed_varied
-31144,Instrumentation technician,3,Technicians and Associate Professionals,592,two_digit_distributed_varied
-31153,Machining/Tooling technician,3,Technicians and Associate Professionals,120,two_digit_distributed_varied
-31161,"Chemical engineering technician (excluding petroleum, natural gas and",3,Technicians and Associate Professionals,938,two_digit_distributed_varied
-31164,Food science technician,3,Technicians and Associate Professionals,9006,two_digit_distributed_varied
-31175,Quality assurance technician,3,Technicians and Associate Professionals,233,two_digit_distributed_varied
-31189,Draughtsperson n.e.c.,3,Technicians and Associate Professionals,990,two_digit_distributed_varied
-31214,Rolling stock engineering technician,3,Technicians and Associate Professionals,606,two_digit_distributed_varied
-31299,Other physical/engineering science technician n.e.c.,3,Technicians and Associate Professionals,48631,two_digit_distributed_varied
-31310,Power generating plant operator,3,Technicians and Associate Professionals,7625,two_digit_distributed_varied
-31329,Incinerator/Water treatment plant and related machine operator n.e.c.,3,Technicians and Associate Professionals,2369,two_digit_distributed_varied
-31332,Pharmaceutical products machine controller,3,Technicians and Associate Professionals,4290,two_digit_distributed_varied
-31342,Cylinder filler/tester (compressed/liquefied gases),3,Technicians and Associate Professionals,888,two_digit_distributed_varied
-31350,Metal production process controller,3,Technicians and Associate Professionals,227,two_digit_distributed_varied
-31399,Other process control technician n.e.c.,3,Technicians and Associate Professionals,2987,two_digit_distributed_varied
-31419,Life science technician (excluding medical) n.e.c.,3,Technicians and Associate Professionals,1365,two_digit_distributed_varied
-31423,Farming technician (animal production),3,Technicians and Associate Professionals,282,two_digit_distributed_varied
-31510,Marine engineering officer,3,Technicians and Associate Professionals,477,two_digit_distributed_varied
-31529,Ship’s deck officer/pilot n.e.c.,3,Technicians and Associate Professionals,1048,two_digit_distributed_varied
-31540,Air traffic controller,3,Technicians and Associate Professionals,156,two_digit_distributed_varied
-31560,Sea traffic controller,3,Technicians and Associate Professionals,1500,two_digit_distributed_varied
-31579,Transport operations supervisor n.e.c.,3,Technicians and Associate Professionals,628,two_digit_distributed_varied
-31595,Load control officer (aircraft),3,Technicians and Associate Professionals,765,two_digit_distributed_varied
-31599,Other transport controller and related worker n.e.c.,3,Technicians and Associate Professionals,169,two_digit_distributed_varied
-31603,Parks officer,3,Technicians and Associate Professionals,1681,two_digit_distributed_varied
-31719,Building/Fire inspector n.e.c.,3,Technicians and Associate Professionals,276,two_digit_distributed_varied
-31720,Safety inspector (vehicles/processes/products),3,Technicians and Associate Professionals,492,two_digit_distributed_varied
-32119,Medical imaging/therapeutic equipment technician n.e.c.,3,Technicians and Associate Professionals,708,two_digit_distributed_varied
-32120,Medical/Pathology laboratory technician,3,Technicians and Associate Professionals,267,two_digit_distributed_varied
-32130,Pharmacy technician,3,Technicians and Associate Professionals,486,two_digit_distributed_varied
-32143,Dental technician,3,Technicians and Associate Professionals,195,two_digit_distributed_varied
-32200,Enrolled/Assistant nurse (excluding registered nurse),3,Technicians and Associate Professionals,440,two_digit_distributed_varied
-32300,Traditional and complementary medicine associate professional,3,Technicians and Associate Professionals,516,two_digit_distributed_varied
-32400,Veterinary technician/assistant,3,Technicians and Associate Professionals,722,two_digit_distributed_varied
-32510,Oral health therapist,3,Technicians and Associate Professionals,338,two_digit_distributed_varied
-32530,Community health worker,3,Technicians and Associate Professionals,138,two_digit_distributed_varied
-32540,Optician,3,Technicians and Associate Professionals,125,two_digit_distributed_varied
-32559,Physiotherapy technician and related associate professional n.e.c.,3,Technicians and Associate Professionals,231,two_digit_distributed_varied
-32572,Occupational health and safety inspector,3,Technicians and Associate Professionals,1325,two_digit_distributed_varied
-32599,Other health associate professional n.e.c.,3,Technicians and Associate Professionals,12208,two_digit_distributed_varied
-33120,Credit/Loans officer,3,Technicians and Associate Professionals,3086,two_digit_distributed_varied
-33132,Audit associate professional,3,Technicians and Associate Professionals,22094,two_digit_distributed_varied
-33133,Tax associate professional,3,Technicians and Associate Professionals,19174,two_digit_distributed_varied
-33153,Intangible asset valuer,3,Technicians and Associate Professionals,524,two_digit_distributed_varied
-33160,Financial services back office administrator,3,Technicians and Associate Professionals,6365,two_digit_distributed_varied
-33219,Insurance representative and related associate professional n.e.c.,3,Technicians and Associate Professionals,31311,two_digit_distributed_varied
-33229,Commercial/Marketing sales executive n.e.c.,3,Technicians and Associate Professionals,943,two_digit_distributed_varied
-33232,Purchasing agent,3,Technicians and Associate Professionals,9572,two_digit_distributed_varied
-33299,Other sales and related associate professional n.e.c.,3,Technicians and Associate Professionals,1620,two_digit_distributed_varied
-33313,Freight inspector,3,Technicians and Associate Professionals,25680,two_digit_distributed_varied
-33320,Exhibition/Conference/Event planner,3,Technicians and Associate Professionals,8684,two_digit_distributed_varied
-33330,Employment agent/Labour contractor,3,Technicians and Associate Professionals,15412,two_digit_distributed_varied
-33340,Real estate agent,3,Technicians and Associate Professionals,32690,two_digit_distributed_varied
-33399,Other business services agent n.e.c.,3,Technicians and Associate Professionals,13115,two_digit_distributed_varied
-33462,Maintenance planner,3,Technicians and Associate Professionals,4255,two_digit_distributed_varied
-33499,Other administrative and related associate professional n.e.c.,3,Technicians and Associate Professionals,5480,two_digit_distributed_varied
-33510,Customs/Immigration officer,3,Technicians and Associate Professionals,27437,two_digit_distributed_varied
-33552,Auxiliary police officer supervisor,3,Technicians and Associate Professionals,11455,two_digit_distributed_varied
-33592,Government social benefits official,3,Technicians and Associate Professionals,456,two_digit_distributed_varied
-33599,Other government associate professional n.e.c.,3,Technicians and Associate Professionals,6262,two_digit_distributed_varied
-33609,Transport equipment project executive n.e.c.,3,Technicians and Associate Professionals,3285,two_digit_distributed_varied
-34110,Legal associate professional,3,Technicians and Associate Professionals,113,two_digit_distributed_varied
-34123,Volunteer executive,3,Technicians and Associate Professionals,7965,two_digit_distributed_varied
-34210,Athlete/Sportsperson,3,Technicians and Associate Professionals,2339,two_digit_distributed_varied
-34229,Sports coach/instructor/official and related associate professional n.e.c.,3,Technicians and Associate Professionals,2180,two_digit_distributed_varied
-34310,Photographer,3,Technicians and Associate Professionals,6814,two_digit_distributed_varied
-34321,Interior designer,3,Technicians and Associate Professionals,150,two_digit_distributed_varied
-34323,Visual merchandiser,3,Technicians and Associate Professionals,181,two_digit_distributed_varied
-34332,Gallery/Museum and related technician,3,Technicians and Associate Professionals,4994,two_digit_distributed_varied
-34343,Pastry chef,3,Technicians and Associate Professionals,2557,two_digit_distributed_varied
-34399,Other artistic/cultural associate professional n.e.c.,3,Technicians and Associate Professionals,8535,two_digit_distributed_varied
-34409,Creative/Performing arts associate professional n.e.c.,3,Technicians and Associate Professionals,2572,two_digit_distributed_varied
-35110,Computer systems operator,3,Technicians and Associate Professionals,985,two_digit_distributed_varied
-35129,Computer technician n.e.c.,3,Technicians and Associate Professionals,5107,two_digit_distributed_varied
-35140,Website administrator/Webmaster,3,Technicians and Associate Professionals,3976,two_digit_distributed_varied
-35219,Broadcasting technician/Audio-visual operator n.e.c.,3,Technicians and Associate Professionals,3230,two_digit_distributed_varied
-35220,Telecommunications engineering technician,3,Technicians and Associate Professionals,6160,two_digit_distributed_varied
-35239,Telecommunications equipment operator n.e.c.,3,Technicians and Associate Professionals,5126,two_digit_distributed_varied
-35290,Telecommunications/Broadcasting technician/Audio-visual operator n.e.c.,3,Technicians and Associate Professionals,1615,two_digit_distributed_varied
-36100,Preschool education teacher,3,Technicians and Associate Professionals,7286,two_digit_distributed_varied
-36209,Extracurriculum instructor n.e.c.,3,Technicians and Associate Professionals,20392,two_digit_distributed_varied
-36910,Private tutor (academic),3,Technicians and Associate Professionals,6538,two_digit_distributed_varied
-36999,Other teaching associate professional n.e.c.,3,Technicians and Associate Professionals,13284,two_digit_distributed_varied
-39910,Non-ordained religious associate professional,3,Technicians and Associate Professionals,1200,two_digit_distributed_varied
-40000,Office supervisor,4,Clerical Support Workers,3900,two_digit_distributed_varied
-41109,General office clerk n.e.c.,4,Clerical Support Workers,5838,two_digit_distributed_varied
-41202,Verbatim reporter,4,Clerical Support Workers,14533,two_digit_distributed_varied
-41310,Typist/Word processing operator,4,Clerical Support Workers,21004,two_digit_distributed_varied
-41320,Data entry clerk,4,Clerical Support Workers,58525,two_digit_distributed_varied
-42119,Bank teller and related counter clerk n.e.c.,4,Clerical Support Workers,14489,two_digit_distributed_varied
-42132,Moneylender,4,Clerical Support Workers,2137,two_digit_distributed_varied
-42149,Bill collector and related worker n.e.c.,4,Clerical Support Workers,13606,two_digit_distributed_varied
-42210,Travel consultant/reservation executive,4,Clerical Support Workers,7231,two_digit_distributed_varied
-42230,Telephone operator,4,Clerical Support Workers,224,two_digit_distributed_varied
-42249,Receptionist/Customer service/information clerk n.e.c.,4,Clerical Support Workers,2880,two_digit_distributed_varied
-42290,Client information clerk n.e.c.,4,Clerical Support Workers,9533,two_digit_distributed_varied
-43119,Accounting/Bookkeeping clerk n.e.c.,4,Clerical Support Workers,12477,two_digit_distributed_varied
-43129,Finance/Insurance clerk n.e.c.,4,Clerical Support Workers,6268,two_digit_distributed_varied
-43142,Enumerator/Market research interviewer,4,Clerical Support Workers,2478,two_digit_distributed_varied
-43159,Computer operations clerk n.e.c.,4,Clerical Support Workers,10904,two_digit_distributed_varied
-43219,Stock clerk n.e.c.,4,Clerical Support Workers,2687,two_digit_distributed_varied
-43229,Production clerk n.e.c.,4,Clerical Support Workers,8522,two_digit_distributed_varied
-43239,Transport clerk n.e.c.,4,Clerical Support Workers,7564,two_digit_distributed_varied
-44110,Library clerk,4,Clerical Support Workers,21,two_digit_distributed_varied
-44121,Postal service supervisor,4,Clerical Support Workers,291,two_digit_distributed_varied
-44129,Mail carrier/sorting worker n.e.c.,4,Clerical Support Workers,657,two_digit_distributed_varied
-44170,Legal clerk,4,Clerical Support Workers,96,two_digit_distributed_varied
-44199,Other clerical support worker n.e.c.,4,Clerical Support Workers,3735,two_digit_distributed_varied
-51112,Cabin attendant/steward,5,Service and Sales Workers,606,two_digit_distributed_varied
-51129,Transport service inspector and related worker n.e.c.,5,Service and Sales Workers,5377,two_digit_distributed_varied
-51132,Attractions guide,5,Service and Sales Workers,995,two_digit_distributed_varied
-51202,Senior cook,5,Service and Sales Workers,5966,two_digit_distributed_varied
-51313,Sommelier,5,Service and Sales Workers,10143,two_digit_distributed_varied
-51322,Barista,5,Service and Sales Workers,1614,two_digit_distributed_varied
-51330,Bar/Lounge hostess,5,Service and Sales Workers,309,two_digit_distributed_varied
-51390,Waiter/Bartender n.e.c.,5,Service and Sales Workers,1005,two_digit_distributed_varied
-51419,Hairdresser/Barber and related worker n.e.c.,5,Service and Sales Workers,8336,two_digit_distributed_varied
-51423,Makeup artist (stage/film/studio),5,Service and Sales Workers,2659,two_digit_distributed_varied
-51499,Other wellness related worker n.e.c.,5,Service and Sales Workers,1375,two_digit_distributed_varied
-51509,Housekeeper and related worker n.e.c.,5,Service and Sales Workers,4660,two_digit_distributed_varied
-51702,Bookmaker/Croupier/Casino dealer and related gaming worker,5,Service and Sales Workers,2647,two_digit_distributed_varied
-51910,Astrologer/Fortune-teller and related worker,5,Service and Sales Workers,1606,two_digit_distributed_varied
-51932,Embalmer,5,Service and Sales Workers,1023,two_digit_distributed_varied
-51949,Pet groomer/Animal keeper/trainer n.e.c.,5,Service and Sales Workers,19189,two_digit_distributed_varied
-51950,Driving instructor/tester,5,Service and Sales Workers,521,two_digit_distributed_varied
-51999,Other personal services worker n.e.c.,5,Service and Sales Workers,6871,two_digit_distributed_varied
-52110,Hawker/Stall holder (excluding prepared food and drinks),5,Service and Sales Workers,5638,two_digit_distributed_varied
-52120,Hawker/Stall holder (prepared food/drinks),5,Service and Sales Workers,4301,two_digit_distributed_varied
-52130,Newsvendor,5,Service and Sales Workers,7498,two_digit_distributed_varied
-52190,Stall sales worker n.e.c.,5,Service and Sales Workers,2357,two_digit_distributed_varied
-52202,Shop sales assistant,5,Service and Sales Workers,26430,two_digit_distributed_varied
-52303,Office cashier,5,Service and Sales Workers,12644,two_digit_distributed_varied
-52309,Cashier/Ticket clerk n.e.c.,5,Service and Sales Workers,26209,two_digit_distributed_varied
-52410,Fashion and related model,5,Service and Sales Workers,4233,two_digit_distributed_varied
-52422,Salesperson (door-to-door),5,Service and Sales Workers,8670,two_digit_distributed_varied
-52440,Telemarketer,5,Service and Sales Workers,1349,two_digit_distributed_varied
-52499,Other sales worker n.e.c.,5,Service and Sales Workers,7270,two_digit_distributed_varied
-53114,Child/Youth residential care assistant,5,Service and Sales Workers,2241,two_digit_distributed_varied
-53120,Teacher aide,5,Service and Sales Workers,9581,two_digit_distributed_varied
-53209,Healthcare assistant and related personal care worker n.e.c.,5,Service and Sales Workers,6078,two_digit_distributed_varied
-54110,Fire-fighting/Rescue officer,5,Service and Sales Workers,287,two_digit_distributed_varied
-54123,Auxiliary police officer,5,Service and Sales Workers,5729,two_digit_distributed_varied
-54130,Prison officer,5,Service and Sales Workers,28232,two_digit_distributed_varied
-54144,Private security officer,5,Service and Sales Workers,538,two_digit_distributed_varied
-54150,Lifeguard,5,Service and Sales Workers,337,two_digit_distributed_varied
-54199,Other protective services and related worker n.e.c.,5,Service and Sales Workers,5276,two_digit_distributed_varied
+11110,Legislator,1,Managers,267,two_digit_distributed_varied
+11122,Senior statutory board official,1,Managers,110,two_digit_distributed_varied
+11140,Senior official of political party organisation,1,Managers,897,two_digit_distributed_varied
+11150,Senior official of employers’/workers’ and related economic-interest organisation,1,Managers,169,two_digit_distributed_varied
+11160,Senior official of humanitarian and other special-interest organisation,1,Managers,62,two_digit_distributed_varied
+11203,Chief operating officer/General manager,1,Managers,48796,two_digit_distributed_wage_weighted
+12113,Audit manager,1,Managers,29110,two_digit_distributed_wage_weighted
+12123,Training manager,1,Managers,26489,two_digit_distributed_wage_weighted
+12133,Risk management manager,1,Managers,26216,two_digit_distributed_wage_weighted
+12199,Other business services/administration manager n.e.c.,1,Managers,198,two_digit_distributed_varied
+12215,Online sales channel manager,1,Managers,28454,two_digit_distributed_wage_weighted
+12222,Marketing manager,1,Managers,25395,two_digit_distributed_wage_weighted
+12230,Research and development manager,1,Managers,25090,two_digit_distributed_wage_weighted
+12242,Call centre manager,1,Managers,26648,two_digit_distributed_wage_weighted
+13100,Production manager in agriculture/fisheries,1,Managers,15401,two_digit_distributed_wage_weighted
+13210,Manufacturing manager,1,Managers,14121,two_digit_distributed_wage_weighted
+13230,Construction manager,1,Managers,11820,two_digit_distributed_wage_weighted
+13245,Port/Shipping operations manager,1,Managers,15881,two_digit_distributed_wage_weighted
+13299,Other production/operations manager n.e.c.,1,Managers,13,two_digit_distributed_varied
+13301,Chief information officer/Chief technology officer/Chief information security,1,Managers,21480,two_digit_distributed_wage_weighted
+13302,Application development manager Alternative Title,1,Managers,430,two_digit_distributed_varied
+13306,ICT product design manager,1,Managers,36,two_digit_distributed_varied
+13410,Preschool education/Early intervention centre manager,1,Managers,221,two_digit_distributed_varied
+13420,Health services manager,1,Managers,11866,two_digit_distributed_wage_weighted
+13430,Aged care services manager,1,Managers,14483,two_digit_distributed_wage_weighted
+13442,Volunteer manager,1,Managers,325,two_digit_distributed_varied
+13459,Education/Training institution manager n.e.c.,1,Managers,554,two_digit_distributed_varied
+13463,Financial risk manager,1,Managers,14615,two_digit_distributed_wage_weighted
+13499,Other professional/financial/community/social services manager n.e.c.,1,Managers,855,two_digit_distributed_varied
+14110,Hotel operations/Lodging services manager,1,Managers,9132,two_digit_distributed_wage_weighted
+14123,Food and beverage operations manager,1,Managers,12369,two_digit_distributed_wage_weighted
+14202,Wholesale trade manager,1,Managers,14284,two_digit_distributed_wage_weighted
+14310,Sports centre manager,1,Managers,8455,two_digit_distributed_wage_weighted
+14329,Recreation centre manager n.e.c.,1,Managers,26,two_digit_distributed_varied
+14330,Arts/Cultural centre manager,1,Managers,269,two_digit_distributed_varied
+14399,Other services manager n.e.c.,1,Managers,264,two_digit_distributed_varied
+21110,Physicist/Astronomer,2,Professionals,55,two_digit_distributed_varied
+21120,Meteorologist,2,Professionals,9074,two_digit_distributed_wage_weighted
+21130,Chemist,2,Professionals,7709,two_digit_distributed_wage_weighted
+21149,Geologist/Geophysicist and related physical science professional n.e.c.,2,Professionals,16,two_digit_distributed_varied
+21213,Actuary,2,Professionals,8841,two_digit_distributed_wage_weighted
+21222,Data scientist,2,Professionals,9634,two_digit_distributed_wage_weighted
+21239,Other statistical/mathematical/actuarial professional n.e.c.,2,Professionals,11,two_digit_distributed_varied
+21319,Biologist/Botanist/Zoologist and related professional n.e.c.,2,Professionals,11,two_digit_distributed_varied
+21329,Farming/Forestry/Fishery adviser n.e.c.,2,Professionals,55,two_digit_distributed_varied
+21339,Environmental protection and related professional n.e.c.,2,Professionals,25,two_digit_distributed_varied
+21349,Pharmacologist and related professional n.e.c.,2,Professionals,77,two_digit_distributed_varied
+21415,Process engineer,2,Professionals,8611,two_digit_distributed_wage_weighted
+21422,Building construction engineer,2,Professionals,7993,two_digit_distributed_wage_weighted
+21430,Environmental engineer,2,Professionals,8454,two_digit_distributed_wage_weighted
+21444,Port equipment engineer,2,Professionals,7632,two_digit_distributed_wage_weighted
+21454,Food/Drink technologist,2,Professionals,8820,two_digit_distributed_wage_weighted
+21460,Mining engineer/Metallurgist and related professional,2,Professionals,3,two_digit_distributed_varied
+21475,Rolling stock engineer,2,Professionals,8885,two_digit_distributed_wage_weighted
+21499,Other engineering professional n.e.c.,2,Professionals,12,two_digit_distributed_varied
+21513,Lift engineer,2,Professionals,7471,two_digit_distributed_wage_weighted
+21526,Embedded systems engineer,2,Professionals,51,two_digit_distributed_varied
+21532,Telecommunications engineer,2,Professionals,8527,two_digit_distributed_wage_weighted
+21610,Building architect,2,Professionals,8222,two_digit_distributed_wage_weighted
+21622,Landscape designer,2,Professionals,7834,two_digit_distributed_wage_weighted
+21632,Product/Industrial designer,2,Professionals,7690,two_digit_distributed_wage_weighted
+21649,Urban and related planner n.e.c.,2,Professionals,21,two_digit_distributed_varied
+21659,Surveyor/Cartographer n.e.c.,2,Professionals,109,two_digit_distributed_varied
+21669,Graphic/Multimedia designer/artist n.e.c.,2,Professionals,60,two_digit_distributed_varied
+21670,Service designer,2,Professionals,8866,two_digit_distributed_wage_weighted
+21714,Marine superintendent,2,Professionals,11943,two_digit_distributed_wage_weighted
+21729,Aircraft pilot and related professional n.e.c.,2,Professionals,9189,two_digit_distributed_wage_weighted
+22110,General practitioner/physician,2,Professionals,5828,two_digit_distributed_wage_weighted
+22128,Psychiatrist,2,Professionals,6108,two_digit_distributed_wage_weighted
+22129,Specialist medical practitioner (medical) n.e.c.,2,Professionals,111,two_digit_distributed_varied
+22139,Specialist medical practitioner (surgical) n.e.c.,2,Professionals,12,two_digit_distributed_varied
+22149,Specialist medical practitioner (other specialisation) n.e.c.,2,Professionals,27,two_digit_distributed_varied
+22200,Registered nurse and related nursing professional (excluding enrolled nurse),2,Professionals,5176,two_digit_distributed_wage_weighted
+22302,Traditional Chinese medicine acupuncturist,2,Professionals,5004,two_digit_distributed_wage_weighted
+22500,Veterinarian,2,Professionals,5672,two_digit_distributed_wage_weighted
+22612,Specialised dentist,2,Professionals,126,two_digit_distributed_varied
+22629,Pharmacist n.e.c.,2,Professionals,5196,two_digit_distributed_wage_weighted
+22639,Environmental and occupational health and hygiene professional n.e.c.,2,Professionals,18,two_digit_distributed_varied
+22640,Physiotherapist,2,Professionals,5176,two_digit_distributed_wage_weighted
+22652,Nutritionist,2,Professionals,4334,two_digit_distributed_wage_weighted
+22662,Speech therapist,2,Professionals,5275,two_digit_distributed_wage_weighted
+22670,Optometrist,2,Professionals,5066,two_digit_distributed_wage_weighted
+22680,Occupational therapist,2,Professionals,5169,two_digit_distributed_wage_weighted
+22699,Other health professional n.e.c.,2,Professionals,3,two_digit_distributed_varied
+23109,University/Polytechnic/Higher education teacher n.e.c.,2,Professionals,382,two_digit_distributed_varied
+23200,Junior college/Pre-university teacher,2,Professionals,32,two_digit_distributed_varied
+23300,Technical/Vocational/Commercial education institute teacher/trainer,2,Professionals,28825,two_digit_distributed_wage_weighted
+23400,Secondary school teacher,2,Professionals,303,two_digit_distributed_varied
+23500,Primary school teacher,2,Professionals,35,two_digit_distributed_varied
+23619,Education methods specialist n.e.c.,2,Professionals,33,two_digit_distributed_varied
+23629,Special education teacher n.e.c.,2,Professionals,17,two_digit_distributed_varied
+23690,Teaching professional n.e.c.,2,Professionals,32673,two_digit_distributed_wage_weighted
+24113,Tax accountant,2,Professionals,16599,two_digit_distributed_wage_weighted
+24122,Business valuer,2,Professionals,15747,two_digit_distributed_wage_weighted
+24139,Financial analyst and related professional n.e.c.,2,Professionals,194,two_digit_distributed_varied
+24149,Securities/Finance dealer n.e.c.,2,Professionals,17109,two_digit_distributed_wage_weighted
+24159,Securities/Finance broker n.e.c.,2,Professionals,23229,two_digit_distributed_wage_weighted
+24160,Insurance underwriter,2,Professionals,15921,two_digit_distributed_wage_weighted
+24214,Sustainability project development/management professional,2,Professionals,16138,two_digit_distributed_wage_weighted
+24222,Risk analyst (non-financial),2,Professionals,68,two_digit_distributed_varied
+24234,Industrial relations officer,2,Professionals,15427,two_digit_distributed_wage_weighted
+24240,Training/Staff development professional,2,Professionals,15130,two_digit_distributed_wage_weighted
+24252,Intellectual property examiner,2,Professionals,13093,two_digit_distributed_wage_weighted
+24299,Other administration professional n.e.c.,2,Professionals,16243,two_digit_distributed_wage_weighted
+24315,Revenue specialist,2,Professionals,17973,two_digit_distributed_wage_weighted
+24320,Public relations/Corporate communications professional,2,Professionals,15046,two_digit_distributed_wage_weighted
+24339,Specialised goods sales professional n.e.c.,2,Professionals,21,two_digit_distributed_varied
+24354,Environmental commodities trader,2,Professionals,88,two_digit_distributed_varied
+24354,Environmental commodities trader,2,Professionals,219,two_digit_distributed_varied
+24362,Ship broker,2,Professionals,23153,two_digit_distributed_wage_weighted
+25114,ICT product manager,2,Professionals,153,two_digit_distributed_varied
+25125,DevOps engineer,2,Professionals,13897,two_digit_distributed_wage_weighted
+25141,Applications/Systems programmer,2,Professionals,12619,two_digit_distributed_wage_weighted
+25143,Artificial intelligence/Machine learning engineer,2,Professionals,30,two_digit_distributed_varied
+25152,ICT auditor,2,Professionals,16048,two_digit_distributed_wage_weighted
+25190,Software and applications developer/analyst n.e.c.,2,Professionals,14099,two_digit_distributed_wage_weighted
+25213,Data engineer,2,Professionals,10733,two_digit_distributed_wage_weighted
+25220,Network/Server/Applications/Computer systems administrator,2,Professionals,9,two_digit_distributed_varied
+25239,Computer network/infrastructure/platform professional n.e.c.,2,Professionals,85,two_digit_distributed_varied
+25249,Cybersecurity professional n.e.c.,2,Professionals,40,two_digit_distributed_varied
+25291,Data centre engineer,2,Professionals,9850,two_digit_distributed_wage_weighted
+25299,Other database/network/infrastructure/cybersecurity professional n.e.c.,2,Professionals,37,two_digit_distributed_varied
+26119,Lawyer n.e.c.,2,Professionals,42,two_digit_distributed_varied
+26120,Judge,2,Professionals,13,two_digit_distributed_varied
+26199,Other legal professional n.e.c.,2,Professionals,24,two_digit_distributed_varied
+26213,Conservator,2,Professionals,7273,two_digit_distributed_wage_weighted
+26229,Librarian and related information professional n.e.c.,2,Professionals,11,two_digit_distributed_varied
+26310,Economist,2,Professionals,7459,two_digit_distributed_wage_weighted
+26322,Social science researcher,2,Professionals,8469,two_digit_distributed_wage_weighted
+26339,Historian/Political scientist and related social science professional n.e.c.,2,Professionals,14,two_digit_distributed_varied
+26369,Religious professional n.e.c.,2,Professionals,15,two_digit_distributed_varied
+26419,Author and related writer n.e.c.,2,Professionals,3,two_digit_distributed_varied
+26422,Editor (news/periodicals),2,Professionals,8442,two_digit_distributed_wage_weighted
+26432,Interpreter,2,Professionals,6,two_digit_distributed_varied
+26519,Visual artist n.e.c.,2,Professionals,16,two_digit_distributed_varied
+26529,Musician/Composer/Singer n.e.c.,2,Professionals,250,two_digit_distributed_varied
+26530,Dancer/Choreographer,2,Professionals,24,two_digit_distributed_varied
+26541,Producer (stage/film/television/commercial/video/radio),2,Professionals,68,two_digit_distributed_varied
+26549,Film/Stage and related director/producer n.e.c.,2,Professionals,7,two_digit_distributed_varied
+26550,Actor,2,Professionals,6338,two_digit_distributed_wage_weighted
+26569,Radio/Television presenter and related professional n.e.c.,2,Professionals,23,two_digit_distributed_varied
+26619,Psychologist n.e.c.,2,Professionals,131,two_digit_distributed_varied
+26629,Social work professional n.e.c.,2,Professionals,5867,two_digit_distributed_wage_weighted
+26639,Counselling professional n.e.c.,2,Professionals,23,two_digit_distributed_varied
+26640,Job coach (disability),2,Professionals,83,two_digit_distributed_varied
+31009,Assistant engineer n.e.c.,3,Technicians and Associate Professionals,6976,two_digit_distributed_wage_weighted
+31119,Chemical/Physical science technician n.e.c.,3,Technicians and Associate Professionals,12,two_digit_distributed_varied
+31129,Civil engineering technician n.e.c.,3,Technicians and Associate Professionals,7863,two_digit_distributed_wage_weighted
+31132,Lift technician,3,Technicians and Associate Professionals,7087,two_digit_distributed_wage_weighted
+31144,Instrumentation technician,3,Technicians and Associate Professionals,7743,two_digit_distributed_wage_weighted
+31153,Machining/Tooling technician,3,Technicians and Associate Professionals,6623,two_digit_distributed_wage_weighted
+31161,"Chemical engineering technician (excluding petroleum, natural gas and",3,Technicians and Associate Professionals,8664,two_digit_distributed_wage_weighted
+31164,Food science technician,3,Technicians and Associate Professionals,6111,two_digit_distributed_wage_weighted
+31175,Quality assurance technician,3,Technicians and Associate Professionals,7809,two_digit_distributed_wage_weighted
+31189,Draughtsperson n.e.c.,3,Technicians and Associate Professionals,30,two_digit_distributed_varied
+31214,Rolling stock engineering technician,3,Technicians and Associate Professionals,6573,two_digit_distributed_wage_weighted
+31299,Other physical/engineering science technician n.e.c.,3,Technicians and Associate Professionals,16,two_digit_distributed_varied
+31310,Power generating plant operator,3,Technicians and Associate Professionals,42,two_digit_distributed_varied
+31329,Incinerator/Water treatment plant and related machine operator n.e.c.,3,Technicians and Associate Professionals,89,two_digit_distributed_varied
+31332,Pharmaceutical products machine controller,3,Technicians and Associate Professionals,36,two_digit_distributed_varied
+31342,Cylinder filler/tester (compressed/liquefied gases),3,Technicians and Associate Professionals,30,two_digit_distributed_varied
+31350,Metal production process controller,3,Technicians and Associate Professionals,7461,two_digit_distributed_wage_weighted
+31399,Other process control technician n.e.c.,3,Technicians and Associate Professionals,4,two_digit_distributed_varied
+31419,Life science technician (excluding medical) n.e.c.,3,Technicians and Associate Professionals,32,two_digit_distributed_varied
+31423,Farming technician (animal production),3,Technicians and Associate Professionals,7640,two_digit_distributed_wage_weighted
+31510,Marine engineering officer,3,Technicians and Associate Professionals,8517,two_digit_distributed_wage_weighted
+31529,Ship’s deck officer/pilot n.e.c.,3,Technicians and Associate Professionals,56,two_digit_distributed_varied
+31540,Air traffic controller,3,Technicians and Associate Professionals,14,two_digit_distributed_varied
+31560,Sea traffic controller,3,Technicians and Associate Professionals,53,two_digit_distributed_varied
+31579,Transport operations supervisor n.e.c.,3,Technicians and Associate Professionals,4,two_digit_distributed_varied
+31595,Load control officer (aircraft),3,Technicians and Associate Professionals,7501,two_digit_distributed_wage_weighted
+31599,Other transport controller and related worker n.e.c.,3,Technicians and Associate Professionals,39,two_digit_distributed_varied
+31603,Parks officer,3,Technicians and Associate Professionals,7793,two_digit_distributed_wage_weighted
+31719,Building/Fire inspector n.e.c.,3,Technicians and Associate Professionals,13,two_digit_distributed_varied
+31720,Safety inspector (vehicles/processes/products),3,Technicians and Associate Professionals,68,two_digit_distributed_varied
+32119,Medical imaging/therapeutic equipment technician n.e.c.,3,Technicians and Associate Professionals,6,two_digit_distributed_varied
+32120,Medical/Pathology laboratory technician,3,Technicians and Associate Professionals,2348,two_digit_distributed_wage_weighted
+32130,Pharmacy technician,3,Technicians and Associate Professionals,2038,two_digit_distributed_wage_weighted
+32143,Dental technician,3,Technicians and Associate Professionals,1914,two_digit_distributed_wage_weighted
+32200,Enrolled/Assistant nurse (excluding registered nurse),3,Technicians and Associate Professionals,1995,two_digit_distributed_wage_weighted
+32300,Traditional and complementary medicine associate professional,3,Technicians and Associate Professionals,31,two_digit_distributed_varied
+32400,Veterinary technician/assistant,3,Technicians and Associate Professionals,2222,two_digit_distributed_wage_weighted
+32510,Oral health therapist,3,Technicians and Associate Professionals,18,two_digit_distributed_varied
+32530,Community health worker,3,Technicians and Associate Professionals,2039,two_digit_distributed_wage_weighted
+32540,Optician,3,Technicians and Associate Professionals,2297,two_digit_distributed_wage_weighted
+32559,Physiotherapy technician and related associate professional n.e.c.,3,Technicians and Associate Professionals,7,two_digit_distributed_varied
+32572,Occupational health and safety inspector,3,Technicians and Associate Professionals,2761,two_digit_distributed_wage_weighted
+32599,Other health associate professional n.e.c.,3,Technicians and Associate Professionals,22,two_digit_distributed_varied
+33120,Credit/Loans officer,3,Technicians and Associate Professionals,15,two_digit_distributed_varied
+33132,Audit associate professional,3,Technicians and Associate Professionals,31278,two_digit_distributed_wage_weighted
+33133,Tax associate professional,3,Technicians and Associate Professionals,27487,two_digit_distributed_wage_weighted
+33153,Intangible asset valuer,3,Technicians and Associate Professionals,52,two_digit_distributed_varied
+33160,Financial services back office administrator,3,Technicians and Associate Professionals,30453,two_digit_distributed_wage_weighted
+33219,Insurance representative and related associate professional n.e.c.,3,Technicians and Associate Professionals,211,two_digit_distributed_varied
+33229,Commercial/Marketing sales executive n.e.c.,3,Technicians and Associate Professionals,28,two_digit_distributed_varied
+33232,Purchasing agent,3,Technicians and Associate Professionals,26845,two_digit_distributed_wage_weighted
+33299,Other sales and related associate professional n.e.c.,3,Technicians and Associate Professionals,25,two_digit_distributed_varied
+33313,Freight inspector,3,Technicians and Associate Professionals,42,two_digit_distributed_varied
+33320,Exhibition/Conference/Event planner,3,Technicians and Associate Professionals,26039,two_digit_distributed_wage_weighted
+33330,Employment agent/Labour contractor,3,Technicians and Associate Professionals,28460,two_digit_distributed_wage_weighted
+33340,Real estate agent,3,Technicians and Associate Professionals,23365,two_digit_distributed_wage_weighted
+33399,Other business services agent n.e.c.,3,Technicians and Associate Professionals,92,two_digit_distributed_varied
+33462,Maintenance planner,3,Technicians and Associate Professionals,29279,two_digit_distributed_wage_weighted
+33499,Other administrative and related associate professional n.e.c.,3,Technicians and Associate Professionals,1290,two_digit_distributed_varied
+33510,Customs/Immigration officer,3,Technicians and Associate Professionals,323,two_digit_distributed_varied
+33552,Auxiliary police officer supervisor,3,Technicians and Associate Professionals,21,two_digit_distributed_varied
+33592,Government social benefits official,3,Technicians and Associate Professionals,39,two_digit_distributed_varied
+33599,Other government associate professional n.e.c.,3,Technicians and Associate Professionals,223,two_digit_distributed_varied
+33609,Transport equipment project executive n.e.c.,3,Technicians and Associate Professionals,23336,two_digit_distributed_wage_weighted
+34110,Legal associate professional,3,Technicians and Associate Professionals,6346,two_digit_distributed_wage_weighted
+34123,Volunteer executive,3,Technicians and Associate Professionals,5239,two_digit_distributed_wage_weighted
+34210,Athlete/Sportsperson,3,Technicians and Associate Professionals,4327,two_digit_distributed_wage_weighted
+34229,Sports coach/instructor/official and related associate professional n.e.c.,3,Technicians and Associate Professionals,37,two_digit_distributed_varied
+34310,Photographer,3,Technicians and Associate Professionals,5202,two_digit_distributed_wage_weighted
+34321,Interior designer,3,Technicians and Associate Professionals,5516,two_digit_distributed_wage_weighted
+34323,Visual merchandiser,3,Technicians and Associate Professionals,5802,two_digit_distributed_wage_weighted
+34332,Gallery/Museum and related technician,3,Technicians and Associate Professionals,20,two_digit_distributed_varied
+34343,Pastry chef,3,Technicians and Associate Professionals,20,two_digit_distributed_varied
+34399,Other artistic/cultural associate professional n.e.c.,3,Technicians and Associate Professionals,37,two_digit_distributed_varied
+34409,Creative/Performing arts associate professional n.e.c.,3,Technicians and Associate Professionals,5854,two_digit_distributed_wage_weighted
+35110,Computer systems operator,3,Technicians and Associate Professionals,9685,two_digit_distributed_wage_weighted
+35129,Computer technician n.e.c.,3,Technicians and Associate Professionals,121,two_digit_distributed_varied
+35140,Website administrator/Webmaster,3,Technicians and Associate Professionals,7964,two_digit_distributed_wage_weighted
+35219,Broadcasting technician/Audio-visual operator n.e.c.,3,Technicians and Associate Professionals,34,two_digit_distributed_varied
+35220,Telecommunications engineering technician,3,Technicians and Associate Professionals,7940,two_digit_distributed_wage_weighted
+35239,Telecommunications equipment operator n.e.c.,3,Technicians and Associate Professionals,249,two_digit_distributed_varied
+35290,Telecommunications/Broadcasting technician/Audio-visual operator n.e.c.,3,Technicians and Associate Professionals,208,two_digit_distributed_varied
+36100,Preschool education teacher,3,Technicians and Associate Professionals,13702,two_digit_distributed_wage_weighted
+36209,Extracurriculum instructor n.e.c.,3,Technicians and Associate Professionals,15946,two_digit_distributed_wage_weighted
+36910,Private tutor (academic),3,Technicians and Associate Professionals,17818,two_digit_distributed_wage_weighted
+36999,Other teaching associate professional n.e.c.,3,Technicians and Associate Professionals,34,two_digit_distributed_varied
+39910,Non-ordained religious associate professional,3,Technicians and Associate Professionals,1200,two_digit_distributed_wage_weighted
+40000,Office supervisor,4,Clerical Support Workers,3900,two_digit_distributed_wage_weighted
+41109,General office clerk n.e.c.,4,Clerical Support Workers,853,two_digit_distributed_varied
+41202,Verbatim reporter,4,Clerical Support Workers,170,two_digit_distributed_varied
+41310,Typist/Word processing operator,4,Clerical Support Workers,51978,two_digit_distributed_wage_weighted
+41320,Data entry clerk,4,Clerical Support Workers,46899,two_digit_distributed_wage_weighted
+42119,Bank teller and related counter clerk n.e.c.,4,Clerical Support Workers,34,two_digit_distributed_varied
+42132,Moneylender,4,Clerical Support Workers,10879,two_digit_distributed_wage_weighted
+42149,Bill collector and related worker n.e.c.,4,Clerical Support Workers,7498,two_digit_distributed_wage_weighted
+42210,Travel consultant/reservation executive,4,Clerical Support Workers,11439,two_digit_distributed_wage_weighted
+42230,Telephone operator,4,Clerical Support Workers,9589,two_digit_distributed_wage_weighted
+42249,Receptionist/Customer service/information clerk n.e.c.,4,Clerical Support Workers,137,two_digit_distributed_varied
+42290,Client information clerk n.e.c.,4,Clerical Support Workers,10522,two_digit_distributed_wage_weighted
+43119,Accounting/Bookkeeping clerk n.e.c.,4,Clerical Support Workers,125,two_digit_distributed_varied
+43129,Finance/Insurance clerk n.e.c.,4,Clerical Support Workers,3,two_digit_distributed_varied
+43142,Enumerator/Market research interviewer,4,Clerical Support Workers,11900,two_digit_distributed_wage_weighted
+43159,Computer operations clerk n.e.c.,4,Clerical Support Workers,14445,two_digit_distributed_wage_weighted
+43219,Stock clerk n.e.c.,4,Clerical Support Workers,11531,two_digit_distributed_wage_weighted
+43229,Production clerk n.e.c.,4,Clerical Support Workers,12839,two_digit_distributed_wage_weighted
+43239,Transport clerk n.e.c.,4,Clerical Support Workers,57,two_digit_distributed_varied
+44110,Library clerk,4,Clerical Support Workers,1504,two_digit_distributed_wage_weighted
+44121,Postal service supervisor,4,Clerical Support Workers,1420,two_digit_distributed_wage_weighted
+44129,Mail carrier/sorting worker n.e.c.,4,Clerical Support Workers,20,two_digit_distributed_varied
+44170,Legal clerk,4,Clerical Support Workers,1856,two_digit_distributed_wage_weighted
+44199,Other clerical support worker n.e.c.,4,Clerical Support Workers,1,two_digit_distributed_varied
+51112,Cabin attendant/steward,5,Service and Sales Workers,16821,two_digit_distributed_wage_weighted
+51129,Transport service inspector and related worker n.e.c.,5,Service and Sales Workers,318,two_digit_distributed_varied
+51132,Attractions guide,5,Service and Sales Workers,13125,two_digit_distributed_wage_weighted
+51202,Senior cook,5,Service and Sales Workers,136,two_digit_distributed_varied
+51313,Sommelier,5,Service and Sales Workers,307,two_digit_distributed_varied
+51322,Barista,5,Service and Sales Workers,13574,two_digit_distributed_wage_weighted
+51330,Bar/Lounge hostess,5,Service and Sales Workers,20,two_digit_distributed_varied
+51390,Waiter/Bartender n.e.c.,5,Service and Sales Workers,166,two_digit_distributed_varied
+51419,Hairdresser/Barber and related worker n.e.c.,5,Service and Sales Workers,131,two_digit_distributed_varied
+51423,Makeup artist (stage/film/studio),5,Service and Sales Workers,48,two_digit_distributed_varied
+51499,Other wellness related worker n.e.c.,5,Service and Sales Workers,15,two_digit_distributed_varied
+51509,Housekeeper and related worker n.e.c.,5,Service and Sales Workers,111,two_digit_distributed_varied
+51702,Bookmaker/Croupier/Casino dealer and related gaming worker,5,Service and Sales Workers,14286,two_digit_distributed_wage_weighted
+51910,Astrologer/Fortune-teller and related worker,5,Service and Sales Workers,381,two_digit_distributed_varied
+51932,Embalmer,5,Service and Sales Workers,62,two_digit_distributed_varied
+51949,Pet groomer/Animal keeper/trainer n.e.c.,5,Service and Sales Workers,139,two_digit_distributed_varied
+51950,Driving instructor/tester,5,Service and Sales Workers,15252,two_digit_distributed_wage_weighted
+51999,Other personal services worker n.e.c.,5,Service and Sales Workers,7,two_digit_distributed_varied
+52110,Hawker/Stall holder (excluding prepared food and drinks),5,Service and Sales Workers,312,two_digit_distributed_varied
+52120,Hawker/Stall holder (prepared food/drinks),5,Service and Sales Workers,84,two_digit_distributed_varied
+52130,Newsvendor,5,Service and Sales Workers,123,two_digit_distributed_varied
+52190,Stall sales worker n.e.c.,5,Service and Sales Workers,44,two_digit_distributed_varied
+52202,Shop sales assistant,5,Service and Sales Workers,26811,two_digit_distributed_wage_weighted
+52303,Office cashier,5,Service and Sales Workers,1414,two_digit_distributed_varied
+52309,Cashier/Ticket clerk n.e.c.,5,Service and Sales Workers,66,two_digit_distributed_varied
+52410,Fashion and related model,5,Service and Sales Workers,116,two_digit_distributed_varied
+52422,Salesperson (door-to-door),5,Service and Sales Workers,46285,two_digit_distributed_wage_weighted
+52440,Telemarketer,5,Service and Sales Workers,31048,two_digit_distributed_wage_weighted
+52499,Other sales worker n.e.c.,5,Service and Sales Workers,297,two_digit_distributed_varied
+53114,Child/Youth residential care assistant,5,Service and Sales Workers,85,two_digit_distributed_varied
+53120,Teacher aide,5,Service and Sales Workers,17759,two_digit_distributed_wage_weighted
+53209,Healthcare assistant and related personal care worker n.e.c.,5,Service and Sales Workers,56,two_digit_distributed_varied
+54110,Fire-fighting/Rescue officer,5,Service and Sales Workers,150,two_digit_distributed_varied
+54123,Auxiliary police officer,5,Service and Sales Workers,14108,two_digit_distributed_wage_weighted
+54130,Prison officer,5,Service and Sales Workers,12,two_digit_distributed_varied
+54144,Private security officer,5,Service and Sales Workers,12855,two_digit_distributed_wage_weighted
+54150,Lifeguard,5,Service and Sales Workers,13166,two_digit_distributed_wage_weighted
+54199,Other protective services and related worker n.e.c.,5,Service and Sales Workers,109,two_digit_distributed_varied
 59000,Services worker n.e.c.,5,Service and Sales Workers,200,two_digit_distributed_varied
-61110,Vegetable farm worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",604,two_digit_distributed_varied
-61133,Gardener/Horticultural worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",699,two_digit_distributed_varied
-61210,Livestock/Dairy farm worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",782,two_digit_distributed_varied
-61220,Poultry farm worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",541,two_digit_distributed_varied
-61900,Agricultural worker n.e.c.,6,"Skilled Agricultural, Forestry, and Fishery Workers",74,two_digit_distributed_varied
-62219,Aquaculture worker n.e.c.,6,"Skilled Agricultural, Forestry, and Fishery Workers",49,two_digit_distributed_varied
-62220,Coastal waters/Deep sea fishery worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",221,two_digit_distributed_varied
-71000,Supervisor/General foreman (building and related trades),7,Craft and Related Trades Workers,1001,two_digit_distributed_varied
-71120,Bricklayer/Blocklayer,7,Craft and Related Trades Workers,2309,two_digit_distributed_varied
-71130,Stonemason/Stone cutter/splitter/carver,7,Craft and Related Trades Workers,2505,two_digit_distributed_varied
-71149,Concrete placer/finisher and related worker n.e.c.,7,Craft and Related Trades Workers,52,two_digit_distributed_varied
-71152,Joiner,7,Craft and Related Trades Workers,1465,two_digit_distributed_varied
-71199,Other building frame and related trades worker n.e.c.,7,Craft and Related Trades Workers,1396,two_digit_distributed_varied
-71210,Roofer,7,Craft and Related Trades Workers,389,two_digit_distributed_varied
-71220,Floor/Wall tiler,7,Craft and Related Trades Workers,766,two_digit_distributed_varied
-71230,Plasterer,7,Craft and Related Trades Workers,514,two_digit_distributed_varied
-71241,Refrigeration/Air-conditioning equipment insulator,7,Craft and Related Trades Workers,46,two_digit_distributed_varied
-71249,Insulation worker n.e.c.,7,Craft and Related Trades Workers,119,two_digit_distributed_varied
-71250,Glazier,7,Craft and Related Trades Workers,2823,two_digit_distributed_varied
-71263,Pipe/Drain layer,7,Craft and Related Trades Workers,246,two_digit_distributed_varied
-71272,Air-conditioning/Refrigeration plant installer,7,Craft and Related Trades Workers,2290,two_digit_distributed_varied
-71290,Building finisher and related trades worker n.e.c.,7,Craft and Related Trades Workers,865,two_digit_distributed_varied
-71312,Wall/Ceiling paperhanger,7,Craft and Related Trades Workers,37,two_digit_distributed_varied
-71329,Spray painter/Varnisher and related painter n.e.c.,7,Craft and Related Trades Workers,1399,two_digit_distributed_varied
-71332,Building structure cleaner and related worker,7,Craft and Related Trades Workers,178,two_digit_distributed_varied
-72000,Supervisor/General foreman (metal/machinery and related trades),7,Craft and Related Trades Workers,133,two_digit_distributed_varied
-72110,Metal moulder/coremaker,7,Craft and Related Trades Workers,1217,two_digit_distributed_varied
-72120,Welder/Flame cutter,7,Craft and Related Trades Workers,4712,two_digit_distributed_varied
-72130,Sheet metal worker,7,Craft and Related Trades Workers,162,two_digit_distributed_varied
-72140,Structural metal preparer/erector,7,Craft and Related Trades Workers,321,two_digit_distributed_varied
-72150,Rigger/Cable splicer,7,Craft and Related Trades Workers,179,two_digit_distributed_varied
-72210,Blacksmith/Hammersmith/Forging-press worker,7,Craft and Related Trades Workers,293,two_digit_distributed_varied
-72229,Toolmaker and related worker n.e.c.,7,Craft and Related Trades Workers,1040,two_digit_distributed_varied
-72240,Metal polisher/Wheel grinder/Tool sharpener,7,Craft and Related Trades Workers,231,two_digit_distributed_varied
-72310,Automotive mechanic,7,Craft and Related Trades Workers,605,two_digit_distributed_varied
-72320,Aircraft engine mechanic/repairer,7,Craft and Related Trades Workers,897,two_digit_distributed_varied
-72330,Rolling stock mechanic,7,Craft and Related Trades Workers,217,two_digit_distributed_varied
-72340,Bicycle and related repairer,7,Craft and Related Trades Workers,2831,two_digit_distributed_varied
-72350,Marine engine mechanic/repairer,7,Craft and Related Trades Workers,590,two_digit_distributed_varied
-72390,Machinery mechanic/fitter/repairer n.e.c.,7,Craft and Related Trades Workers,71,two_digit_distributed_varied
-73000,Supervisor/General foreman (precision/handicraft/printing and related trades),7,Craft and Related Trades Workers,102,two_digit_distributed_varied
-73119,Precision instrument maker/repairer n.e.c.,7,Craft and Related Trades Workers,153,two_digit_distributed_varied
-73120,Musical instrument maker/repairer/tuner,7,Craft and Related Trades Workers,270,two_digit_distributed_varied
-73130,Jewellery/Precious metal worker,7,Craft and Related Trades Workers,552,two_digit_distributed_varied
-73140,Potter and related worker,7,Craft and Related Trades Workers,1119,two_digit_distributed_varied
-73150,Glass maker/cutter/grinder/finisher,7,Craft and Related Trades Workers,113,two_digit_distributed_varied
-73160,Sign writer/Decorative painter/Engraver/Etcher,7,Craft and Related Trades Workers,54,two_digit_distributed_varied
-73210,Pre-press trades worker,7,Craft and Related Trades Workers,123,two_digit_distributed_varied
-73220,Printer,7,Craft and Related Trades Workers,14,two_digit_distributed_varied
-74002,"Supervisor/General foreman (electrical/electronic trades, excluding lift)",7,Craft and Related Trades Workers,131,two_digit_distributed_varied
-74110,Electrician,7,Craft and Related Trades Workers,4856,two_digit_distributed_varied
-74123,Electrical household appliance repairer,7,Craft and Related Trades Workers,588,two_digit_distributed_varied
-74133,Underground electrical line installer/repairer,7,Craft and Related Trades Workers,705,two_digit_distributed_varied
-74210,Electronics fitter (excluding broadcasting and communication equipment),7,Craft and Related Trades Workers,1025,two_digit_distributed_varied
-74221,Consumer audio/video equipment/radar broadcasting/transmitting equipment,7,Craft and Related Trades Workers,3402,two_digit_distributed_varied
-74224,Telecommunications installer/servicer,7,Craft and Related Trades Workers,194,two_digit_distributed_varied
-75000,Supervisor/General foreman (food processing/woodworking/garment/leather,7,Craft and Related Trades Workers,30,two_digit_distributed_varied
-75110,Butcher/Fishmonger and related food preparer,7,Craft and Related Trades Workers,84,two_digit_distributed_varied
-75122,Pastry/Confectionery maker,7,Craft and Related Trades Workers,262,two_digit_distributed_varied
-75150,Food and beverage taster/grader,7,Craft and Related Trades Workers,39,two_digit_distributed_varied
-75190,Food processing and related trades worker n.e.c.,7,Craft and Related Trades Workers,496,two_digit_distributed_varied
-75210,Wood treater,7,Craft and Related Trades Workers,60,two_digit_distributed_varied
-75220,Cabinet maker/Wood related trades worker,7,Craft and Related Trades Workers,56,two_digit_distributed_varied
-75290,Furniture maker and related trades worker n.e.c.,7,Craft and Related Trades Workers,50,two_digit_distributed_varied
-75310,Tailor/Dressmaker,7,Craft and Related Trades Workers,28,two_digit_distributed_varied
-75320,Garment and related pattern-maker/cutter,7,Craft and Related Trades Workers,437,two_digit_distributed_varied
-75340,Upholsterer and related worker,7,Craft and Related Trades Workers,542,two_digit_distributed_varied
-75369,Shoemaker and related worker n.e.c.,7,Craft and Related Trades Workers,201,two_digit_distributed_varied
-75390,Garment/Leather and related trades worker n.e.c.,7,Craft and Related Trades Workers,92,two_digit_distributed_varied
-75410,Underwater diver,7,Craft and Related Trades Workers,107,two_digit_distributed_varied
-75440,Fumigator and related pest/weed controller,7,Craft and Related Trades Workers,69,two_digit_distributed_varied
-75490,Craft and related worker n.e.c.,7,Craft and Related Trades Workers,6945,two_digit_distributed_varied
-81000,Stationary plant/machine supervisor/general foreman,8,Plant and Machine Operators and Assemblers,183,two_digit_distributed_varied
-81130,Well driller/borer and related mining worker,8,Plant and Machine Operators and Assemblers,144,two_digit_distributed_varied
-81140,Cement and related mineral products machine operator,8,Plant and Machine Operators and Assemblers,1106,two_digit_distributed_varied
-81210,Metal melter/caster/rolling mill operator,8,Plant and Machine Operators and Assemblers,757,two_digit_distributed_varied
-81220,Metal heat treating plant operator,8,Plant and Machine Operators and Assemblers,365,two_digit_distributed_varied
-81230,Metal drawer/extruder,8,Plant and Machine Operators and Assemblers,649,two_digit_distributed_varied
-81240,Metal finishing/plating/coating machine operator,8,Plant and Machine Operators and Assemblers,51,two_digit_distributed_varied
-81259,Machine-tool setter-operator n.e.c.,8,Plant and Machine Operators and Assemblers,138,two_digit_distributed_varied
-81312,Pharmaceutical products machine operator,8,Plant and Machine Operators and Assemblers,923,two_digit_distributed_varied
-81320,Photographic products machine operator,8,Plant and Machine Operators and Assemblers,128,two_digit_distributed_varied
-81390,Chemical processing/chemical/photographic products plant/machine operator,8,Plant and Machine Operators and Assemblers,160,two_digit_distributed_varied
-81410,Rubber products machine operator,8,Plant and Machine Operators and Assemblers,418,two_digit_distributed_varied
-81420,Plastic products machine operator,8,Plant and Machine Operators and Assemblers,134,two_digit_distributed_varied
-81430,Paper/Paperboard products machine operator,8,Plant and Machine Operators and Assemblers,849,two_digit_distributed_varied
-81509,Textile/Fur/Leather products machine operator n.e.c.,8,Plant and Machine Operators and Assemblers,781,two_digit_distributed_varied
-81609,Food and related products machine operator n.e.c.,8,Plant and Machine Operators and Assemblers,963,two_digit_distributed_varied
-81700,Wood processing/Papermaking plant operator,8,Plant and Machine Operators and Assemblers,59,two_digit_distributed_varied
-81810,Glass/Ceramics plant operator,8,Plant and Machine Operators and Assemblers,322,two_digit_distributed_varied
-81821,Boiler fireman,8,Plant and Machine Operators and Assemblers,276,two_digit_distributed_varied
-81829,Steam engine/boiler operator n.e.c.,8,Plant and Machine Operators and Assemblers,630,two_digit_distributed_varied
-81830,Packing/Bottling/Labelling machine operator,8,Plant and Machine Operators and Assemblers,33,two_digit_distributed_varied
-81849,Printing/Binding and related machine operator n.e.c.,8,Plant and Machine Operators and Assemblers,87,two_digit_distributed_varied
-81890,Stationary plant/machine operator n.e.c.,8,Plant and Machine Operators and Assemblers,545,two_digit_distributed_varied
-82000,Supervisor/General foreman of assemblers/quality checkers,8,Plant and Machine Operators and Assemblers,285,two_digit_distributed_varied
-82110,Mechanical equipment/component assembler,8,Plant and Machine Operators and Assemblers,323,two_digit_distributed_varied
-82123,Battery assembler,8,Plant and Machine Operators and Assemblers,4266,two_digit_distributed_varied
-82139,Quality checker/tester n.e.c.,8,Plant and Machine Operators and Assemblers,974,two_digit_distributed_varied
-82190,Assembler n.e.c.,8,Plant and Machine Operators and Assemblers,453,two_digit_distributed_varied
-83000,Mobile machinery supervisor/general foreman,8,Plant and Machine Operators and Assemblers,6780,two_digit_distributed_varied
-83110,Train operator,8,Plant and Machine Operators and Assemblers,4206,two_digit_distributed_varied
-83120,Railway braker and related worker,8,Plant and Machine Operators and Assemblers,6373,two_digit_distributed_varied
-83212,Delivery worker using motorised personal mobility aids/devices,8,Plant and Machine Operators and Assemblers,4919,two_digit_distributed_varied
-83229,Car/Taxi/Van/Light goods vehicle driver n.e.c.,8,Plant and Machine Operators and Assemblers,5685,two_digit_distributed_varied
-83312,Tram driver,8,Plant and Machine Operators and Assemblers,32784,two_digit_distributed_varied
-83329,Heavy truck/Lorry driver n.e.c.,8,Plant and Machine Operators and Assemblers,11579,two_digit_distributed_varied
-83429,Earth moving and related machinery operator n.e.c.,8,Plant and Machine Operators and Assemblers,5174,two_digit_distributed_varied
-83439,Crane/Hoist and related equipment operator n.e.c.,8,Plant and Machine Operators and Assemblers,3135,two_digit_distributed_varied
-83449,Lifting truck operator n.e.c.,8,Plant and Machine Operators and Assemblers,10612,two_digit_distributed_varied
-83499,Other mobile machinery operator n.e.c.,8,Plant and Machine Operators and Assemblers,9459,two_digit_distributed_varied
-83509,Ship’s deck crew and related worker n.e.c.,8,Plant and Machine Operators and Assemblers,11695,two_digit_distributed_varied
-91000,Cleaning supervisor,9,Elementary Occupations,1083,two_digit_distributed_varied
-91129,Cleaner/Helper in hotel and related establishment n.e.c.,9,Elementary Occupations,7533,two_digit_distributed_varied
-91133,Office/Commercial/Industrial establishment multi-skilled cleaner cum machine,9,Elementary Occupations,18623,two_digit_distributed_varied
-91154,Food and beverage establishment multi-skilled cleaner cum machine operator,9,Elementary Occupations,4617,two_digit_distributed_varied
-91162,Residential/Open areas multi-skilled cleaner cum machine operator,9,Elementary Occupations,1904,two_digit_distributed_varied
-91210,Hand launderer/presser (non-household),9,Elementary Occupations,6246,two_digit_distributed_varied
-91220,Motor vehicle cleaner/polisher,9,Elementary Occupations,19761,two_digit_distributed_varied
-91230,Window cleaner,9,Elementary Occupations,2691,two_digit_distributed_varied
-91299,Other cleaning worker n.e.c.,9,Elementary Occupations,4531,two_digit_distributed_varied
-91300,Domestic helper/cleaner,9,Elementary Occupations,6511,two_digit_distributed_varied
-92149,Park/Garden/Landscape maintenance worker n.e.c.,9,Elementary Occupations,738,two_digit_distributed_varied
-92190,Agricultural/Fishery and related labourer n.e.c.,9,Elementary Occupations,362,two_digit_distributed_varied
-93100,Civil engineering/Building construction labourer,9,Elementary Occupations,13474,two_digit_distributed_varied
-93209,Manufacturing labourer and related worker n.e.c.,9,Elementary Occupations,570,two_digit_distributed_varied
-93310,Hand/Pedal vehicle driver,9,Elementary Occupations,5899,two_digit_distributed_varied
-93332,Railway/Road vehicle loader,9,Elementary Occupations,6896,two_digit_distributed_varied
-93339,Material/Freight handling worker n.e.c.,9,Elementary Occupations,3061,two_digit_distributed_varied
-94104,"Tea server/steward (excluding bartender, barista and food/drink stall assistant)",9,Elementary Occupations,38500,two_digit_distributed_varied
-96000,Waste collection/recycling/material recovery supervisor,9,Elementary Occupations,2181,two_digit_distributed_varied
-96109,Waste collection/recycling/material recovery worker n.e.c.,9,Elementary Occupations,5456,two_digit_distributed_varied
-96213,Porter (excluding hotel),9,Elementary Occupations,3825,two_digit_distributed_varied
-96252,Laboratory attendant,9,Elementary Occupations,1557,two_digit_distributed_varied
-96259,Attendant n.e.c.,9,Elementary Occupations,1339,two_digit_distributed_varied
-96269,Building caretaker and related worker n.e.c.,9,Elementary Occupations,1261,two_digit_distributed_varied
-96272,Concierge (hotel),9,Elementary Occupations,908,two_digit_distributed_varied
-96299,Other elementary worker n.e.c.,9,Elementary Occupations,6172,two_digit_distributed_varied
+61110,Vegetable farm worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",13,two_digit_distributed_varied
+61133,Gardener/Horticultural worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",1140,two_digit_distributed_wage_weighted
+61210,Livestock/Dairy farm worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",3,two_digit_distributed_varied
+61220,Poultry farm worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",1540,two_digit_distributed_wage_weighted
+61900,Agricultural worker n.e.c.,6,"Skilled Agricultural, Forestry, and Fishery Workers",5,two_digit_distributed_varied
+62219,Aquaculture worker n.e.c.,6,"Skilled Agricultural, Forestry, and Fishery Workers",31,two_digit_distributed_varied
+62220,Coastal waters/Deep sea fishery worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",239,two_digit_distributed_varied
+71000,Supervisor/General foreman (building and related trades),7,Craft and Related Trades Workers,4199,two_digit_distributed_wage_weighted
+71120,Bricklayer/Blocklayer,7,Craft and Related Trades Workers,208,two_digit_distributed_varied
+71130,Stonemason/Stone cutter/splitter/carver,7,Craft and Related Trades Workers,5,two_digit_distributed_varied
+71149,Concrete placer/finisher and related worker n.e.c.,7,Craft and Related Trades Workers,23,two_digit_distributed_varied
+71152,Joiner,7,Craft and Related Trades Workers,3046,two_digit_distributed_wage_weighted
+71199,Other building frame and related trades worker n.e.c.,7,Craft and Related Trades Workers,14,two_digit_distributed_varied
+71210,Roofer,7,Craft and Related Trades Workers,1123,two_digit_distributed_varied
+71220,Floor/Wall tiler,7,Craft and Related Trades Workers,3046,two_digit_distributed_wage_weighted
+71230,Plasterer,7,Craft and Related Trades Workers,176,two_digit_distributed_varied
+71241,Refrigeration/Air-conditioning equipment insulator,7,Craft and Related Trades Workers,55,two_digit_distributed_varied
+71249,Insulation worker n.e.c.,7,Craft and Related Trades Workers,99,two_digit_distributed_varied
+71250,Glazier,7,Craft and Related Trades Workers,2867,two_digit_distributed_wage_weighted
+71263,Pipe/Drain layer,7,Craft and Related Trades Workers,20,two_digit_distributed_varied
+71272,Air-conditioning/Refrigeration plant installer,7,Craft and Related Trades Workers,3406,two_digit_distributed_wage_weighted
+71290,Building finisher and related trades worker n.e.c.,7,Craft and Related Trades Workers,5,two_digit_distributed_varied
+71312,Wall/Ceiling paperhanger,7,Craft and Related Trades Workers,69,two_digit_distributed_varied
+71329,Spray painter/Varnisher and related painter n.e.c.,7,Craft and Related Trades Workers,32,two_digit_distributed_varied
+71332,Building structure cleaner and related worker,7,Craft and Related Trades Workers,7,two_digit_distributed_varied
+72000,Supervisor/General foreman (metal/machinery and related trades),7,Craft and Related Trades Workers,2749,two_digit_distributed_wage_weighted
+72110,Metal moulder/coremaker,7,Craft and Related Trades Workers,2627,two_digit_distributed_wage_weighted
+72120,Welder/Flame cutter,7,Craft and Related Trades Workers,2601,two_digit_distributed_wage_weighted
+72130,Sheet metal worker,7,Craft and Related Trades Workers,8,two_digit_distributed_varied
+72140,Structural metal preparer/erector,7,Craft and Related Trades Workers,17,two_digit_distributed_varied
+72150,Rigger/Cable splicer,7,Craft and Related Trades Workers,2,two_digit_distributed_varied
+72210,Blacksmith/Hammersmith/Forging-press worker,7,Craft and Related Trades Workers,24,two_digit_distributed_varied
+72229,Toolmaker and related worker n.e.c.,7,Craft and Related Trades Workers,10,two_digit_distributed_varied
+72240,Metal polisher/Wheel grinder/Tool sharpener,7,Craft and Related Trades Workers,12,two_digit_distributed_varied
+72310,Automotive mechanic,7,Craft and Related Trades Workers,2657,two_digit_distributed_wage_weighted
+72320,Aircraft engine mechanic/repairer,7,Craft and Related Trades Workers,3,two_digit_distributed_varied
+72330,Rolling stock mechanic,7,Craft and Related Trades Workers,27,two_digit_distributed_varied
+72340,Bicycle and related repairer,7,Craft and Related Trades Workers,4,two_digit_distributed_varied
+72350,Marine engine mechanic/repairer,7,Craft and Related Trades Workers,8,two_digit_distributed_varied
+72390,Machinery mechanic/fitter/repairer n.e.c.,7,Craft and Related Trades Workers,2753,two_digit_distributed_wage_weighted
+73000,Supervisor/General foreman (precision/handicraft/printing and related trades),7,Craft and Related Trades Workers,9,two_digit_distributed_varied
+73119,Precision instrument maker/repairer n.e.c.,7,Craft and Related Trades Workers,3,two_digit_distributed_varied
+73120,Musical instrument maker/repairer/tuner,7,Craft and Related Trades Workers,6,two_digit_distributed_varied
+73130,Jewellery/Precious metal worker,7,Craft and Related Trades Workers,2,two_digit_distributed_varied
+73140,Potter and related worker,7,Craft and Related Trades Workers,6,two_digit_distributed_varied
+73150,Glass maker/cutter/grinder/finisher,7,Craft and Related Trades Workers,7,two_digit_distributed_varied
+73160,Sign writer/Decorative painter/Engraver/Etcher,7,Craft and Related Trades Workers,9,two_digit_distributed_varied
+73210,Pre-press trades worker,7,Craft and Related Trades Workers,1337,two_digit_distributed_wage_weighted
+73220,Printer,7,Craft and Related Trades Workers,1121,two_digit_distributed_wage_weighted
+74002,"Supervisor/General foreman (electrical/electronic trades, excluding lift)",7,Craft and Related Trades Workers,3947,two_digit_distributed_wage_weighted
+74110,Electrician,7,Craft and Related Trades Workers,3654,two_digit_distributed_wage_weighted
+74123,Electrical household appliance repairer,7,Craft and Related Trades Workers,3271,two_digit_distributed_wage_weighted
+74133,Underground electrical line installer/repairer,7,Craft and Related Trades Workers,12,two_digit_distributed_varied
+74210,Electronics fitter (excluding broadcasting and communication equipment),7,Craft and Related Trades Workers,5,two_digit_distributed_varied
+74221,Consumer audio/video equipment/radar broadcasting/transmitting equipment,7,Craft and Related Trades Workers,4,two_digit_distributed_varied
+74224,Telecommunications installer/servicer,7,Craft and Related Trades Workers,8,two_digit_distributed_varied
+75000,Supervisor/General foreman (food processing/woodworking/garment/leather,7,Craft and Related Trades Workers,1485,two_digit_distributed_wage_weighted
+75110,Butcher/Fishmonger and related food preparer,7,Craft and Related Trades Workers,1350,two_digit_distributed_wage_weighted
+75122,Pastry/Confectionery maker,7,Craft and Related Trades Workers,1070,two_digit_distributed_wage_weighted
+75150,Food and beverage taster/grader,7,Craft and Related Trades Workers,18,two_digit_distributed_varied
+75190,Food processing and related trades worker n.e.c.,7,Craft and Related Trades Workers,169,two_digit_distributed_varied
+75210,Wood treater,7,Craft and Related Trades Workers,983,two_digit_distributed_wage_weighted
+75220,Cabinet maker/Wood related trades worker,7,Craft and Related Trades Workers,4,two_digit_distributed_varied
+75290,Furniture maker and related trades worker n.e.c.,7,Craft and Related Trades Workers,32,two_digit_distributed_varied
+75310,Tailor/Dressmaker,7,Craft and Related Trades Workers,1136,two_digit_distributed_wage_weighted
+75320,Garment and related pattern-maker/cutter,7,Craft and Related Trades Workers,27,two_digit_distributed_varied
+75340,Upholsterer and related worker,7,Craft and Related Trades Workers,1,two_digit_distributed_varied
+75369,Shoemaker and related worker n.e.c.,7,Craft and Related Trades Workers,9,two_digit_distributed_varied
+75390,Garment/Leather and related trades worker n.e.c.,7,Craft and Related Trades Workers,45,two_digit_distributed_varied
+75410,Underwater diver,7,Craft and Related Trades Workers,1965,two_digit_distributed_wage_weighted
+75440,Fumigator and related pest/weed controller,7,Craft and Related Trades Workers,1204,two_digit_distributed_wage_weighted
+75490,Craft and related worker n.e.c.,7,Craft and Related Trades Workers,1,two_digit_distributed_varied
+81000,Stationary plant/machine supervisor/general foreman,8,Plant and Machine Operators and Assemblers,1548,two_digit_distributed_wage_weighted
+81130,Well driller/borer and related mining worker,8,Plant and Machine Operators and Assemblers,13,two_digit_distributed_varied
+81140,Cement and related mineral products machine operator,8,Plant and Machine Operators and Assemblers,2,two_digit_distributed_varied
+81210,Metal melter/caster/rolling mill operator,8,Plant and Machine Operators and Assemblers,1223,two_digit_distributed_wage_weighted
+81220,Metal heat treating plant operator,8,Plant and Machine Operators and Assemblers,1310,two_digit_distributed_wage_weighted
+81230,Metal drawer/extruder,8,Plant and Machine Operators and Assemblers,34,two_digit_distributed_varied
+81240,Metal finishing/plating/coating machine operator,8,Plant and Machine Operators and Assemblers,11,two_digit_distributed_varied
+81259,Machine-tool setter-operator n.e.c.,8,Plant and Machine Operators and Assemblers,1208,two_digit_distributed_wage_weighted
+81312,Pharmaceutical products machine operator,8,Plant and Machine Operators and Assemblers,1029,two_digit_distributed_wage_weighted
+81320,Photographic products machine operator,8,Plant and Machine Operators and Assemblers,20,two_digit_distributed_varied
+81390,Chemical processing/chemical/photographic products plant/machine operator,8,Plant and Machine Operators and Assemblers,43,two_digit_distributed_varied
+81410,Rubber products machine operator,8,Plant and Machine Operators and Assemblers,1020,two_digit_distributed_wage_weighted
+81420,Plastic products machine operator,8,Plant and Machine Operators and Assemblers,17,two_digit_distributed_varied
+81430,Paper/Paperboard products machine operator,8,Plant and Machine Operators and Assemblers,6,two_digit_distributed_varied
+81509,Textile/Fur/Leather products machine operator n.e.c.,8,Plant and Machine Operators and Assemblers,7,two_digit_distributed_varied
+81609,Food and related products machine operator n.e.c.,8,Plant and Machine Operators and Assemblers,36,two_digit_distributed_varied
+81700,Wood processing/Papermaking plant operator,8,Plant and Machine Operators and Assemblers,15,two_digit_distributed_varied
+81810,Glass/Ceramics plant operator,8,Plant and Machine Operators and Assemblers,1,two_digit_distributed_varied
+81821,Boiler fireman,8,Plant and Machine Operators and Assemblers,8,two_digit_distributed_varied
+81829,Steam engine/boiler operator n.e.c.,8,Plant and Machine Operators and Assemblers,4,two_digit_distributed_varied
+81830,Packing/Bottling/Labelling machine operator,8,Plant and Machine Operators and Assemblers,925,two_digit_distributed_wage_weighted
+81849,Printing/Binding and related machine operator n.e.c.,8,Plant and Machine Operators and Assemblers,1219,two_digit_distributed_wage_weighted
+81890,Stationary plant/machine operator n.e.c.,8,Plant and Machine Operators and Assemblers,0,two_digit_distributed_varied
+82000,Supervisor/General foreman of assemblers/quality checkers,8,Plant and Machine Operators and Assemblers,3689,two_digit_distributed_wage_weighted
+82110,Mechanical equipment/component assembler,8,Plant and Machine Operators and Assemblers,2530,two_digit_distributed_wage_weighted
+82123,Battery assembler,8,Plant and Machine Operators and Assemblers,52,two_digit_distributed_varied
+82139,Quality checker/tester n.e.c.,8,Plant and Machine Operators and Assemblers,15,two_digit_distributed_varied
+82190,Assembler n.e.c.,8,Plant and Machine Operators and Assemblers,14,two_digit_distributed_varied
+83000,Mobile machinery supervisor/general foreman,8,Plant and Machine Operators and Assemblers,19099,two_digit_distributed_wage_weighted
+83110,Train operator,8,Plant and Machine Operators and Assemblers,14405,two_digit_distributed_wage_weighted
+83120,Railway braker and related worker,8,Plant and Machine Operators and Assemblers,36650,two_digit_distributed_wage_weighted
+83212,Delivery worker using motorised personal mobility aids/devices,8,Plant and Machine Operators and Assemblers,13978,two_digit_distributed_wage_weighted
+83229,Car/Taxi/Van/Light goods vehicle driver n.e.c.,8,Plant and Machine Operators and Assemblers,218,two_digit_distributed_varied
+83312,Tram driver,8,Plant and Machine Operators and Assemblers,13624,two_digit_distributed_wage_weighted
+83329,Heavy truck/Lorry driver n.e.c.,8,Plant and Machine Operators and Assemblers,5,two_digit_distributed_varied
+83429,Earth moving and related machinery operator n.e.c.,8,Plant and Machine Operators and Assemblers,6,two_digit_distributed_varied
+83439,Crane/Hoist and related equipment operator n.e.c.,8,Plant and Machine Operators and Assemblers,160,two_digit_distributed_varied
+83449,Lifting truck operator n.e.c.,8,Plant and Machine Operators and Assemblers,13901,two_digit_distributed_wage_weighted
+83499,Other mobile machinery operator n.e.c.,8,Plant and Machine Operators and Assemblers,82,two_digit_distributed_varied
+83509,Ship’s deck crew and related worker n.e.c.,8,Plant and Machine Operators and Assemblers,273,two_digit_distributed_varied
+91000,Cleaning supervisor,9,Elementary Occupations,12338,two_digit_distributed_wage_weighted
+91129,Cleaner/Helper in hotel and related establishment n.e.c.,9,Elementary Occupations,66,two_digit_distributed_varied
+91133,Office/Commercial/Industrial establishment multi-skilled cleaner cum machine,9,Elementary Occupations,10387,two_digit_distributed_wage_weighted
+91154,Food and beverage establishment multi-skilled cleaner cum machine operator,9,Elementary Occupations,10541,two_digit_distributed_wage_weighted
+91162,Residential/Open areas multi-skilled cleaner cum machine operator,9,Elementary Occupations,9960,two_digit_distributed_wage_weighted
+91210,Hand launderer/presser (non-household),9,Elementary Occupations,9644,two_digit_distributed_wage_weighted
+91220,Motor vehicle cleaner/polisher,9,Elementary Occupations,9960,two_digit_distributed_wage_weighted
+91230,Window cleaner,9,Elementary Occupations,10452,two_digit_distributed_wage_weighted
+91299,Other cleaning worker n.e.c.,9,Elementary Occupations,25,two_digit_distributed_varied
+91300,Domestic helper/cleaner,9,Elementary Occupations,127,two_digit_distributed_varied
+92149,Park/Garden/Landscape maintenance worker n.e.c.,9,Elementary Occupations,607,two_digit_distributed_varied
+92190,Agricultural/Fishery and related labourer n.e.c.,9,Elementary Occupations,493,two_digit_distributed_varied
+93100,Civil engineering/Building construction labourer,9,Elementary Occupations,28869,two_digit_distributed_wage_weighted
+93209,Manufacturing labourer and related worker n.e.c.,9,Elementary Occupations,444,two_digit_distributed_varied
+93310,Hand/Pedal vehicle driver,9,Elementary Occupations,369,two_digit_distributed_varied
+93332,Railway/Road vehicle loader,9,Elementary Occupations,116,two_digit_distributed_varied
+93339,Material/Freight handling worker n.e.c.,9,Elementary Occupations,102,two_digit_distributed_varied
+94104,"Tea server/steward (excluding bartender, barista and food/drink stall assistant)",9,Elementary Occupations,38500,two_digit_distributed_wage_weighted
+96000,Waste collection/recycling/material recovery supervisor,9,Elementary Occupations,45,two_digit_distributed_varied
+96109,Waste collection/recycling/material recovery worker n.e.c.,9,Elementary Occupations,14,two_digit_distributed_varied
+96213,Porter (excluding hotel),9,Elementary Occupations,4431,two_digit_distributed_wage_weighted
+96252,Laboratory attendant,9,Elementary Occupations,5983,two_digit_distributed_wage_weighted
+96259,Attendant n.e.c.,9,Elementary Occupations,29,two_digit_distributed_varied
+96269,Building caretaker and related worker n.e.c.,9,Elementary Occupations,5983,two_digit_distributed_wage_weighted
+96272,Concierge (hotel),9,Elementary Occupations,5958,two_digit_distributed_wage_weighted
+96299,Other elementary worker n.e.c.,9,Elementary Occupations,257,two_digit_distributed_varied

@@ -2,8 +2,10 @@
 """
 parse_wages.py — Extract and match wage data to SSOC occupations.
 
-Reads MOM Occupational Wage Survey Excel files, extracts median wages,
-and fuzzy-matches occupation titles to SSOC codes.
+Reads MOM Occupational Wage Survey Excel files (2024), extracts median wages,
+and fuzzy-matches occupation titles to SSOC 2024 codes.
+
+The MOM files use SSOC 2020 codes but we match by occupation title to SSOC 2024.
 
 Outputs:
 - wages.csv: median monthly/annual wages per occupation with match confidence
@@ -35,11 +37,20 @@ def load_occupations() -> dict:
 
 def extract_wages_from_excel(file_path: Path) -> list[dict]:
     """
-    Extract wage data from a single MOM OWS Excel file.
+    Extract wage data from a single MOM OWS Excel file (2024 format).
+    
+    Expected format:
+    - Column A: Row number
+    - Column B: SSOC 2020 code (5-digit)
+    - Column C: Occupation title
+    - Column D: Basic Wage ($)
+    - Column E: Gross Wage ($)
     
     Returns list of dicts with keys:
+    - ssoc_2020_code: original SSOC 2020 code from file
     - occupation_title: extracted occupation name
-    - median_monthly_wage: median monthly basic wage
+    - basic_wage: median monthly basic wage
+    - gross_wage: median monthly gross wage
     """
     wages = []
     
@@ -47,79 +58,89 @@ def extract_wages_from_excel(file_path: Path) -> list[dict]:
         wb = openpyxl.load_workbook(file_path, data_only=True)
         
         for sheet_name in wb.sheetnames:
+            # Skip Contents and metadata sheets
+            if 'Content' in sheet_name or sheet_name in ['Publication Criteria', 'List A', 'List B']:
+                continue
+            
             sheet = wb[sheet_name]
             
-            # Look for occupation and wage columns
-            # Common patterns in MOM OWS files:
-            # - Column A or B: Occupation
-            # - Column with "Median" or "Basic Wage": wage value
+            # Look for data rows
+            # Data typically starts after row 8-10, with structure:
+            # Col A: row number, Col B: SSOC code, Col C: Occupation, Col D: Basic wage, Col E: Gross wage
             
-            # Try to find header row
-            header_row = None
-            occupation_col = None
-            median_col = None
-            
-            for row_idx in range(1, min(20, sheet.max_row + 1)):  # Check first 20 rows
-                row = [cell.value for cell in sheet[row_idx]]
+            for row_idx in range(1, sheet.max_row + 1):
+                # Get row values
+                row_num_cell = sheet.cell(row=row_idx, column=1)  # Column A
+                ssoc_cell = sheet.cell(row=row_idx, column=2)     # Column B
+                occupation_cell = sheet.cell(row=row_idx, column=3)  # Column C
+                basic_wage_cell = sheet.cell(row=row_idx, column=4)  # Column D
+                gross_wage_cell = sheet.cell(row=row_idx, column=5)  # Column E
                 
-                for col_idx, cell_value in enumerate(row):
-                    if cell_value and isinstance(cell_value, str):
-                        cell_lower = cell_value.lower()
-                        
-                        # Occupation column
-                        if 'occupation' in cell_lower and not occupation_col:
-                            occupation_col = col_idx
-                            header_row = row_idx
-                        
-                        # Median wage column
-                        if 'median' in cell_lower and 'gross' not in cell_lower:
-                            if 'basic' in cell_lower or 'monthly' in cell_lower:
-                                median_col = col_idx
+                ssoc_code = ssoc_cell.value
+                occupation = occupation_cell.value
+                basic_wage = basic_wage_cell.value
+                gross_wage = gross_wage_cell.value
                 
-                if occupation_col is not None and median_col is not None:
-                    break
-            
-            if not (occupation_col is not None and median_col is not None):
-                continue  # Skip this sheet
-            
-            # Extract data rows
-            for row_idx in range(header_row + 1, sheet.max_row + 1):
-                row = list(sheet[row_idx])
+                # Skip if no SSOC code or occupation
+                if not ssoc_code or not occupation:
+                    continue
                 
-                occupation = row[occupation_col].value if occupation_col < len(row) else None
-                wage = row[median_col].value if median_col < len(row) else None
-                
-                if occupation and wage:
+                # Skip if SSOC code is not numeric (header rows)
+                if not isinstance(ssoc_code, (int, float)):
+                    # Try to parse as string number
                     try:
-                        # Clean occupation title
-                        occupation = str(occupation).strip()
-                        
-                        # Skip subtotals, headers, etc.
-                        if any(skip in occupation.lower() for skip in ['total', 'average', 'note', 'n.e.c', 'overall']):
-                            continue
-                        
-                        # Parse wage
-                        wage_value = float(wage)
-                        
-                        if wage_value > 0:
-                            wages.append({
-                                'occupation_title': occupation,
-                                'median_monthly_wage': wage_value,
-                            })
+                        ssoc_code = int(str(ssoc_code))
                     except (ValueError, TypeError):
-                        pass
+                        continue
+                
+                # Skip if occupation is not a string
+                if not isinstance(occupation, str):
+                    continue
+                
+                # Clean occupation title
+                occupation = occupation.strip()
+                
+                # Skip category headers (ALL CAPS without specific details)
+                if occupation.isupper() and len(occupation.split()) <= 2:
+                    continue
+                
+                # Skip if no wage data
+                if not basic_wage and not gross_wage:
+                    continue
+                
+                # Handle 's' (suppressed) values
+                if basic_wage == 's':
+                    basic_wage = None
+                if gross_wage == 's':
+                    gross_wage = None
+                
+                # Convert wages to numbers
+                try:
+                    basic_wage = float(basic_wage) if basic_wage else None
+                    gross_wage = float(gross_wage) if gross_wage else None
+                except (ValueError, TypeError):
+                    continue
+                
+                # Only add if we have at least one valid wage
+                if basic_wage or gross_wage:
+                    wages.append({
+                        'ssoc_2020_code': int(ssoc_code),
+                        'occupation_title': occupation,
+                        'basic_wage': basic_wage,
+                        'gross_wage': gross_wage,
+                    })
         
         wb.close()
-        
+    
     except Exception as e:
-        print(f"  Warning: Error reading {file_path.name}: {e}")
+        print(f"  ⚠ Error reading {file_path.name}: {e}")
     
     return wages
 
 
 def fuzzy_match_to_ssoc(wages: list[dict], occupations: dict) -> list[dict]:
     """
-    Fuzzy-match wage data to SSOC occupations.
+    Fuzzy-match wage data to SSOC 2024 occupations by title.
     
     Returns list of dicts with matched SSOC codes and confidence scores.
     """
@@ -131,7 +152,7 @@ def fuzzy_match_to_ssoc(wages: list[dict], occupations: dict) -> list[dict]:
     for wage in wages:
         title = wage['occupation_title']
         
-        # Find best match
+        # Find best match using fuzzy matching
         result = process.extractOne(
             title,
             [t[0] for t in ssoc_titles],
@@ -142,26 +163,43 @@ def fuzzy_match_to_ssoc(wages: list[dict], occupations: dict) -> list[dict]:
             matched_title, score, idx = result
             ssoc_code = ssoc_titles[idx][1]
             
-            matched.append({
-                'ssoc_code': ssoc_code,
-                'occupation_title': wage['occupation_title'],
-                'matched_ssoc_title': matched_title,
-                'median_monthly_wage': wage['median_monthly_wage'],
-                'median_annual_wage': wage['median_monthly_wage'] * 12,
-                'match_confidence': score / 100.0,  # Normalize to 0-1
-            })
+            # Prefer basic wage, fall back to gross wage
+            monthly_wage = wage['basic_wage'] if wage['basic_wage'] else wage['gross_wage']
+            
+            if monthly_wage:
+                matched.append({
+                    'ssoc_code': ssoc_code,
+                    'occupation_title': wage['occupation_title'],
+                    'matched_ssoc_title': matched_title,
+                    'ssoc_2020_code': wage['ssoc_2020_code'],
+                    'median_monthly_wage': monthly_wage,
+                    'median_annual_wage': monthly_wage * 12,
+                    'match_confidence': score / 100.0,  # Normalize to 0-1
+                })
     
     return matched
 
 
-def save_wages(wages: list[dict]):
-    """Save wages to CSV."""
-    # Sort by SSOC code
-    wages.sort(key=lambda x: x['ssoc_code'])
+def save_wages(wages: list[dict], min_confidence: float = 0.60):
+    """Save wages to CSV, filtering low-confidence matches."""
+    # Filter by minimum confidence
+    filtered = [w for w in wages if w['match_confidence'] >= min_confidence]
     
-    # Remove duplicates (keep highest confidence match)
+    print(f"\nFiltering matches below {min_confidence:.0%} confidence...")
+    print(f"  Kept: {len(filtered)}/{len(wages)} matches")
+    
+    if not filtered:
+        print("⚠ No high-confidence matches found. Lowering threshold...")
+        min_confidence = 0.50
+        filtered = [w for w in wages if w['match_confidence'] >= min_confidence]
+        print(f"  With {min_confidence:.0%} threshold: {len(filtered)} matches")
+    
+    # Sort by SSOC code
+    filtered.sort(key=lambda x: (x['ssoc_code'], -x['match_confidence']))
+    
+    # Remove duplicates (keep highest confidence match for each SSOC code)
     deduped = {}
-    for w in wages:
+    for w in filtered:
         code = w['ssoc_code']
         if code not in deduped or w['match_confidence'] > deduped[code]['match_confidence']:
             deduped[code] = w
@@ -178,12 +216,21 @@ def save_wages(wages: list[dict]):
         print(f"✓ Saved {len(wages)} wage records to {OUTPUT_CSV}")
     
     # Statistics
-    avg_confidence = sum(w['match_confidence'] for w in wages) / len(wages) if wages else 0
-    print(f"\nMatch statistics:")
-    print(f"  Average confidence: {avg_confidence:.2%}")
-    print(f"  High confidence (>0.8): {sum(1 for w in wages if w['match_confidence'] > 0.8)}")
-    print(f"  Medium confidence (0.6-0.8): {sum(1 for w in wages if 0.6 <= w['match_confidence'] <= 0.8)}")
-    print(f"  Low confidence (<0.6): {sum(1 for w in wages if w['match_confidence'] < 0.6)}")
+    if wages:
+        avg_confidence = sum(w['match_confidence'] for w in wages) / len(wages)
+        print(f"\nMatch statistics:")
+        print(f"  Average confidence: {avg_confidence:.2%}")
+        print(f"  High confidence (≥0.8): {sum(1 for w in wages if w['match_confidence'] >= 0.8)}")
+        print(f"  Medium confidence (0.6-0.8): {sum(1 for w in wages if 0.6 <= w['match_confidence'] < 0.8)}")
+        print(f"  Low confidence (<0.6): {sum(1 for w in wages if w['match_confidence'] < 0.6)}")
+        
+        # Wage statistics
+        monthly_wages = [w['median_monthly_wage'] for w in wages]
+        print(f"\nWage statistics:")
+        print(f"  Median monthly: ${sorted(monthly_wages)[len(monthly_wages)//2]:,.0f}")
+        print(f"  Min: ${min(monthly_wages):,.0f} | Max: ${max(monthly_wages):,.0f}")
+    
+    return wages
 
 
 def main():
@@ -231,16 +278,19 @@ def main():
     matched = fuzzy_match_to_ssoc(all_wages, occupations)
     
     # Save outputs
-    save_wages(matched)
+    final_wages = save_wages(matched)
     
     print("\n" + "=" * 60)
     print("✓ Wage parsing complete!")
     
     # Show examples
-    if matched:
-        print("\nExample wage matches:")
-        for i, w in enumerate(matched[:5]):
-            print(f"\n{i+1}. {w['matched_ssoc_title']} ({w['ssoc_code']})")
+    if final_wages:
+        # Sort by confidence to show best matches
+        best_matches = sorted(final_wages, key=lambda x: -x['match_confidence'])[:5]
+        
+        print("\nExample high-confidence matches:")
+        for i, w in enumerate(best_matches, 1):
+            print(f"\n{i}. {w['matched_ssoc_title']} ({w['ssoc_code']})")
             print(f"   MOM title: {w['occupation_title']}")
             print(f"   Monthly: ${w['median_monthly_wage']:,.0f} | Annual: ${w['median_annual_wage']:,.0f}")
             print(f"   Match confidence: {w['match_confidence']:.1%}")

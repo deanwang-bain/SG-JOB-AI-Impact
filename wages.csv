@@ -1,0 +1,202 @@
+ssoc_code,occupation_title,matched_ssoc_title,ssoc_2020_code,median_monthly_wage,median_annual_wage,match_confidence
+11203,Chief operating officer/General Manager,Chief operating officer/General manager,11203,5012.0,60144.0,0.9743589743589743
+12113,Audit manager,Audit manager,12113,7000.0,84000.0,1.0
+12123,Training manager,Training manager,12123,5796.0,69552.0,1.0
+12133,Risk management manager,Risk management manager,12133,5677.0,68124.0,1.0
+12215,Online sales channel manager,Online sales channel manager,12215,6688.0,80256.0,1.0
+12222,Marketing manager,Marketing manager,12222,5327.0,63924.0,1.0
+12230,Research and development manager,Research and development manager,12230,5200.0,62400.0,1.0
+12242,Call centre manager,Call centre manager,12242,5866.0,70392.0,1.0
+13100,Production manager in agriculture and fisheries,Production manager in agriculture/fisheries,13100,6940.0,83280.0,0.9333333333333332
+13210,Manufacturing manager,Manufacturing manager,13210,5835.0,70020.0,1.0
+13230,Construction manager,Construction manager,13230,4088.0,49056.0,1.0
+13245,Port/Shipping operations manager,Port/Shipping operations manager,13245,7380.0,88560.0,1.0
+13301,Chief information officer/Chief technology officer/Chief security officer,Chief information officer/Chief technology officer/Chief information security,13301,13500.0,162000.0,0.9066666666666666
+13420,Health services manager,Health services manager,13420,4120.0,49440.0,1.0
+13430,Aged care services manager,Aged care services manager,13430,6138.0,73656.0,1.0
+13463,Financial risk manager,Financial risk manager,13463,6250.0,75000.0,1.0
+14110,Hotel operations/Lodging services manager,Hotel operations/Lodging services manager,14110,3369.0,40428.0,1.0
+14123,Food and beverage operations manager,Food and beverage operations manager,14123,6180.0,74160.0,1.0
+14202,Wholesale trade manager,Wholesale trade manager,14202,8242.0,98904.0,1.0
+14310,Sports centre manager,Sports centre manager,14310,2888.0,34656.0,1.0
+21120,Urologist,Meteorologist,22138,5541.0,66492.0,0.7272727272727273
+21130,Chemist,Chemist,21130,4000.0,48000.0,1.0
+21213,Actuary,Actuary,21213,5260.0,63120.0,1.0
+21222,Data scientist,Data scientist,21222,6246.0,74952.0,1.0
+21415,Process engineer,Process engineer,21415,4990.0,59880.0,1.0
+21422,Building construction engineer,Building construction engineer,21422,4300.0,51600.0,1.0
+21430,Environmental engineer,Environmental engineer,21430,4810.0,57720.0,1.0
+21444,Audio and video equipment engineer,Port equipment engineer,21524,3920.0,47040.0,0.7017543859649122
+21454,Food and drink technologist,Food/Drink technologist,21454,5235.0,62820.0,0.84
+21475,Rolling stock engineer,Rolling stock engineer,21475,5313.0,63756.0,1.0
+21513,Lift engineer,Lift engineer,21513,3756.0,45072.0,1.0
+21532,Telecommunications engineer,Telecommunications engineer,21532,4893.0,58716.0,1.0
+21610,Building architect,Building architect,21610,4550.0,54600.0,1.0
+21622,Landscape manager,Landscape designer,12192,4130.0,49560.0,0.7428571428571429
+21632,Product and industrial designer,Product/Industrial designer,21632,3980.0,47760.0,0.6206896551724138
+21670,Service designer,Service designer,21670,5290.0,63480.0,1.0
+21714,Marine superintendent,Marine superintendent,21714,9600.0,115200.0,1.0
+21729,Medical and pharmaceutical products sales professional,Aircraft pilot and related professional n.e.c.,24332,5683.0,68196.0,0.6
+22110,General practitioner/physician,General practitioner/physician,22110,5425.0,65100.0,1.0
+22128,Psychiatrist,Psychiatrist,22128,5959.0,71508.0,1.0
+22200,"Registered nurse and other nursing professional (e.g. clinical nurse, nurse educator, excluding enrolled nurse)",Registered nurse and related nursing professional (excluding enrolled nurse),22200,4279.0,51348.0,0.6524064171122994
+22302,Traditional Chinese medicine practitioner,Traditional Chinese medicine acupuncturist,22301,4000.0,48000.0,0.6987951807228916
+22500,Veterinarian,Veterinarian,22500,5138.0,61656.0,1.0
+22629,Pharmacologist,Pharmacist n.e.c.,21341,4313.0,51756.0,0.6451612903225806
+22640,Physiotherapist,Physiotherapist,22640,4280.0,51360.0,1.0
+22652,Nutritionist,Nutritionist,22652,3000.0,36000.0,1.0
+22662,Speech therapist,Speech therapist,22662,4444.0,53328.0,1.0
+22670,Optometrist,Optometrist,22670,4100.0,49200.0,1.0
+22680,Occupational therapist,Occupational therapist,22680,4268.0,51216.0,1.0
+23300,Technical/Vocational/Commercial education institute teacher and trainer,Technical/Vocational/Commercial education institute teacher/trainer,23300,3800.0,45600.0,0.9565217391304348
+23690,Technical sales professional,Teaching professional n.e.c.,24331,4882.0,58584.0,0.6785714285714286
+24113,Tax accountant,Tax accountant,24113,5000.0,60000.0,1.0
+24122,Business valuer,Business valuer,24122,4500.0,54000.0,1.0
+24149,Securities and finance dealer,Securities/Finance dealer n.e.c.,24141,5312.0,63744.0,0.7213114754098361
+24159,Securities and finance broker,Securities/Finance broker n.e.c.,24151,9792.0,117504.0,0.7213114754098361
+24160,Insurance underwriter,Insurance underwriter,24160,4600.0,55200.0,1.0
+24214,Business and financial project management professional,Sustainability project development/management professional,24213,4726.0,56712.0,0.7142857142857143
+24234,Industrial relations officer,Industrial relations officer,24234,4319.0,51828.0,1.0
+24240,Training and staff development professional,Training/Staff development professional,24240,4154.0,49848.0,0.8292682926829268
+24252,Intellectual property agent,Intellectual property examiner,24251,3111.0,37332.0,0.8421052631578947
+24299,Policy administration professional (e.g. policy analyst),Other administration professional n.e.c.,24220,4788.0,57456.0,0.6666666666666667
+24315,Revenue specialist,Revenue specialist,24315,5862.0,70344.0,1.0
+24320,Public relations/Corporate communications professional,Public relations/Corporate communications professional,24320,4108.0,49296.0,1.0
+24362,Ship charterer,Ship broker,24353,9728.0,116736.0,0.64
+25125,Energy engineer,DevOps engineer,21496,7883.0,94596.0,0.6666666666666667
+25141,Applications/Systems programmer,Applications/Systems programmer,25140,6500.0,78000.0,1.0
+25152,ICT auditor,ICT auditor,25152,10512.0,126144.0,1.0
+25190,Software and applications manager,Software and applications developer/analyst n.e.c.,13302,8114.0,97368.0,0.7228915662650602
+25213,Materials engineer,Data engineer,21492,4702.0,56424.0,0.7741935483870968
+25291,Data centre engineer,Data centre engineer,25291,3960.0,47520.0,1.0
+26213,Curator,Conservator,26212,4610.0,55320.0,0.6666666666666667
+26310,Economist,Economist,26310,4848.0,58176.0,1.0
+26322,Social science researcher,Social science researcher,26322,6250.0,75000.0,1.0
+26422,Editor (news and periodicals),Editor (news/periodicals),26422,6210.0,74520.0,0.6296296296296297
+26550,Author,Actor,26411,3500.0,42000.0,0.7272727272727273
+26629,Social work associate,Social work professional n.e.c.,34122,3000.0,36000.0,0.6153846153846154
+31009,Assistant mechanical engineer,Assistant engineer n.e.c.,31004,2885.0,34620.0,0.7777777777777779
+31129,Civil engineering technician,Civil engineering technician n.e.c.,31121,3665.0,43980.0,0.8888888888888888
+31132,Lift technician,Lift technician,31132,2977.0,35724.0,1.0
+31144,Instrumentation technician,Instrumentation technician,31144,3554.0,42648.0,1.0
+31153,Machining/Tooling technician,Machining/Tooling technician,31153,2600.0,31200.0,1.0
+31161,Technical/Engineering services manager (excluding transport),"Chemical engineering technician (excluding petroleum, natural gas and",13291,4450.0,53400.0,0.6046511627906976
+31164,Resident technical officer,Food science technician,31124,2214.0,26568.0,0.6122448979591837
+31175,Quality assurance technician,Quality assurance technician,31175,3615.0,43380.0,1.0
+31214,Rolling stock engineering technician,Rolling stock engineering technician,31214,2561.0,30732.0,1.0
+31350,Data processing control clerk,Metal production process controller,43151,3300.0,39600.0,0.65625
+31423,Media and broadcasting operations technician,Farming technician (animal production),35211,3460.0,41520.0,0.6341463414634146
+31510,Marine engineer,Marine engineering officer,21473,4300.0,51600.0,0.7317073170731707
+31595,Load control officer (aircraft),Load control officer (aircraft),31595,3335.0,40020.0,1.0
+31603,Air cargo officer,Parks officer,31594,3600.0,43200.0,0.6666666666666667
+32120,Medical and pathology laboratory technician,Medical/Pathology laboratory technician,32120,3977.0,47724.0,0.7317073170731707
+32130,Pharmacy technician,Pharmacy technician,32130,2995.0,35940.0,1.0
+32143,Dental technician,Dental technician,32143,2642.0,31704.0,1.0
+32200,Enrolled/Assistant nurse (excluding registered nurse),Enrolled/Assistant nurse (excluding registered nurse),32200,2872.0,34464.0,1.0
+32400,Veterinary technician/assistant,Veterinary technician/assistant,32400,3562.0,42744.0,1.0
+32530,Community health worker,Community health worker,32530,3000.0,36000.0,1.0
+32540,Optician,Optician,32540,3806.0,45672.0,1.0
+32572,Occupational health and safety inspector,Occupational health and safety inspector,32572,5500.0,66000.0,1.0
+33132,Audit associate professional,Audit associate professional,33132,5050.0,60600.0,1.0
+33133,Tax associate professional,Tax associate professional,33133,3900.0,46800.0,1.0
+33160,Financial markets back office administrator,Financial services back office administrator,33121,4787.0,57444.0,0.8045977011494253
+33232,Purchasing agent,Purchasing agent,33232,3720.0,44640.0,1.0
+33320,Exhibition/Conference/Event planner (including wedding planner/coordinator),Exhibition/Conference/Event planner,33320,3500.0,42000.0,0.6363636363636364
+33330,Employment agent/Labour contractor,Employment agent/Labour contractor,33330,4181.0,50172.0,1.0
+33340,Real estate agent,Real estate agent,33340,2818.0,33816.0,1.0
+33462,Maintenance planner,Maintenance planner,33462,4425.0,53100.0,1.0
+33609,Air transport equipment project executive,Transport equipment project executive n.e.c.,33611,2811.0,33732.0,0.6823529411764706
+34110,Legal associate professional (e.g. paralegal),Legal associate professional,34110,5200.0,62400.0,0.7671232876712328
+34123,Volunteer executive,Volunteer executive,34123,3545.0,42540.0,1.0
+34210,Athlete/Sportsman,Athlete/Sportsperson,34210,2418.0,29016.0,0.8108108108108109
+34310,Photographer,Photographer,34310,3495.0,41940.0,1.0
+34321,Interior designer,Interior designer,34321,3929.0,47148.0,1.0
+34323,Visual merchandiser,Visual merchandiser,34323,4347.0,52164.0,1.0
+34409,Creative advertising professional,Creative/Performing arts associate professional n.e.c.,24311,4425.0,53100.0,0.6436781609195402
+35110,Computer systems operator,Computer systems operator,35110,4917.0,59004.0,1.0
+35140,Website administrator/Webmaster,Website administrator/Webmaster,35140,3325.0,39900.0,1.0
+35220,Telecommunications technician,Telecommunications engineering technician,35220,3305.0,39660.0,0.8285714285714285
+36100,Pre-school education manager,Preschool education teacher,13410,2584.0,31008.0,0.8363636363636364
+36209,Music instructor (extracurriculum),Extracurriculum instructor n.e.c.,36204,3500.0,42000.0,0.7462686567164178
+36910,Private tutor (academic),Private tutor (academic),36910,4370.0,52440.0,1.0
+39910,Non-ordained religious associate professional,Non-ordained religious associate professional,39910,2870.0,34440.0,1.0
+40000,Office supervisor,Office supervisor,40000,3255.0,39060.0,1.0
+41310,Typist and word processing operator,Typist/Word processing operator,41310,2475.0,29700.0,0.8181818181818181
+41320,Data entry clerk,Data entry clerk,41320,2015.0,24180.0,1.0
+42132,Money changer,Moneylender,42113,3021.0,36252.0,0.6666666666666667
+42149,"General waste collection, recycling and material recovery worker",Bill collector and related worker n.e.c.,96111,1435.0,17220.0,0.6153846153846154
+42210,Travel consultant/Reservation executive,Travel consultant/reservation executive,42210,3340.0,40080.0,0.9743589743589743
+42230,Telephone operator,Telephone operator,42230,2347.0,28164.0,1.0
+42290,Contact centre information clerk,Client information clerk n.e.c.,42246,2826.0,33912.0,0.6984126984126984
+43142,Enumerator/Market research interviewer,Enumerator/Market research interviewer,43142,2860.0,34320.0,1.0
+43159,Bank operations clerk,Computer operations clerk n.e.c.,43121,4214.0,50568.0,0.6415094339622642
+43219,Stock records clerk,Stock clerk n.e.c.,43211,2685.0,32220.0,0.7567567567567568
+43229,Production planning clerk,Production clerk n.e.c.,43222,3329.0,39948.0,0.75
+44110,Library clerk,Library clerk,44110,2390.0,28680.0,1.0
+44121,Train service supervisor,Postal service supervisor,31572,2132.0,25584.0,0.8163265306122449
+44170,Legal clerk,Legal clerk,44170,3639.0,43668.0,1.0
+51112,Cabin attendant/steward,Cabin attendant/steward,51112,3351.0,40212.0,1.0
+51132,Attractions guide,Attractions guide,51132,2040.0,24480.0,1.0
+51322,Barista,Barista,51322,2182.0,26184.0,1.0
+51702,Bookmaker/Croupier/Casino dealer and related gaming worker,Bookmaker/Croupier/Casino dealer and related gaming worker,51702,2417.0,29004.0,1.0
+51950,Driving instructor/tester,Driving instructor/tester,51950,2755.0,33060.0,1.0
+52202,Shop sales assistant,Shop sales assistant,52202,2237.0,26844.0,1.0
+52422,Salesperson (door-to-door),Salesperson (door-to-door),52422,6667.0,80004.0,1.0
+52440,Telemarketer,Telemarketer,52440,3000.0,36000.0,1.0
+53120,Teacher aide,Teacher aide,53120,2700.0,32400.0,1.0
+54123,Auxiliary police officer,Auxiliary police officer,54123,3192.0,38304.0,1.0
+54144,Private security officer,Private security officer,54144,2650.0,31800.0,1.0
+54150,Lifeguard,Lifeguard,54150,2780.0,33360.0,1.0
+61133,Gardener and horticultural worker,Gardener/Horticultural worker,61133,1733.0,20796.0,0.8709677419354839
+61220,Aquarium fish farm worker,Poultry farm worker,62212,3165.0,37980.0,0.6363636363636364
+71000,Supervisor/General foreman (building and related trades),Supervisor/General foreman (building and related trades),71000,3040.0,36480.0,1.0
+71152,Joiner,Joiner,71152,1600.0,19200.0,1.0
+71220,Floor/Wall tiler,Floor/Wall tiler,71220,1600.0,19200.0,1.0
+71250,Waiter,Glazier,51312,1417.0,17004.0,0.6153846153846154
+71272,Air-conditioning/Refrigeration plant installer,Air-conditioning/Refrigeration plant installer,71272,2000.0,24000.0,1.0
+72000,"Supervisor/General foreman (metal, machinery and related trades)",Supervisor/General foreman (metal/machinery and related trades),72000,2792.0,33504.0,0.8346456692913385
+72110,Metal moulder and coremaker,Metal moulder/coremaker,72110,2550.0,30600.0,0.64
+72120,Welder and flame cutter,Welder/Flame cutter,72120,2500.0,30000.0,0.6666666666666667
+72310,Automotive mechanic,Automotive mechanic,72310,2609.0,31308.0,1.0
+72390,Machinery mechanic,Machinery mechanic/fitter/repairer n.e.c.,72391,2800.0,33600.0,0.6101694915254237
+73210,Pre-press trades worker,Pre-press trades worker,73210,2945.0,35340.0,1.0
+73220,Carpenter,Printer,71151,2070.0,24840.0,0.625
+74002,"Supervisor/General foreman (electrical and electronic trades, excluding lift)","Supervisor/General foreman (electrical/electronic trades, excluding lift)",74002,3500.0,42000.0,0.8266666666666667
+74110,Electrician,Electrician,74110,3000.0,36000.0,1.0
+74123,Electrical household appliance repairer,Electrical household appliance repairer,74123,2404.0,28848.0,1.0
+75000,"Supervisor/General foreman (food processing, woodworking, garment, leather and related trades)",Supervisor/General foreman (food processing/woodworking/garment/leather,75000,3100.0,37200.0,0.6545454545454545
+75110,"Butcher, fishmonger and related food preparer",Butcher/Fishmonger and related food preparer,75110,2562.0,30744.0,0.8539325842696628
+75122,Pastry and confectionery maker,Pastry/Confectionery maker,75122,1610.0,19320.0,0.8571428571428572
+75210,Fast food preparer,Wood treater,94103,1360.0,16320.0,0.6
+75310,Tailor/Dressmaker,Tailor/Dressmaker,75310,1816.0,21792.0,1.0
+75410,Underwater diver,Underwater diver,75410,5430.0,65160.0,1.0
+75440,Fumigator and other pest and weed controller,Fumigator and related pest/weed controller,75440,2040.0,24480.0,0.7674418604651163
+81000,Stationary plant and machine supervisor/general foreman,Stationary plant/machine supervisor/general foreman,81000,4000.0,48000.0,0.8490566037735848
+81210,"Metal melter, caster and rolling mill operator",Metal melter/caster/rolling mill operator,81210,2498.0,29976.0,0.6206896551724138
+81220,Metal heat treating plant operator,Metal heat treating plant operator,81220,2867.0,34404.0,1.0
+81259,Metalworking machine setter-operator,Machine-tool setter-operator n.e.c.,81251,2438.0,29256.0,0.6478873239436621
+81312,Dairy and confectionery products machine operator,Pharmaceutical products machine operator,81602,1770.0,21240.0,0.7415730337078652
+81410,Sewing machine operator,Rubber products machine operator,81501,1738.0,20856.0,0.6545454545454545
+81830,Packing/Bottling/Labelling machine operator,Packing/Bottling/Labelling machine operator,81830,1430.0,17160.0,1.0
+81849,Precision grinding machine setter-operator,Printing/Binding and related machine operator n.e.c.,81252,2481.0,29772.0,0.6382978723404256
+82000,Supervisor/General foreman of assemblers and quality checkers,Supervisor/General foreman of assemblers/quality checkers,82000,3400.0,40800.0,0.8305084745762712
+82110,Mechanical equipment/component assembler,Mechanical equipment/component assembler,82110,1600.0,19200.0,1.0
+83000,Mobile machinery supervisor and general foreman,Mobile machinery supervisor/general foreman,83000,3734.0,44808.0,0.7777777777777779
+83110,Train operator,Train operator,83110,2124.0,25488.0,1.0
+83120,Oil and bunker trader,Railway braker and related worker,24352,13750.0,165000.0,0.6296296296296297
+83212,Delivery man using motorised personal mobility aids/devices,Delivery worker using motorised personal mobility aids/devices,83212,2000.0,24000.0,0.9090909090909091
+83312,Van driver,Tram driver,83223,1900.0,22800.0,0.7619047619047619
+83449,Fork lift truck operator,Lifting truck operator n.e.c.,83441,1978.0,23736.0,0.679245283018868
+91000,Cleaning supervisor,Cleaning supervisor,91000,2455.0,29460.0,1.0
+91133,"Office, commercial and industrial establishments indoor cleaner",Office/Commercial/Industrial establishment multi-skilled cleaner cum machine,91131,1740.0,20880.0,0.60431654676259
+91154,"Office, commercial and industrial establishments multi-skilled cleaner cum machine operator",Food and beverage establishment multi-skilled cleaner cum machine operator,91133,1792.0,21504.0,0.7393939393939394
+91162,Residential and open areas general cleaner,Residential/Open areas multi-skilled cleaner cum machine operator,91161,1600.0,19200.0,0.6355140186915889
+91210,Hand launderer/presser (non-household),Hand launderer/presser (non-household),91210,1500.0,18000.0,1.0
+91220,Motor vehicle cleaner/polisher,Motor vehicle cleaner/polisher,91220,1600.0,19200.0,1.0
+91230,Hotel cleaner,Window cleaner,91122,1762.0,21144.0,0.6666666666666667
+93100,Civil engineering/Building construction labourer,Civil engineering/Building construction labourer,93100,1600.0,19200.0,1.0
+94104,"Tea server/steward (excluding bartender, barista and food/drink stall assistant)","Tea server/steward (excluding bartender, barista and food/drink stall assistant)",94104,1600.0,19200.0,1.0
+96213,Porter (except hotel),Porter (excluding hotel),96213,1536.0,18432.0,0.8
+96252,Laboratory attendant,Laboratory attendant,96252,2800.0,33600.0,1.0
+96269,Building maintenance worker,Building caretaker and related worker n.e.c.,71331,2800.0,33600.0,0.6478873239436621
+96272,Concierge (hotel),Concierge (hotel),96272,2777.0,33324.0,1.0
