@@ -1,21 +1,23 @@
 # Singapore Job Market AI Impact Visualizer
 
-A Singapore version of [Andrej Karpathy's US Job Market Visualizer](https://karpathy.ai/jobs/), analyzing AI exposure across ~1,000 Singapore occupations using government data sources.
+A Singapore version of [Andrej Karpathy's US Job Market Visualizer](https://karpathy.ai/jobs/), analyzing AI exposure across 432 Singapore occupations using government data sources.
+
+**🌐 Live Demo**: [Your GitHub Pages URL will be here]
 
 ## Features
 
-- **Comprehensive occupation coverage**: All ~1,002 SSOC 2024 occupations from SingStat
-- **LLM-powered AI exposure scoring**: Uses Claude Opus 4.5 to rate each occupation's vulnerability to AI disruption (0-10 scale)
-- **Real wage data**: Median salaries from MOM Occupational Wage Survey 2024
-- **Employment estimates**: Distributed from MOM broad-group employment totals
+- **Comprehensive occupation coverage**: 432 detailed SSOC 2024 occupations
+- **LLM-powered AI exposure scoring**: Uses OpenAI GPT-4o to rate each occupation's AI exposure (0-10 scale)
+- **Employment data**: 2.31M workers distributed from MOM 2-digit SSOC employment data (2024)
 - **Interactive treemap**: Visualize jobs by AI exposure, pay, education level, or major group
-- **Singapore-specific insights**: PME exposure analysis and sector breakdowns
+- **Adjustable view**: Slider to show top 10-432 jobs by employment
+- **Singapore-specific insights**: PME exposure analysis (65.2% of workforce)
 
 ## Data Sources
 
-1. **SSOC 2024** (Singapore Standard Occupational Classification) — occupation definitions and task descriptions
-2. **MOM Occupational Wage Survey 2024** — median monthly wages by occupation
-3. **data.gov.sg Employment Dataset** — employment counts by broad occupational group
+1. **SSOC 2024** (Singapore Standard Occupational Classification) — occupation definitions and task descriptions from Ministry of Manpower
+2. **MOM Detailed Employment Data 2024** — resident employment by 2-digit occupation codes (41 sub-major groups)
+3. **OpenAI GPT-4o** — AI exposure scoring calibrated for Singapore context
 
 ## Setup
 
@@ -75,10 +77,10 @@ Distributes broad employment totals to detailed occupations:
 ```bash
 uv run python score.py
 ```
-**This is the longest step** (~1,000 API calls, ~5-10 minutes with rate limiting).
+**This is the longest step** (~432 API calls, ~5-10 minutes with rate limiting).
 - Checkpoint after each occupation → `scores.json`
 - Resumable if interrupted
-- Cost estimate: ~$5 on GPT-4o
+- Cost estimate: ~$2-3 on GPT-4o
 
 ### 6. Build final site data
 ```bash
@@ -96,13 +98,15 @@ Open http://localhost:8000 in your browser.
 
 ## Known Limitations
 
-⚠️ **Employment counts are estimates**: Singapore does not publish employment data at the 5-digit SSOC level. We distribute broad group totals proportionally across detailed occupations within each group. This is a modeling assumption, not ground truth.
+⚠️ **Employment counts are estimates**: While based on MOM's 41 sub-major groups (2-digit SSOC), distribution to 432 detailed occupations (5-digit) uses statistical modeling with random variation. Not actual occupation-level counts.
 
-⚠️ **Wage coverage**: MOM OWS covers ~500 occupations. The remaining ~500 will show pay: null.
+⚠️ **Wage data unavailable**: Could not extract wage data from MOM Excel files due to format inconsistencies. All occupations show pay: null.
 
 ⚠️ **No projections**: Unlike the US BLS, Singapore does not publish 10-year occupation growth projections, so we cannot include an "Outlook" layer.
 
-⚠️ **AI exposure is subjective**: Scores reflect GPT-4o's assessment using the provided rubric, calibrated for Singapore's context. These are informed estimates, not predictions.
+⚠️ **Resident workers only**: Data covers ~2.31M resident workers (citizens and PRs), excluding non-resident workforce (~30% of total).
+
+⚠️ **AI exposure is subjective**: Scores reflect GPT-4o's assessment using the provided rubric, calibrated for Singapore's context. These are informed estimates, not empirical measurements.
 
 ## Project Structure
 
@@ -127,6 +131,35 @@ Open http://localhost:8000 in your browser.
     ├── index.html          # Interactive visualization
     └── data.json           # Final merged dataset
 ```
+
+## Deployment
+
+To deploy to GitHub Pages:
+
+1. Create a new GitHub repository
+2. Push the code:
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/sg-job-ai-impact.git
+   git push -u origin main
+   ```
+3. Enable GitHub Pages:
+   - Go to Settings → Pages
+   - Source: Deploy from branch `main`
+   - Folder: `/site`
+   - Save and wait 1-2 minutes
+
+Your site will be live at: `https://YOUR_USERNAME.github.io/sg-job-ai-impact/`
+
+See [deploy-instructions.md](deploy-instructions.md) for detailed steps.
+
+## Results
+
+**Current Statistics (March 2026)**:
+- 432 occupations scored
+- 2.31M total workforce
+- 1.50M PME workers (65.2%)
+- Average AI exposure: 5.55/10 (job-weighted)
+- PME AI exposure: 5.80/10
 
 ## License
 
