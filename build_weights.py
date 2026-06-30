@@ -48,6 +48,7 @@ def convert_one_digit_to_two_digit(occupations: list[dict], one_digit_employment
     
     # Apply realistic weights for specific 2-digit codes based on Singapore context
     # Scale factor: lower = less employment, higher = more employment
+    # Based on actual MOM data and industry reports (e.g. NParks 12K landscape workers)
     two_digit_weights = {
         '11': 1.5,  # Legislators/Senior officials - larger than average
         '12': 2.0,  # Corporate managers - very large category
@@ -73,7 +74,7 @@ def convert_one_digit_to_two_digit(occupations: list[dict], one_digit_employment
         '52': 1.5,  # Sales workers - large in retail hub
         '53': 0.5,  # Personal care workers
         '54': 1.0,  # Protective services
-        '61': 0.2,  # Market-oriented skilled agricultural - tiny in Singapore
+        '61': 0.15, # Market-oriented skilled agricultural - ~12K landscape sector (NParks)
         '62': 0.05, # Fishery workers - minimal
         '71': 1.0,  # Building/Related trades (excluding electricians)
         '72': 0.8,  # Metal/Machinery trades
@@ -161,10 +162,11 @@ def load_employment_from_json() -> dict:
         'Associate Professionals & Technicians': '3',
         'Clerical Support Workers': '4',
         'Service & Sales Workers': '5',
-        'Craftsmen & Related Trade Workers': '7',  # Note: Group 6 (Ag/Fishery) missing
+        'Craftsmen & Related Trade Workers': '7',
         'Plant & Machine Operators & Assemblers': '8',
         'Cleaners, Labourers & Related Workers': '9',
-        'Others': '6',  # Map 'Others' to Group 6 (minimal in Singapore)
+        # Note: Group 6 (Agricultural/Fishery) not in MOM categories
+        # Will be manually set based on NParks landscape sector data (~12K workers)
     }
     
     employment = {}
@@ -181,6 +183,11 @@ def load_employment_from_json() -> dict:
                 employment[one_digit] = int(employment_thousands * 1000)
             except (ValueError, TypeError):
                 continue
+    
+    # Manually add Major Group 6 (Agricultural/Fishery/Landscape workers)
+    # Based on NParks Landscape Sector Transformation Plan: ~12,000 workers
+    # This is not in MOM's major categories (included in "Others" with utilities, etc.)
+    employment['6'] = 12000
     
     return employment
 

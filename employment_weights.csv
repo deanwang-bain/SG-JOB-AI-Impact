@@ -310,13 +310,13 @@ ssoc_code,title,major_group,major_group_label,estimated_employment,data_quality
 54150,Lifeguard,5,Service and Sales Workers,9814,two_digit_distributed_wage_weighted
 54199,Other protective services and related workers n.e.c.,5,Service and Sales Workers,97,two_digit_distributed_varied
 59000,Service worker n.e.c.,5,Service and Sales Workers,12,one_digit_distributed_sparse
-61110,Vegetable farm worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",299,two_digit_distributed_varied
-61133,Gardeners and horticultural worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",50898,two_digit_distributed_wage_weighted
-61210,Livestock/Dairy farm worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",199,two_digit_distributed_varied
-61222,Poultry inseminator,6,"Skilled Agricultural, Forestry, and Fishery Workers",725,two_digit_distributed_varied
-61900,Agricultural worker n.e.c.,6,"Skilled Agricultural, Forestry, and Fishery Workers",60,two_digit_distributed_varied
-62219,Other aquatic life cultivation workers (e.g. oyster farm worker),6,"Skilled Agricultural, Forestry, and Fishery Workers",401,one_digit_distributed_sparse
-62220,Coastal waters/Deep sea fishery worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",99,one_digit_distributed_sparse
+61110,Vegetable farm worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",61,two_digit_distributed_varied
+61133,Gardeners and horticultural worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",10328,two_digit_distributed_wage_weighted
+61210,Livestock/Dairy farm worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",40,two_digit_distributed_varied
+61222,Poultry inseminator,6,"Skilled Agricultural, Forestry, and Fishery Workers",147,two_digit_distributed_varied
+61900,Agricultural worker n.e.c.,6,"Skilled Agricultural, Forestry, and Fishery Workers",12,two_digit_distributed_varied
+62219,Other aquatic life cultivation workers (e.g. oyster farm worker),6,"Skilled Agricultural, Forestry, and Fishery Workers",95,one_digit_distributed_sparse
+62220,Coastal waters/Deep sea fishery worker,6,"Skilled Agricultural, Forestry, and Fishery Workers",24,one_digit_distributed_sparse
 71000,Supervisor/General foreman (building and related trades),7,Craft and Related Trades Workers,2943,two_digit_distributed_wage_weighted
 71120,Bricklayer/Blocklayer,7,Craft and Related Trades Workers,22,two_digit_distributed_varied
 71130,"Stone cutter, splitter, carver and stonemason",7,Craft and Related Trades Workers,205,two_digit_distributed_varied
