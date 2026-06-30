@@ -41,6 +41,12 @@ cp .env.example .env
 
 ## Usage
 
+### 0. Test data freshness (optional but recommended)
+```bash
+python3 test_data_freshness.py
+```
+Checks if cached data needs refreshing. See [TESTING.md](TESTING.md) for details.
+
 Run the pipeline in order:
 
 ### 1. Fetch raw data
@@ -109,6 +115,8 @@ Open http://localhost:8000 in your browser.
 
 ⚠️ **AI exposure is subjective**: Scores reflect GPT-4o's assessment using the provided rubric, calibrated for Singapore's context. These are informed estimates, not empirical measurements.
 
+**💡 Want to improve data coverage?** See [DATA_SOURCE_RECOMMENDATIONS.md](DATA_SOURCE_RECOMMENDATIONS.md) for strategies to increase wage coverage to 75-85%, add non-resident workforce data, historical trends, and more.
+
 ## Project Structure
 
 ```
@@ -132,6 +140,38 @@ Open http://localhost:8000 in your browser.
     ├── index.html          # Interactive visualization
     └── data.json           # Final merged dataset
 ```
+
+## Data Quality and Maintenance
+
+### Testing Data Freshness
+
+To check if your data sources need refreshing:
+
+```bash
+python3 test_data_freshness.py
+```
+
+This automated test checks:
+- Existence and age of all data files
+- Accessibility of upstream data sources (MOM, SingStat, data.gov.sg)
+- Data completeness metrics (wage coverage, employment totals)
+- Data quality indicators
+
+See [TESTING.md](TESTING.md) for detailed documentation on interpreting results and troubleshooting.
+
+### Improving Data Coverage
+
+Current limitations:
+- 46.5% wage coverage (201/432 occupations)
+- Employment counts are estimates (not actual 5-digit SSOC data)
+- No temporal trends or projections
+- Excludes non-resident workforce (~30% of total)
+
+See [DATA_SOURCE_RECOMMENDATIONS.md](DATA_SOURCE_RECOMMENDATIONS.md) for:
+- Comprehensive gap analysis
+- 20+ additional data sources to integrate
+- Priority matrix and implementation roadmap
+- Expected improvements: 75-85% wage coverage, temporal analysis, skills mapping
 
 ## Deployment
 
