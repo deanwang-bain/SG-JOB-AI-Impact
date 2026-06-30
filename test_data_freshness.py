@@ -29,12 +29,13 @@ DATA_SOURCES = {
     "SSOC 2024 PDF": {
         "url": "https://www.singstat.gov.sg/-/media/files/standards_and_classifications/occupational_classification/ssoc2024report.ashx",
         "local_path": RAW_DIR / "ssoc2024.pdf",
+        "alternate_paths": [RAW_DIR / "ssoc2020_report.pdf"],  # Fallback if 2024 not available
         "max_age_days": 730,  # SSOC updates every few years
         "critical": True,
     },
     "SSOC 2020 PDF (fallback)": {
-        "url": "https://www.singstat.gov.sg/-/media/files/standards_and_classifications/occupational_classification/ssoc2020a-detailed-definitions.ashx",
-        "local_path": RAW_DIR / "ssoc2020_detailed.pdf",
+        "url": "https://www.singstat.gov.sg/-/media/files/standards_and_classifications/occupational_classification/ssoc2020report.ashx",
+        "local_path": RAW_DIR / "ssoc2020_report.pdf",
         "max_age_days": 730,
         "critical": False,
     },
@@ -123,14 +124,27 @@ class DataFreshnessReport:
         print("=" * 80 + "\n")
 
 
-def check_file_age(path: Path, max_age_days: int, name: str, report: DataFreshnessReport, critical: bool = False):
+def check_file_age(path: Path, max_age_days: int, name: str, report: DataFreshnessReport, critical: bool = False, alternate_paths: list = None):
     """Check if a file exists and is within acceptable age."""
+    # Check main path first
+    actual_path = path
     if not path.exists():
-        report.add_issue(f"{name} is MISSING: {path}", critical=critical)
-        return False
+        # Check alternate paths if provided
+        if alternate_paths:
+            for alt_path in alternate_paths:
+                if alt_path.exists():
+                    actual_path = alt_path
+                    report.add_info(f"{name}: Using alternate file {alt_path.name}")
+                    break
+            else:
+                report.add_issue(f"{name} is MISSING: {path}", critical=critical)
+                return False
+        else:
+            report.add_issue(f"{name} is MISSING: {path}", critical=critical)
+            return False
     
     # Check if it's a directory
-    if path.is_dir():
+    if actual_path.is_dir():
         files = list(path.glob("*.*"))
         if not files:
             report.add_issue(f"{name} directory is EMPTY: {path}", critical=critical)
@@ -150,9 +164,9 @@ def check_file_age(path: Path, max_age_days: int, name: str, report: DataFreshne
         return True
     
     # Regular file
-    mtime = datetime.fromtimestamp(path.stat().st_mtime)
+    mtime = datetime.fromtimestamp(actual_path.stat().st_mtime)
     age_days = (datetime.now() - mtime).days
-    size_mb = path.stat().st_size / 1_000_000
+    size_mb = actual_path.stat().st_size / 1_000_000
     
     report.add_info(f"{name}: {size_mb:.2f} MB, modified {mtime.strftime('%Y-%m-%d')} ({age_days} days old)")
     
@@ -294,7 +308,12 @@ def check_current_year_data(report: DataFreshnessReport):
             # Check year field in records
             years = set()
             for record in records[:10]:  # Sample first 10
-                year = record.get("year") or record.get("reference_year") or record.get("_id", "")[:4]
+                year = record.get("year") or record.get("reference_year")
+                if not year:
+                    # Try extracting from _id if it's a string
+                    record_id = record.get("_id", "")
+                    if isinstance(record_id, str) and len(record_id) >= 4:
+                        year = record_id[:4]
                 if year:
                     years.add(str(year))
             
@@ -339,7 +358,8 @@ def main():
             config["max_age_days"],
             name,
             report,
-            critical=config["critical"]
+            critical=config["critical"],
+            alternate_paths=config.get("alternate_paths", None)
         )
         
         # Check URL accessibility (non-blocking)
