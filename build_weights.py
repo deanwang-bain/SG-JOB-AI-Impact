@@ -168,9 +168,14 @@ def distribute_employment(occupations: list[dict], employment: dict, wages: dict
         total_one_digit_occs = len(all_one_digit_occs)
         
         # Allocate a fair share to sparse occupations based on their proportion
-        # Assume sparse codes represent 20% of their 1-digit parent (conservative estimate)
-        sparse_allocation_ratio = len(sparse_occs) / total_one_digit_occs * 0.3  # 30% dampening factor
-        sparse_employment_pool = int(one_digit_employment * sparse_allocation_ratio)
+        # Assume sparse codes represent a small fraction (conservative estimate)
+        # Special case: Major Group 6 (Agricultural/Fishery) - Singapore has minimal employment
+        if one_digit == '6':
+            # Singapore's fishery/agriculture is tiny - allocate minimal employment
+            sparse_employment_pool = min(500, int(one_digit_employment * 0.01))  # Max 500 or 1%
+        else:
+            sparse_allocation_ratio = len(sparse_occs) / total_one_digit_occs * 0.3  # 30% dampening factor
+            sparse_employment_pool = int(one_digit_employment * sparse_allocation_ratio)
         
         # Distribute this pool among sparse occupations
         weights = []
