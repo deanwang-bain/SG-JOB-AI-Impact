@@ -21,7 +21,7 @@ import pdfplumber
 
 RAW_DIR = Path("raw")
 SSOC_2024_PATH = RAW_DIR / "ssoc2024.pdf"
-SSOC_2020_PATH = RAW_DIR / "ssoc2020_detailed.pdf"
+SSOC_2020_PATH = RAW_DIR / "ssoc2020_report.pdf"  # Updated to match actual filename
 
 OUTPUT_JSON = Path("occupations.json")
 OUTPUT_CSV = Path("occupations.csv")

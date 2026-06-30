@@ -195,7 +195,7 @@ def save_site_data(data, stats):
     
     output = {
         'metadata': {
-            'generated': '2026-03-26',
+            'generated': '2026-06-30',
             'version': '1.0',
             'sources': [
                 'SSOC 2024 (SingStat)',

@@ -303,7 +303,7 @@
         <header>
             <h1>Singapore Job Market: AI Impact</h1>
             <div class="subtitle">
-                Analyzing AI exposure across ~1,000 occupations using SSOC 2024 data
+                Analyzing AI exposure across 441 Singapore occupations | Data updated June 2026
             </div>
         </header>
 
@@ -354,7 +354,7 @@
         </div>
 
         <div id="canvas-container">
-            <canvas id="treemap" width="1400" height="800"></canvas>
+            <canvas id="treemap" width="1400" height="1000"></canvas>
             <div id="tooltip"></div>
         </div>
 
@@ -570,7 +570,7 @@
             const width = canvas.width;
             const height = canvas.height;
             
-            const MARGIN = 12, GAP = 3;
+            const MARGIN = 12, GAP = 1.5; // Reduced gap for more compact layout
             const tx = MARGIN, ty = MARGIN;
             const tw = width - MARGIN * 2;
             const th = height - MARGIN * 2;
@@ -863,15 +863,26 @@
                 ctx.fillStyle = color;
                 ctx.fillRect(rect.x, rect.y, rect.width, rect.height);
 
-                // Border
+                // Border (thinner for cleaner look)
                 ctx.strokeStyle = '#0a0a0a';
-                ctx.lineWidth = 1.5;
+                ctx.lineWidth = 1;
                 ctx.strokeRect(rect.x, rect.y, rect.width, rect.height);
 
-                // Text (if space available)
-                if (rect.width > 50 && rect.height > 30) {
+                // Text with adaptive sizing
+                const minWidth = 40;
+                const minHeight = 25;
+                
+                if (rect.width > minWidth && rect.height > minHeight) {
+                    // Determine font size based on box size
+                    let fontSize = 11;
+                    if (rect.width > 150 && rect.height > 60) {
+                        fontSize = 14;
+                    } else if (rect.width > 100 && rect.height > 40) {
+                        fontSize = 12;
+                    }
+                    
                     ctx.fillStyle = '#ffffff';
-                    ctx.font = '11px sans-serif';
+                    ctx.font = `bold ${fontSize}px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif`;
                     ctx.textAlign = 'left';
                     ctx.textBaseline = 'top';
                     
@@ -879,7 +890,18 @@
                     const maxWidth = rect.width - 8;
                     const truncated = truncateText(ctx, text, maxWidth);
                     
+                    // Add text shadow for better readability
+                    ctx.shadowColor = 'rgba(0, 0, 0, 0.5)';
+                    ctx.shadowBlur = 3;
                     ctx.fillText(truncated, rect.x + 4, rect.y + 4);
+                    ctx.shadowBlur = 0;
+                    
+                    // Add employment count if box is large enough
+                    if (rect.height > 45 && item.jobs) {
+                        ctx.font = `${fontSize - 2}px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif`;
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
+                        ctx.fillText(`${(item.jobs / 1000).toFixed(1)}K`, rect.x + 4, rect.y + 4 + fontSize + 2);
+                    }
                 }
             });
 
