@@ -1,0 +1,57 @@
+
+🔍 Singapore Job Market Data - Freshness Test
+
+Checking raw data sources...
+
+Checking processed data files...
+
+Analyzing data completeness...
+
+Checking data currency...
+
+================================================================================
+DATA FRESHNESS REPORT
+================================================================================
+Generated: 2026-06-30 02:20:36
+Current Period: 2026 Q2
+================================================================================
+
+🔴 CRITICAL ISSUES (Action Required):
+  • SSOC 2024 PDF is MISSING: raw/ssoc2024.pdf
+  • SSOC 2020 PDF (fallback) is MISSING: raw/ssoc2020_detailed.pdf
+
+⚠️  ISSUES FOUND:
+  • SSOC 2024 PDF is MISSING: raw/ssoc2024.pdf
+  • SSOC 2020 PDF (fallback) is MISSING: raw/ssoc2020_detailed.pdf
+
+⚡ WARNINGS:
+  • SSOC 2024 PDF URL returned HTTP 404
+  • SSOC 2020 PDF (fallback) URL returned HTTP 404
+  • Employment Data API URL returned HTTP 404
+  • Wage data is from 2024, more recent data may be available
+
+✓ INFORMATION:
+  • MOM Wages Page: 6 files, newest from 2026-06-30 (0 days old)
+  • MOM Wages Page URL is accessible (HTTP 200)
+  • Employment Data API: 0.08 MB, modified 2026-06-30 (0 days old)
+  • Parsed SSOC occupations: 162.8 KB, modified 2026-06-30
+  • Human-readable occupations: 98.1 KB, modified 2026-06-30
+  • Parsed wage data: 19.7 KB, modified 2026-06-30
+  • Employment distribution estimates: 46.6 KB, modified 2026-06-30
+  • AI exposure scores (LLM-generated): 234.7 KB, modified 2026-06-30
+  • Final merged visualization data: 377.9 KB, modified 2026-06-30
+  • Occupations: 433 total
+  • Wage coverage: 201/432 occupations (46.5%)
+  • Employment weights: 433 occupations
+  • Total employment: 2,265,744 workers
+  • AI exposure scores: 432 occupations scored
+  • Site data: 432 occupation records
+  • Site data generated: 2026-03-26
+  • Statistics: 432 occupations, 2,265,688 workers
+  • Wage data year: 2024
+
+================================================================================
+RECOMMENDATION: 🔴 IMMEDIATE REFRESH REQUIRED
+  Run: uv run python fetch_data.py
+================================================================================
+

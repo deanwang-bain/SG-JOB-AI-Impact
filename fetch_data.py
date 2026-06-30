@@ -27,9 +27,12 @@ TIMEOUT = 30.0
 SSOC_2024_URL = "https://www.singstat.gov.sg/-/media/files/standards_and_classifications/occupational_classification/ssoc2024report.ashx"
 SSOC_2024_PATH = RAW_DIR / "ssoc2024.pdf"
 
-# Fallback: SSOC 2020 detailed definitions (cleaner format if 2024 fails)
-SSOC_2020_URL = "https://www.singstat.gov.sg/-/media/files/standards_and_classifications/occupational_classification/ssoc2020a-detailed-definitions.ashx"
-SSOC_2020_PATH = RAW_DIR / "ssoc2020_detailed.pdf"
+# Fallback: SSOC 2020 full report (if 2024 fails or for reference)
+SSOC_2020_URL = "https://www.singstat.gov.sg/-/media/files/standards_and_classifications/occupational_classification/ssoc2020report.ashx"
+SSOC_2020_PATH = RAW_DIR / "ssoc2020_report.pdf"
+
+# Alternative SSOC 2020 URL (different path)
+SSOC_2020_ALT_URL = "https://www.singstat.gov.sg/files/99d56b49-a0c3-4599-9aa8-e169650aa84d.pdf"
 
 MOM_WAGES_PAGE = "https://stats.mom.gov.sg/Pages/Occupational-Wages-Tables2024.aspx"
 MOM_WAGES_DIR = RAW_DIR / "mom_wages"
@@ -100,17 +103,24 @@ def fetch_ssoc():
     """Download SSOC 2024 PDF and fallback SSOC 2020."""
     print("\n=== SSOC Occupational Classification ===")
     
-    # Try SSOC 2024 first (may not be available yet)
+    # Try SSOC 2024 first
     success_2024 = download_file(SSOC_2024_URL, SSOC_2024_PATH, "SSOC 2024 report", required=False)
     
     # Download SSOC 2020 as fallback if SSOC 2024 doesn't exist
     if not SSOC_2024_PATH.exists():
-        download_file(SSOC_2020_URL, SSOC_2020_PATH, "SSOC 2020 detailed definitions", required=True)
-        print("  Note: SSOC 2024 not available, will use SSOC 2020 for parsing")
+        print("  SSOC 2024 not available, trying SSOC 2020...")
+        success_2020 = download_file(SSOC_2020_URL, SSOC_2020_PATH, "SSOC 2020 report", required=False)
+        
+        if not success_2020:
+            # Try alternative URL
+            print("  Trying alternative SSOC 2020 URL...")
+            download_file(SSOC_2020_ALT_URL, SSOC_2020_PATH, "SSOC 2020 report (alternative URL)", required=True)
+        
+        print("  Note: Using SSOC 2020 for parsing")
     else:
         print("  ✓ SSOC 2024 available")
         # Try to download SSOC 2020 as supplementary reference, but don't require it
-        download_file(SSOC_2020_URL, SSOC_2020_PATH, "SSOC 2020 detailed definitions (reference)", required=False)
+        download_file(SSOC_2020_URL, SSOC_2020_PATH, "SSOC 2020 report (reference)", required=False)
 
 
 def fetch_mom_wages():
